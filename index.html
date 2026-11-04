@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admission Hub | বাংলাদেশের সকল পাবলিক বিশ্ববিদ্যালয়ের ভর্তি বিজ্ঞপ্তি ও ক্যালেন্ডার</title>
+  <meta name="description" content="বাংলাদেশের সকল পাবলিক বিশ্ববিদ্যালয়ের ভর্তি বিজ্ঞপ্তি (Admission Circular), আবেদনের শেষ তারিখ, ভর্তি পরীক্ষার ক্যালেন্ডার, জিপিএ যোগ্যতা যাচাই এবং তাৎক্ষণিক নোটিফিকেশন পোর্টাল।" />
+  <!-- Google Fonts: Hind Siliguri & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+</head>
+<body>
+  <!-- Live Alert Ticker -->
+  <div class="top-ticker">
+    <div class="container ticker-inner">
+      <span class="ticker-badge">🔴 LIVE UPDATE</span>
+      <div class="ticker-marquee" id="liveTickerText">
+        ঢাকা বিশ্ববিদ্যালয় (DU), বুয়েট (BUET), মেডিকেল (DGME), গুচ্ছ (GST) সহ সকল পাবলিক বিশ্ববিদ্যালয়ের ২০২৬-২৭ শিক্ষাবর্ষের ভর্তি বিজ্ঞপ্তি ও ওয়েবসাইট মনিটরিং চালু রয়েছে...
+      </div>
+      <button class="ticker-sync-btn" id="syncNowBtn" title="এখনই সকল বিশ্ববিদ্যালয়ের ওয়েবসাইট চেক করুন">
+        <span class="sync-icon" id="syncIcon">🔄</span> <span id="syncBtnText">সার্কুলার সিঙ্ক করুন</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand">
+        <div class="brand-logo">🎓</div>
+        <div class="brand-text">
+          <span class="brand-title">Admission <span class="accent-text">Hub</span></span>
+          <span class="brand-subtitle">পাবলিক বিশ্ববিদ্যালয় ভর্তি পোর্টাল</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#circulars-section" class="nav-link active">সকল সার্কুলার</a>
+        <a href="#calendar-section" class="nav-link">ভর্তি ক্যালেন্ডার 📅</a>
+        <a href="#calculator-section" class="nav-link">জিপিএ যাচাই 🧮</a>
+        <a href="#directory-section" class="nav-link">বিশ্ববিদ্যালয় পোর্টাল 🔗</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Saved Circulars Button -->
+        <button class="icon-btn" id="savedFilterBtn" title="সংরক্ষিত সার্কুলার দেখুন">
+          <span>🔖</span>
+          <span class="badge-count" id="savedCountBadge">0</span>
+        </button>
+
+        <!-- Notification Center Button -->
+        <div class="notif-wrapper">
+          <button class="icon-btn" id="notifBellBtn" title="নোটিফিকেশন ও অ্যালার্ট">
+            <span>🔔</span>
+            <span class="badge-count pulse" id="unreadNotifBadge">3</span>
+          </button>
+          <!-- Notification Dropdown -->
+          <div class="notif-dropdown" id="notifDropdown">
+            <div class="notif-header">
+              <div>
+                <h4>ভর্তি বিজ্ঞপ্তি নোটিফিকেশন</h4>
+                <p>নতুন সার্কুলার প্রকাশের সাথে সাথে অ্যালার্ট</p>
+              </div>
+              <button class="btn-xs" id="enablePushBtn">ব্রাউজার অ্যালার্ট চালু করুন</button>
+            </div>
+            <div class="notif-list" id="notifList">
+              <!-- Populated by JS -->
+            </div>
+            <div class="notif-footer">
+              <button class="btn-text" id="simulateNewCircularBtn">⚡ নতুন সার্কুলার অ্যালার্ট টেস্ট করুন</button>
+              <button class="btn-text" id="markAllReadBtn">সব পঠিত করুন</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Theme Toggle -->
+        <button class="icon-btn" id="themeToggleBtn" title="ডার্ক / লাইট মোড পরিবর্তন করুন">
+          <span id="themeIcon">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-content">
+      <div class="hero-pill">
+        <span class="live-dot"></span> বাংলাদেশের ৫৫+ পাবলিক বিশ্ববিদ্যালয়ের অফিশিয়াল পোর্টাল ইন্টিগ্রেশন
+      </div>
+      <h1 class="hero-title">
+        সকল পাবলিক বিশ্ববিদ্যালয়ের <br />
+        <span class="gradient-text">ভর্তি বিজ্ঞপ্তি ও পরীক্ষা ক্যালেন্ডার</span> এক ঠিকানায়
+      </h1>
+      <p class="hero-subtitle">
+        যেকোনো পাবলিক বিশ্ববিদ্যালয় নতুন ভর্তি সার্কুলার প্রকাশ করলেই তাৎক্ষণিক নোটিফিকেশন পান এবং স্বয়ংক্রিয়ভাবে আপনার ভর্তি ক্যালেন্ডারে আবেদনের শেষ তারিখ ও পরীক্ষার দিন যুক্ত করুন।
+      </p>
+
+      <!-- Quick Search & Action Bar -->
+      <div class="hero-search-box">
+        <div class="search-input-wrap">
+          <span class="search-icon">🔍</span>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="বিশ্ববিদ্যালয়ের নাম, সংক্ষিপ্ত নাম (DU, BUET, GST, RU, CU) বা ইউনিট লিখে খুঁজুন..."
+            autocomplete="off"
+          />
+          <button class="clear-search" id="clearSearchBtn" style="display: none;">✕</button>
+        </div>
+        <button class="btn-primary" id="subscribeAlertHeroBtn">
+          🔔 অটো-নোটিফিকেশন চালু করুন
+        </button>
+      </div>
+
+      <!-- Live Statistics -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon open-bg">🟢</div>
+          <div class="stat-info">
+            <h3 id="statOpenCount">0</h3>
+            <p>চলমান আবেদন (Open)</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon upcoming-bg">⏳</div>
+          <div class="stat-info">
+            <h3 id="statUpcomingCount">0</h3>
+            <p>আসন্ন সার্কুলার (Upcoming)</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon exam-bg">📅</div>
+          <div class="stat-info">
+            <h3 id="statExamCount">0</h3>
+            <p>ক্যালেন্ডারে যুক্ত ইভেন্ট</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon uni-bg">🏛️</div>
+          <div class="stat-info">
+            <h3 id="statTotalUni">55+</h3>
+            <p>সংযুক্ত পাবলিক বিশ্ববিদ্যালয়</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Circulars Section -->
+  <section class="section" id="circulars-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-tag">📋 ভর্তি বিজ্ঞপ্তি সমূহ</span>
+          <h2 class="section-title">পাবলিক বিশ্ববিদ্যালয় ভর্তি সার্কুলার ২০২৬-২৭</h2>
+        </div>
+        <div class="last-sync-info">
+          <span class="live-dot"></span> সর্বশেষ চেক করা হয়েছে: <strong id="lastCheckedTime">এইমাত্র</strong>
+        </div>
+      </div>
+
+      <!-- Filters Bar -->
+      <div class="filters-bar">
+        <div class="category-tabs" id="categoryTabs">
+          <button class="tab-btn active" data-category="all">সকল (All)</button>
+          <button class="tab-btn" data-category="general">সাধারণ ও স্বায়ত্তশাসিত</button>
+          <button class="tab-btn" data-category="engineering">প্রকৌশল (Engineering)</button>
+          <button class="tab-btn" data-category="medical">মেডিকেল ও ডেন্টাল</button>
+          <button class="tab-btn" data-category="cluster">গুচ্ছ (GST & শিকৃবি)</button>
+          <button class="tab-btn" data-category="science_tech">বিজ্ঞান ও প্রযুক্তি</button>
+          <button class="tab-btn" data-category="specialized">বিশেষায়িত</button>
+        </div>
+
+        <div class="secondary-filters">
+          <select id="statusFilter" class="filter-select">
+            <option value="all">সকল অবস্থা (All Status)</option>
+            <option value="open">🟢 আবেদন চলছে (Open)</option>
+            <option value="upcoming">🟡 আসন্ন (Upcoming)</option>
+            <option value="closed">🔴 আবেদন শেষ (Closed)</option>
+          </select>
+
+          <select id="sortFilter" class="filter-select">
+            <option value="deadline">আবেদনের শেষ তারিখ অনুযায়ী</option>
+            <option value="exam">ভর্তি পরীক্ষার তারিখ অনুযায়ী</option>
+            <option value="recent">সর্বশেষ প্রকাশিত</option>
+          </select>
+
+          <button class="btn-outline" id="addCustomCircularBtn">
+            ➕ নতুন সার্কুলার যুক্ত করুন
+          </button>
+        </div>
+      </div>
+
+      <!-- Circulars Grid -->
+      <div class="circulars-grid" id="circularsGrid">
+        <!-- Rendered dynamically via app.js -->
+      </div>
+
+      <div class="empty-state" id="emptyState" style="display: none;">
+        <div class="empty-icon">🔍</div>
+        <h3>কোনো ভর্তি বিজ্ঞপ্তি পাওয়া যায়নি</h3>
+        <p>আপনার সার্চ বা ফিল্টার পরিবর্তন করে আবার চেষ্টা করুন।</p>
+        <button class="btn-primary" id="resetFiltersBtn">সকল ফিল্টার রিসেট করুন</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Admission Calendar Section -->
+  <section class="section alt-bg" id="calendar-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-tag">📅 স্বয়ংক্রিয় ভর্তি ক্যালেন্ডার</span>
+          <h2 class="section-title">আবেদনের শেষ তারিখ ও ভর্তি পরীক্ষার সময়সূচি</h2>
+          <p class="section-desc">যেকোনো সার্কুলার প্রকাশিত হলে তার আবেদনের ডেডলাইন এবং ভর্তি পরীক্ষার তারিখ স্বয়ংক্রিয়ভাবে এই ক্যালেন্ডারে যুক্ত হয়ে যায়।</p>
+        </div>
+        <div class="calendar-actions">
+          <button class="btn-outline" id="exportAllIcsBtn">📥 সম্পূর্ণ ক্যালেন্ডার ডাউনলোড (.ics)</button>
+        </div>
+      </div>
+
+      <div class="calendar-layout">
+        <!-- Interactive Month Calendar -->
+        <div class="calendar-box">
+          <div class="calendar-nav">
+            <button class="icon-btn" id="prevMonthBtn">◀</button>
+            <h3 id="calendarMonthTitle">নভেম্বর ২০২৬</h3>
+            <button class="icon-btn" id="nextMonthBtn">▶</button>
+          </div>
+
+          <div class="calendar-legend">
+            <span class="legend-item"><span class="dot dot-start"></span> আবেদন শুরু</span>
+            <span class="legend-item"><span class="dot dot-deadline"></span> আবেদনের শেষ দিন</span>
+            <span class="legend-item"><span class="dot dot-exam"></span> ভর্তি পরীক্ষা</span>
+          </div>
+
+          <div class="calendar-weekdays">
+            <div>রবি</div>
+            <div>সোম</div>
+            <div>মঙ্গল</div>
+            <div>বুধ</div>
+            <div>বৃহঃ</div>
+            <div>শুক্র</div>
+            <div>শনি</div>
+          </div>
+
+          <div class="calendar-days" id="calendarDaysGrid">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Upcoming Events Timeline / Selected Day Details -->
+        <div class="timeline-box">
+          <div class="timeline-header">
+            <h3 id="timelineTitle">📌 ক্যালেন্ডার ইভেন্ট ও সময়সূচি</h3>
+            <div class="timeline-filter-pills">
+              <button class="pill-btn active" data-evtype="all">সব</button>
+              <button class="pill-btn" data-evtype="deadline">ডেডলাইন</button>
+              <button class="pill-btn" data-evtype="exam">ভর্তি পরীক্ষা</button>
+            </div>
+          </div>
+          <div class="timeline-list" id="calendarTimelineList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GPA Eligibility Calculator Section -->
+  <section class="section" id="calculator-section">
+    <div class="container">
+      <div class="calculator-card">
+        <div class="calc-info">
+          <span class="section-tag">🧮 যোগ্যতা যাচাই (GPA Checker)</span>
+          <h2>আপনার জিপিএ দিয়ে কোন কোন পাবলিক বিশ্ববিদ্যালয়ে আবেদন করতে পারবেন?</h2>
+          <p>আপনার এসএসসি (SSC) এবং এইচএসসি (HSC) পরীক্ষার বিভাগ ও জিপিএ লিখুন। আমরা স্বয়ংক্রিয়ভাবে সকল পাবলিক বিশ্ববিদ্যালয়ের সার্কুলারের শর্তের সাথে মিলিয়ে দেখাবো আপনি কোথায় আবেদন করার যোগ্য।</p>
+
+          <form class="calc-form" id="gpaCalcForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="studentGroup">আপনার বিভাগ (Group)</label>
+                <select id="studentGroup" required>
+                  <option value="science">বিজ্ঞান (Science)</option>
+                  <option value="arts">মানবিক (Humanities)</option>
+                  <option value="commerce">ব্যবসায় শিক্ষা (Business Studies)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="sscGpa">SSC জিপিএ (চতুর্থ বিষয়সহ)</label>
+                <input type="number" id="sscGpa" step="0.01" min="1.00" max="5.00" placeholder="যেমন: 5.00" value="5.00" required />
+              </div>
+              <div class="form-group">
+                <label for="hscGpa">HSC জিপিএ (চতুর্থ বিষয়সহ)</label>
+                <input type="number" id="hscGpa" step="0.01" min="1.00" max="5.00" placeholder="যেমন: 4.80" value="4.75" required />
+              </div>
+            </div>
+            <button type="submit" class="btn-primary">✨ যোগ্য বিশ্ববিদ্যালয় খুঁজুন</button>
+          </form>
+        </div>
+
+        <div class="calc-results" id="gpaResultsBox">
+          <div class="calc-placeholder">
+            <span>🎯</span>
+            <p>বাম পাশের ফর্মে আপনার জিপিএ দিয়ে বাটনে ক্লিক করলে আপনার জন্য যোগ্য সকল পাবলিক বিশ্ববিদ্যালয় ও ইউনিটের তালিকা এখানে দেখাবে।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Connected Public University Directory & Auto-Monitor Status -->
+  <section class="section alt-bg" id="directory-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-tag">🔗 অফিশিয়াল ওয়েবসাইট ইন্টিগ্রেশন</span>
+          <h2 class="section-title">সংযুক্ত পাবলিক বিশ্ববিদ্যালয় পোর্টাল ও লাইভ স্ট্যাটাস</h2>
+          <p class="section-desc">নিচের সকল পাবলিক বিশ্ববিদ্যালয়ের ভর্তি ওয়েবসাইট আমাদের সিস্টেমের সাথে সংযুক্ত। নতুন বিজ্ঞপ্তি প্রকাশের সাথে সাথে স্বয়ংক্রিয় নোটিফিকেশন ও ক্যালেন্ডার আপডেট হয়।</p>
+        </div>
+        <div class="directory-Actions">
+          <button class="btn-primary" id="testLiveWebhookBtn">⚡ নতুন সার্কুলার প্রকাশ সিমুলেট করুন</button>
+        </div>
+      </div>
+
+      <div class="directory-grid" id="universityDirectoryGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Circular Details Modal -->
+  <div class="modal-backdrop" id="circularModalBackdrop">
+    <div class="modal-content" id="circularModalContent">
+      <!-- Populated dynamically by JS -->
+    </div>
+  </div>
+
+  <!-- Add / Simulate Custom Circular Modal -->
+  <div class="modal-backdrop" id="addCircularModalBackdrop">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>➕ নতুন ভর্তি বিজ্ঞপ্তি যুক্ত করুন / ক্যালেন্ডারে সিঙ্ক করুন</h3>
+        <button class="close-modal-btn" id="closeAddModalBtn">✕</button>
+      </div>
+      <form id="addCircularForm" class="modal-body-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>বিশ্ববিদ্যালয়ের নাম (বাংলায়)</label>
+            <input type="text" id="newUniName" placeholder="যেমন: খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (কুয়েট)" required />
+          </div>
+          <div class="form-group">
+            <label>সংক্ষিপ্ত নাম (Short Code)</label>
+            <input type="text" id="newUniCode" placeholder="যেমন: KUET" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>ক্যাটাগরি</label>
+            <select id="newUniCategory" required>
+              <option value="general">সাধারণ ও স্বায়ত্তশাসিত</option>
+              <option value="engineering">প্রকৌশল (Engineering)</option>
+              <option value="medical">মেডিকেল ও ডেন্টাল</option>
+              <option value="cluster">গুচ্ছ (Cluster)</option>
+              <option value="science_tech">বিজ্ঞান ও প্রযুক্তি</option>
+              <option value="specialized">বিশেষায়িত</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>ইউনিট সমূহ</label>
+            <input type="text" id="newUniUnits" placeholder="যেমন: ক, খ, গ ইউনিট" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>আবেদন শুরুর তারিখ</label>
+            <input type="date" id="newApplyStart" required />
+          </div>
+          <div class="form-group">
+            <label>আবেদনের শেষ তারিখ (Deadline)</label>
+            <input type="date" id="newApplyDeadline" required />
+          </div>
+          <div class="form-group">
+            <label>ভর্তি পরীক্ষার তারিখ</label>
+            <input type="date" id="newExamDate" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>ন্যূনতম মোট জিপিএ (SSC + HSC)</label>
+            <input type="number" step="0.25" id="newMinTotalGpa" value="8.00" required />
+          </div>
+          <div class="form-group">
+            <label>আবেদন ফি (টাকা)</label>
+            <input type="text" id="newAppFee" placeholder="যেমন: ১০০০ টাকা" required />
+          </div>
+          <div class="form-group">
+            <label>অফিশিয়াল ওয়েবসাইট লিংক</label>
+            <input type="url" id="newWebsiteUrl" placeholder="https://admission..." required />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-outline" id="cancelAddModalBtn">বাতিল</button>
+          <button type="submit" class="btn-primary">🔔 সার্কুলার প্রকাশ ও ক্যালেন্ডারে যুক্ত করুন</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="brand">
+          <div class="brand-logo">🎓</div>
+          <div class="brand-text">
+            <span class="brand-title">Admission <span class="accent-text">Hub</span></span>
+            <span class="brand-subtitle">বাংলাদেশের পাবলিক বিশ্ববিদ্যালয় ভর্তি পোর্টাল</span>
+          </div>
+        </div>
+        <p>সকল পাবলিক বিশ্ববিদ্যালয়ের ভর্তি বিজ্ঞপ্তি, আবেদনের সময়সীমা, ক্যালেন্ডার এবং তাৎক্ষণিক নোটিফিকেশন সেবা।</p>
+      </div>
+      <div class="footer-links">
+        <h4>গুরুত্বপূর্ণ অফিশিয়াল লিংক</h4>
+        <ul>
+          <li><a href="https://admission.eis.du.ac.bd" target="_blank" rel="noopener">ঢাকা বিশ্ববিদ্যালয় (DU)</a></li>
+          <li><a href="https://www.buet.ac.bd" target="_blank" rel="noopener">বুয়েট (BUET)</a></li>
+          <li><a href="https://gstadmission.ac.bd" target="_blank" rel="noopener">গুচ্ছ ভর্তি (GST)</a></li>
+          <li><a href="https://dgme.teletalk.com.bd" target="_blank" rel="noopener">মেডিকেল ভর্তি (DGME)</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>ফিচারসমূহ</h4>
+        <ul>
+          <li><a href="#circulars-section">লাইভ ভর্তি সার্কুলার</a></li>
+          <li><a href="#calendar-section">স্বয়ংক্রিয় ভর্তি ক্যালেন্ডার</a></li>
+          <li><a href="#calculator-section">জিপিএ যোগ্যতা যাচাই</a></li>
+          <li><a href="#directory-section">অফিশিয়াল পোর্টাল ডিরেক্টরি</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© ২০২৬ Admission Hub Bangladesh • শিক্ষার্থীদের সুবিধার্থে তৈরি ওপেন সোর্স প্রজেক্ট।</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
