@@ -1,0 +1,1911 @@
+{
+  "sources": {
+    "gst-admission": {
+      "ok": false,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "error": "HTTP 403"
+    },
+    "ru-admission": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 8,
+      "latest": [
+        {
+          "title": "University of Rajshahi",
+          "url": "https://admission.ru.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Admission Notices",
+          "url": "https://admission.ru.ac.bd/student/notices",
+          "pdf": false
+        },
+        {
+          "title": "Application Guideline",
+          "url": "https://admission.ru.ac.bd/student/application-guideline",
+          "pdf": false
+        },
+        {
+          "title": "Payment Instructions",
+          "url": "https://admission.ru.ac.bd/student/payment-instructions",
+          "pdf": false
+        },
+        {
+          "title": "Photo/Selfie Instructions",
+          "url": "https://admission.ru.ac.bd/student/photo-selfie-instructions",
+          "pdf": false
+        },
+        {
+          "title": "Helpline",
+          "url": "https://admission.ru.ac.bd/student/helpline",
+          "pdf": false
+        },
+        {
+          "title": "Complaint",
+          "url": "https://admission.ru.ac.bd/student/complaint-box/create",
+          "pdf": false
+        },
+        {
+          "title": "International Students",
+          "url": "https://admstorage.ru.ac.bd/storage/files/QrYNiskixPEhbMRPACVJZwbKi8bfVKjj_1763270017.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "bup-admission": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 29,
+      "latest": [
+        {
+          "title": "Home",
+          "url": "https://admission.bup.edu.bd/Admission/Home.aspx",
+          "pdf": false
+        },
+        {
+          "title": "How To Apply",
+          "url": "https://admission.bup.edu.bd/Admission/HowToApply.aspx",
+          "pdf": false
+        },
+        {
+          "title": "Exam Center Location",
+          "url": "https://admission.bup.edu.bd/ApplicationDocs/exam_center.pdf",
+          "pdf": true
+        },
+        {
+          "title": "MPhil/PhD Programs",
+          "url": "https://chsr-admission.bup.edu.bd/Admission/Home",
+          "pdf": false
+        },
+        {
+          "title": "Apply (International Students)",
+          "url": "https://internationalstudents.bup.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Bachelors Programs",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramV3.aspx?ecat=4",
+          "pdf": false
+        },
+        {
+          "title": "Masters Programs",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgram.aspx?ecat=6",
+          "pdf": false
+        },
+        {
+          "title": "Diploma Programs",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramDiploma.aspx",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "cu-admission": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 0,
+      "latest": [],
+      "lastNewAt": null
+    },
+    "du-admission": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 0,
+      "latest": [],
+      "lastNewAt": null
+    },
+    "du": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 10,
+      "latest": [
+        {
+          "title": "Undergraduate Programs",
+          "url": "https://www.du.ac.bd/undergraduatePrograms",
+          "pdf": false
+        },
+        {
+          "title": "MPhil Programs",
+          "url": "https://www.du.ac.bd/MPhilAdmission",
+          "pdf": false
+        },
+        {
+          "title": "PhD Programs",
+          "url": "https://www.du.ac.bd/PhDAdmission",
+          "pdf": false
+        },
+        {
+          "title": "International Students",
+          "url": "https://www.du.ac.bd/InternationalAdmission",
+          "pdf": false
+        },
+        {
+          "title": "Admission & Re-admission",
+          "url": "https://www.du.ac.bd/guideline/admission",
+          "pdf": false
+        },
+        {
+          "title": "04 Nov Master of Science in Software Engineering (MSSE) Admission Notice (2026-2027) 04 Nov, 2026",
+          "url": "https://www.du.ac.bd/du_post_details/notice/29067",
+          "pdf": false
+        },
+        {
+          "title": "04 Nov POST GRADUATE DIPLOPMA IN INFORMATION TECHNOLOGY (PGDIT) ADMISSION NOTICE: SPRING 2026-27 04 Nov, 2026",
+          "url": "https://www.du.ac.bd/du_post_details/notice/29066",
+          "pdf": false
+        },
+        {
+          "title": "04 Nov Executive Master in Information Technology (MIT) Admission Notice (Spring 2026-2027) 04 Nov, 2026",
+          "url": "https://www.du.ac.bd/du_post_details/notice/29065",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "buet": {
+      "ok": false,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "error": "Parse Error: Invalid header token"
+    },
+    "ru": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 3,
+      "latest": [
+        {
+          "title": "Admission",
+          "url": "http://admission.ru.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "পরিসংখ্যান ও উপাত্ত বিজ্ঞান বিভাগের “Statistical Computing Certificate Course” এর 37 তম ব্যাচে ভর্তি বিজ্ঞপ্তি",
+          "url": "https://www.ru.ac.bd/blog/notice/admission-going-on-statistical-computing-certificate-course-on-ms-excel-spss-and-research-methodology-organized-by-department-of-statistics-and-data-science/",
+          "pdf": false
+        },
+        {
+          "title": "সুপারভাইজার/প্রিন্সিপ্যাল সুপারভাইজার/কো-সুপারভাইজার নিয়োগ, পরিবর্তন ও অব্যহতি/পদবী সংযোজন/নামের বানান সংশোধন/শিরোনাম পরিবর্তন, সংশোধন ও সংযোজন/ ভর্তি/রেজিস্ট্রেশন বাতিল/নিয়মিত প্রোগ্রাম থেকে খন্ডকালীন প্রোগ্রামে স্থানান্তরের বি জ্ঞ প্তি",
+          "url": "https://www.ru.ac.bd/blog/notice/%e0%a6%b8%e0%a7%81%e0%a6%aa%e0%a6%be%e0%a6%b0%e0%a6%ad%e0%a6%be%e0%a6%87%e0%a6%9c%e0%a6%be%e0%a6%b0-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%a8%e0%a7%8d%e0%a6%b8%e0%a6%bf%e0%a6%aa%e0%a7%8d%e0%a6%af/",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "ju-admission": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 0,
+      "latest": [],
+      "lastNewAt": null
+    },
+    "iu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 4,
+      "latest": [
+        {
+          "title": "ADMISSION",
+          "url": "https://www.iu.ac.bd/index.php/site/notice/Mg==",
+          "pdf": false
+        },
+        {
+          "title": "ADMISSION",
+          "url": "https://www.iu.ac.bd/#OQ==",
+          "pdf": false
+        },
+        {
+          "title": "ADMISSION TEST SCHEDULE/SEAT PLAN",
+          "url": "https://www.iu.ac.bd/index.php/pages/view_1/NDI=",
+          "pdf": false
+        },
+        {
+          "title": "ADMISSION PROCEDURE",
+          "url": "https://iu.ac.bd/public/images/notice/7b230317152b42d09d91e44f77c75cc6.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "sust": {
+      "ok": false,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "error": "HTTP 403"
+    },
+    "bau": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 6,
+      "latest": [
+        {
+          "title": "Online Apply",
+          "url": "https://app.bau.edu.bd/ug_admission",
+          "pdf": false
+        },
+        {
+          "title": "Download Admission Form",
+          "url": "https://www.bau.edu.bd/ug_admission",
+          "pdf": false
+        },
+        {
+          "title": "Online Apply",
+          "url": "https://app.bau.edu.bd/msAdmissionForm",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Adimission",
+          "url": "https://www.bau.edu.bd/main/undergraduate-adimission",
+          "pdf": false
+        },
+        {
+          "title": "Learn More",
+          "url": "https://id.bau.edu.bd/section/undergraduate-admission-open-for-2025-2026-session",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate",
+          "url": "https://bau.edu.bd/academics/degree/ug",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "nu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 635,
+      "latest": [
+        {
+          "title": "Admission Service",
+          "url": "http://app11.nu.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Dean Undergraduate",
+          "url": "https://www.nu.ac.bd/dean-ug.php",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "http://app1.nu.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Admission and Registration Cell",
+          "url": "https://www.nu.ac.bd/admission-and-registration-cell.php",
+          "pdf": false
+        },
+        {
+          "title": "Admission Notice",
+          "url": "https://www.nu.ac.bd/admission-notice.php",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://www.nu.ac.bd/admissions",
+          "pdf": false
+        },
+        {
+          "title": "২০২৫ সালের অনার্স ১ম বর্ষ ব্যবহারিক পরীক্ষা (পরিসংখ্যান) এর সংশোধিত কেন্দ্র তালিকা।",
+          "url": "https://www.nu.ac.bd/uploads/notices/Center_List-Hp1_(Practical_Exam-2025).pdf",
+          "pdf": true
+        },
+        {
+          "title": "২০২৪ সালের থিয়েটার এন্ড মিডিয়া স্টাডিজ (অনার্স) প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার ফরম পূরণের বিজ্ঞপ্তি।",
+          "url": "https://www.nu.ac.bd/uploads/notices/notice_17265_pub_date_02112026.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "bou": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 9,
+      "latest": [
+        {
+          "title": "Online Admission",
+          "url": "https://www.bou.ac.bd/BOU/Admission",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://www.bou.ac.bd/NoticeBoard/Admission",
+          "pdf": false
+        },
+        {
+          "title": "Online Admission Apply for admission online",
+          "url": "https://bou.ac.bd/BOU/Admission",
+          "pdf": false
+        },
+        {
+          "title": "Extended Admission Time of B.Sc. in CSE Program: Session 2025 -2026 2026-11-03",
+          "url": "https://www.bou.ac.bd/upload/notice/admission/1880828666771560.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Admission circular and instruction of MA and MSS Program (Last Part) : Session 2025 -2026 2026-10-29",
+          "url": "https://www.bou.ac.bd/upload/notice/admission/1879002133224395.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Selected Applicant List for Admission of SSC (Niche-2) Program 2027 Batch (Session: 2027-2028) 2026-10-15",
+          "url": "https://www.bou.ac.bd/upload/notice/admission/1879108953684254.pdf",
+          "pdf": true
+        },
+        {
+          "title": "বিএমএড প্রোগ্রামে (শিক্ষাবর্ষ ২০২৭) ভর্তির নিমিত্তে মৌখিক পরীক্ষার জন্য নির্বাচিত প্রার্থীদের তালিকা 2026-10-14",
+          "url": "https://www.bou.ac.bd/upload/notice/admission/1878999252559070.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Selected Applicant List for Written Admission Test of BFSN Program - 2026 2026-10-08",
+          "url": "https://www.bou.ac.bd/upload/notice/admission/1878460561302902.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "ku": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 8,
+      "latest": [
+        {
+          "title": "Undergraduate Program",
+          "url": "https://admission.ku.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Ordinance for Undergraduate Examination(01-01-2023)",
+          "url": "https://www.ku.ac.bd/uploads/form/1674121984KU%20UG%20Examination%20Ordinance_01_01_2023.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Ordinance for Undergraduate Program(01-01-2023)",
+          "url": "https://www.ku.ac.bd/uploads/form/1674122081KU%20UG%20Program%20Ordinance_01_01_2023.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Admission",
+          "url": "https://www.ku.ac.bd/undergraduate",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://apply.ku.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Role of Small and Medium Enterprise Clusters in Ur...",
+          "url": "https://www.ku.ac.bd/publication-details/27",
+          "pdf": false
+        },
+        {
+          "title": "Download",
+          "url": "https://www.ku.ac.bd/uploads/noticeboardfiles/M.Arch%20Admission%20Circular%20(2026-2027)-merged.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Download",
+          "url": "https://www.ku.ac.bd/uploads/noticeboardfiles/PhD%20Admission%20Circular%20(Session%20-%20January%202027).pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": "2026-11-04T06:52:57.143Z"
+    },
+    "bsmmu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 0,
+      "latest": [],
+      "lastNewAt": null
+    },
+    "cu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 11,
+      "latest": [
+        {
+          "title": "Undergraduate Studies",
+          "url": "http://cu.ac.bd/content/index.php?menumapno=32",
+          "pdf": false
+        },
+        {
+          "title": "Admission Test 2025-2026",
+          "url": "https://admission.cu.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Research",
+          "url": "http://cu.ac.bd/content/index.php?menumapno=77",
+          "pdf": false
+        },
+        {
+          "title": "বিস্তারিত দেখুন",
+          "url": "https://cu.ac.bd/wp-content/uploads/2026/10/Notice-for-admission-to-diploma-courses-in-various-languages-__for-the-2026-2027-academic-year.pdf",
+          "pdf": true
+        },
+        {
+          "title": "বিস্তারিত দেখুন",
+          "url": "https://cu.ac.bd/wp-content/uploads/2026/08/Admission-test-schedule-26-27.pdf",
+          "pdf": true
+        },
+        {
+          "title": "বিস্তারিত দেখুন",
+          "url": "https://cu.ac.bd/wp-content/uploads/2026/06/Admission-Notice-Several-Language-Certtificate-Course.pdf",
+          "pdf": true
+        },
+        {
+          "title": "বিস্তারিত দেখুন",
+          "url": "https://cu.ac.bd/wp-content/uploads/2026/02/MS-Admission-Test-Result-for-NoticeMathematics-Physics.pdf",
+          "pdf": true
+        },
+        {
+          "title": "বিস্তারিত দেখুন",
+          "url": "https://cu.ac.bd/wp-content/uploads/2025/12/Admission-Notice-25-26-_29.12.25.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "mbstu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 0,
+      "latest": [],
+      "lastNewAt": null
+    },
+    "hstu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 13,
+      "latest": [
+        {
+          "title": "Undergraduate Programme",
+          "url": "https://hstu.ac.bd/page/undergraduate_programme",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://hstu.ac.bd/admission/index",
+          "pdf": false
+        },
+        {
+          "title": "হাবিপ্রবির ২০২৭ শিক্ষাবর্ষের ভর্তি পরীক্ষা আগামী ২৪/০১/২০২৭খ্রি. হতে ২৮/০১/২০২৭খ্রি. পর্যন্ত অনুষ্ঠিত হবে",
+          "url": "https://hstu.ac.bd/uploads/admission_2027/admission_03_09_26_notice.pdf",
+          "pdf": true
+        },
+        {
+          "title": "এমবিএ (ইভিনিং) ভর্তি পরীক্ষা সেপ্টেম্বর/২০২৬ এর ফলাফল",
+          "url": "https://hstu.ac.bd/uploads/notice/2026/aug/evening_MBA_result_23_08_26.pdf",
+          "pdf": true
+        },
+        {
+          "title": "২০২৬ শিক্ষাবর্ষে ভর্তিকৃত ছাত্র-ছাত্রীদের প্রোফাইলে স্টুডেন্ট আইডি প্রদান করা হয়েছে",
+          "url": "https://admission.hstu.ac.bd/home/login",
+          "pdf": false
+        },
+        {
+          "title": "MBA (Evening) Program, May-2017 Admission Circular has been announced (click here to see details)",
+          "url": "http://hstu.ac.bd/admission/postgraduat",
+          "pdf": false
+        },
+        {
+          "title": "সুষ্ঠু ও উৎসবমুখর পরিবেশে হাবিপ্রবি’র ২০২৬ শিক্ষাবর্ষের ভর্তি পরীক্ষা সম্পন্ন হওয়ায় ভাইস-চ্যান্সেলর প্রফেসর ড. মো. এনামউল্যা’র পক্ষ থেকে কৃতজ্ঞতা ও ধন্যবাদ জ্ঞাপন View Details",
+          "url": "https://hstu.ac.bd/page/events_details/id/194",
+          "pdf": false
+        },
+        {
+          "title": "হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ের স্নাতক ১ম বর্ষ ভর্তি পরীক্ষা - ২০২৬ উপলক্ষ্যে আজ বিশ্ববিদ্যালয়ের সকল শিক্ষক, কর্মকর্তা ও কর্মচারীদের সাথে মতবিনিময় করেন মাননীয় ভাইস-চ্যান্সেলর প্রফেসর ড. মো. এনামউল্যা View Details",
+          "url": "https://hstu.ac.bd/page/events_details/id/191",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "pstu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 7,
+      "latest": [
+        {
+          "title": "Important Office Order About Postgraduate Admission",
+          "url": "https://www.pstu.ac.bd/notices/important-office-order-about-postgraduate-admission",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Studies",
+          "url": "https://www.pstu.ac.bd/faculties",
+          "pdf": false
+        },
+        {
+          "title": "MS/MBA Admission",
+          "url": "https://www.pstu.ac.bd/page-view/msmba-admission",
+          "pdf": false
+        },
+        {
+          "title": "PhD Admission Circular",
+          "url": "https://www.pstu.ac.bd/page-view/phd-admission-circular",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Admission",
+          "url": "https://admission.pstu.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Foreign Student Admission",
+          "url": "https://www.pstu.ac.bd/page-view/foreign-student-admission",
+          "pdf": false
+        },
+        {
+          "title": "PMBA/EMBA Admission Notice",
+          "url": "https://www.pstu.ac.bd/page-view/pmbaemba-admission-notice",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "ju": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 9,
+      "latest": [
+        {
+          "title": "Bachelor (Honours) Admission",
+          "url": "https://bachelor.ju-admission.com/",
+          "pdf": false
+        },
+        {
+          "title": "Masters Admission",
+          "url": "https://www.juniv.edu/admission/graduate",
+          "pdf": false
+        },
+        {
+          "title": "M.Phil & PhD Admission",
+          "url": "https://postgrad.ju-admission.com/",
+          "pdf": false
+        },
+        {
+          "title": "Weekend & Evening Courses",
+          "url": "https://www.juniv.edu/admission/weekend-courses",
+          "pdf": false
+        },
+        {
+          "title": "জুলাাই-ডিসেম্বর ২০২৬ সেশনে পিএইচডি গবেষণা কোর্সে ভর্তির পুনঃনির্ধারিত সময়সূচি ও ভর্তির জন্য নির্বাচিত প্রার্থীদের সংশোধিত তালিকা প্রকাশ সংক্রান্ত বিজ্ঞপ্তি",
+          "url": "https://www.juniv.edu/discussion/18474",
+          "pdf": false
+        },
+        {
+          "title": "জুলাাই-ডিসেম্বর ২০২৬ সেশনে এমফিল গবেষণা কোর্সে ভর্তির পুনঃনির্ধারিত সময়সূচি ও ভর্তির জন্য নির্বাচিত প্রার্থীদের সংশোধিত তালিকা প্রকাশ সংক্রান্ত বিজ্ঞপ্তি",
+          "url": "https://www.juniv.edu/discussion/18473",
+          "pdf": false
+        },
+        {
+          "title": "Bachelor (Honours) Admission",
+          "url": "http://juniv-admission.org/",
+          "pdf": false
+        },
+        {
+          "title": "Masters Admission",
+          "url": "https://juniv.edu/admission/graduate",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "sau-dhaka": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 1,
+      "latest": [
+        {
+          "title": "Admission",
+          "url": "https://www.sau.edu.bd/admission",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "kuet": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 8,
+      "latest": [
+        {
+          "title": "Admission Test 2025-26",
+          "url": "https://admission.kuet.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Entry Requirements",
+          "url": "https://www.kuet.ac.bd/pgadmission",
+          "pdf": false
+        },
+        {
+          "title": "24-Jun-2026 Orientation Programme of First Year B.Sc. Enginnering, B.URP and B.Arch Student (Academic Session: 2025–2026)",
+          "url": "https://drive.google.com/file/d/1XV_cGcewaO0kKZH_AIkgaOttiHCAJPjh/view",
+          "pdf": false
+        },
+        {
+          "title": "22-Jun-2026 PG Admission Result of July 2026 for all Departments",
+          "url": "https://drive.google.com/file/d/1uGrkrBpRVt9RiU6QCE0CRpUNfM9gLoHt/view",
+          "pdf": false
+        },
+        {
+          "title": "02-Jun-2026 UG Admission Test 2025-2026: 5th Call",
+          "url": "https://drive.google.com/file/d/1XkwZnDmww9u0I7Gcfyzyq1wUmHJBXQix/view?usp=sharing",
+          "pdf": false
+        },
+        {
+          "title": "27-May-2026 জুলাই-২০২৬ সেশনে পি-এইচ.ডি., মাস্টার্স, পিজিডি এর ভর্তি পরীক্ষা ১১ জুন, ২০২৬ এর পরিবর্তে ১৬ জুন, ২০২৬",
+          "url": "https://drive.google.com/file/d/1CUJBLszTClyKrGARrpBTO-h9hGGaw8Pf/view?usp=sharing",
+          "pdf": false
+        },
+        {
+          "title": "Nov 04 Admission Notice for Postgraduate Programs – January Semester 2027 LATEST 04 Nov, 2026",
+          "url": "https://drive.google.com/file/d/1vDBIKPmFVMLH85MrmR-dCDLJyk0yjfCM/view?usp=sharing",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate",
+          "url": "https://www.kuet.ac.bd/program/ugdegree",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "agri-admission": {
+      "ok": false,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "error": "HTTP 503"
+    },
+    "bsmrau": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 9,
+      "latest": [
+        {
+          "title": "Admission",
+          "url": "https://gau.edu.bd/admission",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Program",
+          "url": "https://gau.edu.bd/admission/undergraduate-admission/",
+          "pdf": false
+        },
+        {
+          "title": "Graduate Program",
+          "url": "https://gau.edu.bd/admission/?p=12",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://gau.edu.bd/fgds/advertisement/",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://gau.edu.bd/agriculture/admission/",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://gau.edu.bd/admission/",
+          "pdf": false
+        },
+        {
+          "title": "Undegraduate Programme",
+          "url": "https://gau.edu.bd/undergraduate-program/",
+          "pdf": false
+        },
+        {
+          "title": "Admission Announcement",
+          "url": "https://gau.edu.bd/admission/wp-content/uploads/sites/274/2022/07/Foreign-students-admission-2022.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "ruet": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 10,
+      "latest": [
+        {
+          "title": "Undergraduate Admission",
+          "url": "http://admission.ruet.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Postgraduate Admission",
+          "url": "http://pg.ruet.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Admission Schedule",
+          "url": "https://www.ruet.ac.bd/page/admission-schedule",
+          "pdf": false
+        },
+        {
+          "title": "Admission Notice for Foreign Nationals of Postgraduate Programs of 2026-2027 session.",
+          "url": "https://www.ruet.ac.bd/notice/admission-notice-for-foreign-nationals-of-postgraduate-programs-of-2026-2027-session",
+          "pdf": false
+        },
+        {
+          "title": "Admission Notice for Ph.D., M.Sc. Engg., M. Engg., and PGD Programs.",
+          "url": "https://www.ruet.ac.bd/notice/admission-notice-for-phd-msc-engg-m-engg-and-pgd-programs",
+          "pdf": false
+        },
+        {
+          "title": "The 1st Year Odd Semester (2025 Series) examination of 2026 for the CSE Department, originally scheduled for 15/09/26, will now be held on 10/10/26.",
+          "url": "https://www.ruet.ac.bd/notice/the-1st-year-odd-semester-2025-series-examination-of-2026-for-the-cse-department-originally-scheduled-for-150926-will-now-be-held-on-101026",
+          "pdf": false
+        },
+        {
+          "title": "Written & Viva Schedule for M.Sc. / M. Engg. Admission (Fall 2026) – Department of Mechanical Engineering",
+          "url": "https://www.ruet.ac.bd/notice/written-viva-schedule-for-msc-m-engg-admission-fall-2026-department-of-mechanical-engineering",
+          "pdf": false
+        },
+        {
+          "title": "Admission Test Schedule for Postgraduate (M.Sc./Ph.D.) Programs of Fall Semester 2026 at the Department of EEE",
+          "url": "https://www.ruet.ac.bd/notice/admission-test-schedule-for-postgraduate-mscphd-programs-of-fall-semester-2026-at-the-department-of-eee",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "jnu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 4,
+      "latest": [
+        {
+          "title": "Undergraduate Admission",
+          "url": "https://jnu.ac.bd/newsite/getdata/6001",
+          "pdf": false
+        },
+        {
+          "title": "M.Phil. Admission",
+          "url": "https://jnu.ac.bd/newsite/getdata/6003",
+          "pdf": false
+        },
+        {
+          "title": "Ph.D. Admission",
+          "url": "https://jnu.ac.bd/newsite/getdata/6008",
+          "pdf": false
+        },
+        {
+          "title": "Master of Social Science (Professional) in Governance and Policy Studies ভর্তির বিজ্ঞাপন ও ভর্তি ফরম সংক্রান্ত বিজ্ঞপ্তি",
+          "url": "https://jnu.ac.bd/assets/notice/109ac6e29327fcfd813e19749c7575d7.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "duet": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 8,
+      "latest": [
+        {
+          "title": "Admission",
+          "url": "https://www.duet.ac.bd/admission",
+          "pdf": false
+        },
+        {
+          "title": "Admission Notices",
+          "url": "https://www.duet.ac.bd/notice/admission-notices",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Admission",
+          "url": "https://www.duet.ac.bd/admission/undergraduate/at-a-glance",
+          "pdf": false
+        },
+        {
+          "title": "Postgraduate Admission",
+          "url": "https://www.duet.ac.bd/admission/postgraduate/at-a-glance",
+          "pdf": false
+        },
+        {
+          "title": "eRegistration (Undergraduate)",
+          "url": "http://ugr.duetbd.org/",
+          "pdf": false
+        },
+        {
+          "title": "পোস্টগ্র্যাজুয়েট প্রোগ্রামের ২০২৫-২০২৬ শিক্ষাবর্ষের ভর্তি বিজ্ঞপ্তি (সংশোধিত)",
+          "url": "https://www.duet.ac.bd/notice/admission-notices/2499/%E0%A6%AA%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9C%E0%A7%81%E0%A7%9F%E0%A7%87%E0%A6%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%BF%E0%A6%A4",
+          "pdf": false
+        },
+        {
+          "title": "ডুয়েটের বিএসসি ইঞ্জিনিয়ারিং ও ব্যাচেলর অব আর্কিটেকচার প্রোগ্রামের ভর্তি পরীক্ষা-২০২৬ সুষ্ঠুভাবে সম্পন্ন",
+          "url": "https://www.duet.ac.bd/news/204/%E0%A6%A1%E0%A7%81%E0%A7%9F%E0%A7%87%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF-%E0%A6%87%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%82-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%87%E0%A6%B2%E0%A6%B0-%E0%A6%85%E0%A6%AC-%E0%A6%86%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%95%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A7%81%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A8%E0%A7%8D%E0%A6%A8",
+          "pdf": false
+        },
+        {
+          "title": "eRegistration(Undergraduate)",
+          "url": "https://ugr.duetbd.org/",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "jkkniu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 8,
+      "latest": [
+        {
+          "title": "Undergraduate",
+          "url": "https://jkkniu.edu.bd/notice-board/admission",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate",
+          "url": "https://www.jkkniu.edu.bd/undergraduate",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://www.jkkniu.edu.bd/notice-board/admission",
+          "pdf": false
+        },
+        {
+          "title": "২০২৬-২৭ শিক্ষাবর্ষে এম.ফিল. ও পিএইচ.ডি. প্রোগ্রামে ভর্তি বিজ্ঞপ্তি",
+          "url": "https://www.jkkniu.edu.bd/notice/%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A7%A8%E0%A7%AD-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%8F%E0%A6%AE.%E0%A6%AB%E0%A6%BF%E0%A6%B2.-%E0%A6%93-%E0%A6%AA%E0%A6%BF%E0%A6%8F%E0%A6%87%E0%A6%9A.%E0%A6%A1%E0%A6%BF.-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF-6ae1d69b1a16a",
+          "pdf": false
+        },
+        {
+          "title": "weekend MBA Admission Notice",
+          "url": "https://www.jkkniu.edu.bd/notice/weekend-mba-admission-notice-6ad204a022165",
+          "pdf": false
+        },
+        {
+          "title": "Master of Development Studies(MDS) weekend Program Admission Notice for Winter-2026",
+          "url": "https://www.jkkniu.edu.bd/notice/master-of-development-studiesmds-weekend-program-admission-notice-for-winter-2026-6ad0836f5df04",
+          "pdf": false
+        },
+        {
+          "title": "২০২৫-২৬ শিক্ষাবর্ষে এম.ফিল ও পিএইচ.ডি কোর্সে শিক্ষার্থী ভর্তি বিজ্ঞপ্তি",
+          "url": "https://www.jkkniu.edu.bd/notice/%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%8F%E0%A6%AE.%E0%A6%AB%E0%A6%BF%E0%A6%B2-%E0%A6%93-%E0%A6%AA%E0%A6%BF%E0%A6%8F%E0%A6%87%E0%A6%9A.%E0%A6%A1%E0%A6%BF-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A7%87-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF-6ac7a42c114fb",
+          "pdf": false
+        },
+        {
+          "title": "Admission for Postgraduate",
+          "url": "https://www.jkkniu.edu.bd/postgraduate",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "ckruet-admission": {
+      "ok": false,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "error": "getaddrinfo EAI_AGAIN admissionckruet.ac.bd"
+    },
+    "cvasu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 6,
+      "latest": [
+        {
+          "title": "Undergraduate",
+          "url": "https://www.cvasu.ac.bd/admission-details/bsc",
+          "pdf": false
+        },
+        {
+          "title": "Postgraduate",
+          "url": "https://www.cvasu.ac.bd/admission-details/post_graduate",
+          "pdf": false
+        },
+        {
+          "title": "Ph.D.",
+          "url": "https://www.cvasu.ac.bd/admission-details/phd",
+          "pdf": false
+        },
+        {
+          "title": "International Students",
+          "url": "https://www.cvasu.ac.bd/admission-details/fetv",
+          "pdf": false
+        },
+        {
+          "title": "Admission Enquires and Supports",
+          "url": "https://www.cvasu.ac.bd/pages/admission-enquires-and-supports",
+          "pdf": false
+        },
+        {
+          "title": "সিভাসু’সহ চট্টগ্রামের চারটি কেন্দ্রে সুষ্ঠু ও শান্তিপূর্ণভাবে কৃষিগুচ্ছের ভর্তি পরীক্ষা…",
+          "url": "https://www.cvasu.ac.bd/news-with-image/393",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "sau-sylhet": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 4,
+      "latest": [
+        {
+          "title": "Admission",
+          "url": "https://www.sau.ac.bd/administration/page/83",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://sau.ac.bd/administration/page/83",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Admission",
+          "url": "https://acas.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Post Graduate Admission",
+          "url": "https://www.sau.ac.bd/academic_programe",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "just": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 2,
+      "latest": [
+        {
+          "title": "Undergraduate",
+          "url": "https://admission.just.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "JUST School and College Admission",
+          "url": "https://www.just.edu.bd/offices/jsc/notice",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "cuet": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 5,
+      "latest": [
+        {
+          "title": "Undergraduate Program",
+          "url": "https://cuet.ac.bd/academic-information/undergraduate-studies",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://cuet.ac.bd/admission",
+          "pdf": false
+        },
+        {
+          "title": "CUET Announces Date for 2026-27 Undergraduate Admission Test.",
+          "url": "https://cuet.ac.bd/news/208",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate",
+          "url": "https://cuet.ac.bd/student/undergraduate-student",
+          "pdf": false
+        },
+        {
+          "title": "Admission of Foreign Students",
+          "url": "https://cuet.ac.bd/fsc",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "cou": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 53,
+      "latest": [
+        {
+          "title": "Admission",
+          "url": "https://www.cou.ac.bd/q/admission",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Programs",
+          "url": "https://www.cou.ac.bd/q/undergraduate-programs",
+          "pdf": false
+        },
+        {
+          "title": "ADMISSION ANNOUNCEMENT EMICT (WEEKEND PROGRAM)",
+          "url": "https://www.cou.ac.bd/news-events-notices/565",
+          "pdf": false
+        },
+        {
+          "title": "04/Oct/2026 ভর্তি বিজ্ঞপ্তি - M.Sc. in (Course Work/Mixed-Mode) CSE Program",
+          "url": "https://www.cou.ac.bd/news-events-notices/666",
+          "pdf": false
+        },
+        {
+          "title": "29/Sep/2026 পিএইচডি প্রোগ্রামে ভর্তিকৃত গবেষকদের ২য় কিস্তির ফেলোশীপের আবেদন সংক্রান্ত নোটিশ",
+          "url": "https://www.cou.ac.bd/news-events-notices/663",
+          "pdf": false
+        },
+        {
+          "title": "17/Sep/2026 এম এ প্রোগ্রামে ভর্তি পরীক্ষার ফলাফল (শিক্ষাবর্ষ – ২০২৪-২৫)",
+          "url": "https://www.cou.ac.bd/news-events-notices/651",
+          "pdf": false
+        },
+        {
+          "title": "30/Aug/2026 ভর্তি বিজ্ঞপ্তি সংশোধিত - MA in (Taught/Mixed Mode) English Program. Department of English, Comilla University, Bangladesh.",
+          "url": "https://www.cou.ac.bd/news-events-notices/639",
+          "pdf": false
+        },
+        {
+          "title": "25/Aug/2026 ভর্তি বিজ্ঞপ্তি - M.Sc. (Engg.) in Information and Communication Technology (ICT)Program",
+          "url": "https://www.cou.ac.bd/news-events-notices/636",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "pust": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 14,
+      "latest": [
+        {
+          "title": "Undergraduate",
+          "url": "https://pust.ac.bd/admission/undergraduate",
+          "pdf": false
+        },
+        {
+          "title": "Graduate",
+          "url": "https://pust.ac.bd/admission/graduate",
+          "pdf": false
+        },
+        {
+          "title": "Evening Programs",
+          "url": "https://pust.ac.bd/admission/Evening_Programs",
+          "pdf": false
+        },
+        {
+          "title": "Admission Notice",
+          "url": "https://pust.ac.bd/admission",
+          "pdf": false
+        },
+        {
+          "title": "Download",
+          "url": "https://pust.ac.bd/includes/images/notices/Ph.D.-M.Phil%20Admission%20Circular%202023-24.pdf",
+          "pdf": true
+        },
+        {
+          "title": "pust admission-03-04-26.pdf",
+          "url": "https://pust.ac.bd/includes/images/news/file/pust%20admission-03-04-26.pdf",
+          "pdf": true
+        },
+        {
+          "title": "pust admission- test-27-3-26.pdf",
+          "url": "https://pust.ac.bd/includes/images/news/file/pust%20admission-%20test-27-3-26.pdf",
+          "pdf": true
+        },
+        {
+          "title": "pust admission-26-3-26.pdf",
+          "url": "https://pust.ac.bd/includes/images/news/file/pust%20admission-26-3-26.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "bup": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 14,
+      "latest": [
+        {
+          "title": "BUP Admission website",
+          "url": "https://admission.bup.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate",
+          "url": "https://www.bup.edu.bd/academics/1",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Program",
+          "url": "https://www.bup.edu.bd/academics/admission/1",
+          "pdf": false
+        },
+        {
+          "title": "Graduate Program",
+          "url": "https://www.bup.edu.bd/academics/admission/2",
+          "pdf": false
+        },
+        {
+          "title": "Postgraduate Program",
+          "url": "https://www.bup.edu.bd/academics/admission/3",
+          "pdf": false
+        },
+        {
+          "title": "Apply Now",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramV3?ecat=4",
+          "pdf": false
+        },
+        {
+          "title": "Apply Now",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgram?ecat=6",
+          "pdf": false
+        },
+        {
+          "title": "Apply Now",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramPhd",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "nstu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 1,
+      "latest": [
+        {
+          "title": "Admission",
+          "url": "https://admission.nstu.edu.bd/",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "rmstu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 0,
+      "latest": [],
+      "lastNewAt": null
+    },
+    "brur": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 7,
+      "latest": [
+        {
+          "title": "Online Admission & Form Fill-Up Old",
+          "url": "http://ss.brur.ac.bd/Login",
+          "pdf": false
+        },
+        {
+          "title": "Online Admission & Form Fill-Up New",
+          "url": "https://sims.brur.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate",
+          "url": "https://www.brur.ac.bd/admission/undergraduate",
+          "pdf": false
+        },
+        {
+          "title": "Postgraduate",
+          "url": "https://www.brur.ac.bd/admission/postgraduate",
+          "pdf": false
+        },
+        {
+          "title": "Professional MBA",
+          "url": "https://www.brur.ac.bd/admission/professional-mba",
+          "pdf": false
+        },
+        {
+          "title": "MPhil",
+          "url": "https://www.brur.ac.bd/admission/mphil",
+          "pdf": false
+        },
+        {
+          "title": "Online Admission & Form Fill-Up",
+          "url": "https://ss.brur.ac.bd/Login",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "bu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 7,
+      "latest": [
+        {
+          "title": "Undergraduate",
+          "url": "https://www.bu.ac.bd/undergraduate",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate",
+          "url": "https://admission.bu.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://www.bu.ac.bd/notice-board/admission",
+          "pdf": false
+        },
+        {
+          "title": "বরিশাল বিশ্ববিদ্যালয়ের সামাজিক বিজ্ঞান অনুষদের লোক প্রশাসন বিভাগের শিক্ষার্থীদের জন্য ২০২৪-২৫ শিক্ষাবর্ষে এমএসএস শ্রেণিতে ভর্তি নোটিশ",
+          "url": "https://www.bu.ac.bd/notice/20261015-1792924352-6adddac09b526",
+          "pdf": false
+        },
+        {
+          "title": "বরিশাল বিশ্ববিদ্যালয়ের ব্যবসায় শিক্ষা অনুষদের ম্যানেজমেন্ট স্টাডিজ বিভাগের শিক্ষার্থীদের ২০২৪-২৫ শিক্ষাবর্ষে এমবিএ শ্রেণিতে ভর্তি নোটিশ",
+          "url": "https://www.bu.ac.bd/notice/20260927-1790583394-6aba226203d9f",
+          "pdf": false
+        },
+        {
+          "title": "বরিশাল বিশ্ববিদ্যালয়ের জীববিজ্ঞান অনুষদের মৃত্তিকা ও পরিবেশ বিজ্ঞান বিভাগের শিক্ষার্থীদের ২০২৪-২৫ শিক্ষাবর্ষে এমএস শ্রেণিতে ভর্তি নোটিশ",
+          "url": "https://www.bu.ac.bd/notice/20260901-1788341309-6a97ec3da6a28",
+          "pdf": false
+        },
+        {
+          "title": "কোস্টাল স্টাডিজ এন্ড ডিজাস্টার ম্যানেজমেন্ট বিভাগের শিক্ষার্থীদের জন্য ২০২৩-২৪ শিক্ষাবর্ষে এমএস শ্রেণিতে ভর্তি নোটিশ",
+          "url": "https://www.bu.ac.bd/notice/20260827-1787825708-6a900e2cb15a9",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "bsmrmu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 11,
+      "latest": [
+        {
+          "title": "Undergraduate Programs",
+          "url": "https://www.bsmrmu.edu.bd/content/undergraduate-programs-2",
+          "pdf": false
+        },
+        {
+          "title": "Admission Notice",
+          "url": "https://old-web.bmu.edu.bd/notices/Admission%20Notice",
+          "pdf": false
+        },
+        {
+          "title": "Admission Results",
+          "url": "https://old-web.bmu.edu.bd/notices/Admission%20Results",
+          "pdf": false
+        },
+        {
+          "title": "পরীক্ষা সংক্রান্ত বিজ্ঞপ্তি (স্নাতক-১ম বর্ষ ১ম ও ২য় সেমিস্টার পরীক্ষা পদ্ধতি)",
+          "url": "https://www.bsmrmu.edu.bd/public/files/notices/6a93f408eec741.%20Hon's%20Notice%20-%20About%20Exam%20System%20-%20%20Exam%20Sep-Oct%202026%20&%20Next%20Semester.pdf",
+          "pdf": true
+        },
+        {
+          "title": "পরীক্ষা সংক্রান্ত বিজ্ঞপ্তি (স্নাতক-১ম বর্ষ ১ম ও ২য় সেমিস্টার পরীক্ষা...",
+          "url": "https://www.bsmrmu.edu.bd/file_download/notices/2744",
+          "pdf": false
+        },
+        {
+          "title": "5th Call for Final Admission Undergraduate Program (Session 2025-26)",
+          "url": "https://www.bsmrmu.edu.bd/file_download/notices/2652",
+          "pdf": false
+        },
+        {
+          "title": "4th Call for Final Admission Undergraduate Program (Session 2025-26)",
+          "url": "https://www.bsmrmu.edu.bd/file_download/notices/2639",
+          "pdf": false
+        },
+        {
+          "title": "3rd Call for Final Admission Undergraduate Program (Session 2025-26)",
+          "url": "https://www.bsmrmu.edu.bd/file_download/notices/2583",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "dgme-admission": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 4,
+      "latest": [
+        {
+          "title": "MBBS & BDS Admission",
+          "url": "http://dgme.teletalk.com.bd/mbbs/",
+          "pdf": false
+        },
+        {
+          "title": "MBBS & BDS (Non-Government) Admission",
+          "url": "http://dgme.teletalk.com.bd/mbbs/nongov",
+          "pdf": false
+        },
+        {
+          "title": "BUMS/BAMS/BHMS Admission",
+          "url": "http://dgme.teletalk.com.bd/bums/",
+          "pdf": false
+        },
+        {
+          "title": "IHT/MATS Admission",
+          "url": "http://dgme.teletalk.com.bd/iht_mats",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "cmu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 1,
+      "latest": [
+        {
+          "title": "Undergraduate (Professional) Programs",
+          "url": "https://www.cmu.edu.bd/pages/undergraduate-professional-programs",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "rub": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 49,
+      "latest": [
+        {
+          "title": "GST | Admission",
+          "url": "https://www.rub.ac.bd/gst-admission.php",
+          "pdf": false
+        },
+        {
+          "title": "|| জিএসটি গুচ্ছভুক্ত সমন্বিত ভর্তি পরীক্ষায় ২০২৫-২৬ শিক্ষাবর্ষে রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ-এর ভর্তি সংক্রান্ত তথ্য পেতে এখানে ক্লিক করুন ||",
+          "url": "https://rub.ac.bd/gst-admission.php",
+          "pdf": false
+        },
+        {
+          "title": "২০২৩-২০২৪ শিক্ষাবর্ষে রবীন্দ্র বিশ্ববিদ্যালয়ের সংগীত বিভাগের ব্যবহারিক পরীক্ষা ও সাক্ষাৎকার গ্রহণের তারিখ ও সময় সংক্রান্ত ভর্তি বিজ্ঞপ্তি &nbsp ||",
+          "url": "https://www.rub.ac.bd/assets/files/admissiondoc/S2023_24/Music-Notice23-24.pdf",
+          "pdf": true
+        },
+        {
+          "title": "|| শিক্ষক নিয়োগ বিজ্ঞপ্তি ||",
+          "url": "https://www.rub.ac.bd/assets/files/admissiondoc/S2023_24/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95%20%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%97%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF.pdf",
+          "pdf": true
+        },
+        {
+          "title": "|| কর্মকর্তা ও কর্মচারী নিয়োগ বিজ্ঞপ্তি ||",
+          "url": "https://www.rub.ac.bd/assets/files/admissiondoc/S2023_24/%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE%20%E0%A6%93%20%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%80%20%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%97%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF.pdf",
+          "pdf": true
+        },
+        {
+          "title": "|| ২০২৩-২৪ শিক্ষাবর্ষে চূড়ান্ত ভর্তি বিজ্ঞপ্তি (সংগীত বিভাগ) ||",
+          "url": "https://www.rub.ac.bd/assets/files/admissiondoc/S2023_24/Music_Ad_Notice_merged.pdf",
+          "pdf": true
+        },
+        {
+          "title": "|| ২০২৩-২৪ শিক্ষাবর্ষে চূড়ান্ত ভর্তি বিজ্ঞপ্তি ||",
+          "url": "https://www.rub.ac.bd/assets/files/admissiondoc/S2023_24/Admission%20notice-14-1-25.pdf",
+          "pdf": true
+        },
+        {
+          "title": "|| ২০২৩-২৪ শিক্ষাবর্ষের ভর্তি বিজ্ঞপ্তি ||",
+          "url": "https://www.rub.ac.bd/assets/files/admissiondoc/S2023_24/Admission_Result_23-24.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "bdu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 4,
+      "latest": [
+        {
+          "title": "Admission Information",
+          "url": "https://uftb.ac.bd/admission-information",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate",
+          "url": "https://admission.uftb.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Postgraduate",
+          "url": "https://pgadmission.uftb.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "an-explainable-ai-based-approach-for-predicting-undergraduate-students-academic-performance",
+          "url": "https://uftb.ac.bd/research-activities-1/q-1/an-explainable-ai-based-approach-for-predicting-undergraduate-students-academic-performance",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "kau": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 19,
+      "latest": [
+        {
+          "title": "04 Aug 2026 খুলনা কৃষি বিশ্ববিদ্যালয়ের ২০২৫-২০২৬ শিক্ষাবর্ষের স্নাতক (লেভেল-১ সেমিস্টার -১) শ্রেণীতে ভর্তিকৃত নবীন শিক্ষার্থীদের ওরিয়েন্টেশন অনুষ্ঠান আগামী ১৫-০৮-২০২৬ তারিখ শনিবার সকাল ১১:০০ টায় অনুষ্ঠিত হবে। ●",
+          "url": "https://kau.ac.bd/notice/%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A6%95",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://kau.ac.bd/admission/admission-information",
+          "pdf": false
+        },
+        {
+          "title": "13 AUG 2026 খুলনা কৃষি বিশ্ববিদ্যালয়ের ২০২৫-২০২৬ শিক্ষাবর্ষের স্নাতক (লেভেল-১ সেমিস্টার -১) শ্রেণীতে ভর্তিকৃত নবীন শিক্ষার্থীদের ওরিয়েন্টেশন অনুষ্ঠান আগামী ১৫-০৮-২০২৬ তারিখ শনিবার সকাল ১১:০০ টায় সকল শিক্ষার্থীদের উপস্থিত থাকার নোটিশ General",
+          "url": "https://kau.ac.bd/notice/%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A6%95-1",
+          "pdf": false
+        },
+        {
+          "title": "30 JUN 2026 ২০২৫-২০২৬ শিক্ষাবর্ষে খুলনা কৃষি বিশ্ববিদ্যালয়ে লেভেল - ০১, সেমিস্টার - ০১ এ ভর্তি সংক্রান্ত নোটিশ General",
+          "url": "https://kau.ac.bd/notice/%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%B2%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%B2-%E0%A7%A6%E0%A7%A7-3",
+          "pdf": false
+        },
+        {
+          "title": "16 JUN 2026 ২০২৫-২০২৬ শিক্ষাবর্ষে খুলনা কৃষি বিশ্ববিদ্যালয়ে লেভেল - ০১, সেমিস্টার - ০১ এ ভর্তি সংক্রান্ত নোটিশ General",
+          "url": "https://kau.ac.bd/notice/%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%B2%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%B2-%E0%A7%A6%E0%A7%A7-2",
+          "pdf": false
+        },
+        {
+          "title": "08 JUN 2026 ২০২৫-২০২৬ শিক্ষাবর্ষে খুলনা কৃষি বিশ্ববিদ্যালয়ে লেভেল - ০১, সেমিস্টার - ০১ এ ভর্তি সংক্রান্ত নোটিশ General",
+          "url": "https://kau.ac.bd/notice/%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%B2%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%B2-%E0%A7%A6%E0%A7%A7-1",
+          "pdf": false
+        },
+        {
+          "title": "22 APR 2026 ২০২৫-২০২৬ শিক্ষাবর্ষে খুলনা কৃষি বিশ্ববিদ্যালয়ে লেভেল - ০১, সেমিস্টার - ০১ এ (২৬/০৪/২০২৬ থেকে ২৯/০৪/২০২৬ তারিখ) ভর্তি সংক্রান্ত নোটিশ General",
+          "url": "https://kau.ac.bd/notice/%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%B2%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%B2-%E0%A7%A6%E0%A7%A7",
+          "pdf": false
+        },
+        {
+          "title": "24 SEP 2025 ২০২৪-২৫ শিক্ষাবর্ষে ভর্তিকৃত শিক্ষার্থীদের ওরিয়েন্টেশন General",
+          "url": "https://kau.ac.bd/notice/%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AA-%E0%A7%A8%E0%A7%AB-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A7%83%E0%A6%A4-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "bsfmstu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 2,
+      "latest": [
+        {
+          "title": "Admission 2025-26",
+          "url": "https://jstu.ac.bd/finaladmission",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Studies",
+          "url": "https://jstu.ac.bd/index.php/portal/index.php",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "bsmraau": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 0,
+      "latest": [],
+      "lastNewAt": null
+    },
+    "shu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 0,
+      "latest": [],
+      "lastNewAt": null
+    },
+    "bsmrstup": {
+      "ok": false,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "error": "getaddrinfo ENOTFOUND www.bsmrstup.ac.bd"
+    },
+    "rmu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 8,
+      "latest": [
+        {
+          "title": "Admission",
+          "url": "https://rmu.edu.bd/admission/",
+          "pdf": false
+        },
+        {
+          "title": "How to Apply",
+          "url": "https://rmu.edu.bd/admission/how-to-apply/",
+          "pdf": false
+        },
+        {
+          "title": "Undergraduate Admission",
+          "url": "https://rmu.edu.bd/admission/undergraduate-admission/",
+          "pdf": false
+        },
+        {
+          "title": "Postgraduate Admission",
+          "url": "https://rmu.edu.bd/admission/postgraduate-admission/",
+          "pdf": false
+        },
+        {
+          "title": "Admission Schedule",
+          "url": "https://rmu.edu.bd/admission/admission-schedule/",
+          "pdf": false
+        },
+        {
+          "title": "International Student",
+          "url": "https://rmu.edu.bd/admission/international-student/",
+          "pdf": false
+        },
+        {
+          "title": "Quota",
+          "url": "https://rmu.edu.bd/admission/quota/",
+          "pdf": false
+        },
+        {
+          "title": "Re-scrutiny Result of B.Sc. in Public Health Nursing (Post Basic) 1st Year Examination, December-2024",
+          "url": "https://rmu.edu.bd/notices/re-scrutiny-result-of-b-sc-in-public-health-nursing-post-basic-1st-year-examination-december-2024/",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "hau": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 16,
+      "latest": [
+        {
+          "title": "Student Sign up",
+          "url": "https://erp.hau.ac.bd/online_admission/",
+          "pdf": false
+        },
+        {
+          "title": "Admission",
+          "url": "https://acas.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "২৬-০৪-২০২৬ তারিখ হতে ২৯-০৪-২০২৬ তারিখ পর্যন্ত হবিগঞ্জ কৃষি বিশ্ববিদ্যালয়ের জন্য নির্বাচিত প্রার্থীদের(কৃষিগুচ্ছ ভর্তি পরীক্ষা, ২০২৫-২০২৬ শিক্ষাবর্ষ) বিভিন্ন অনুষদে স্নাতক (লেভেল -১,সেমিস্টার ১) শ্রেণীতে ভর্তির নিমিত্ত প্রকাশিত ভর্তি বিজ্ঞপ্তি।",
+          "url": "https://hau.ac.bd/notice/20260420033022-26-04-2026-tarikh-hte-29-04-2026-tarikh-prznt-hbignj-krrishi-biswbidzalyer-jnz-nirwacit-prartheederkrrishigucch-vrti-preeksha-2025-2026-sikshabrsh-bivinn-onushde-snatk-level-1semistar-1-sreneete-vrtir-nimitt-prkasit-vrti-bijngpti/show",
+          "pdf": false
+        },
+        {
+          "title": "হবিগঞ্জ কৃষি বিশ্ববিদ্যালয়ে কৃষিগুচ্ছ ভর্তি পরীক্ষা ২০২৫-২০২৬ শিক্ষাবর্ষে নির্বাচিত প্রার্থীদের ভর্তি বিজ্ঞপ্তি |",
+          "url": "https://hau.ac.bd/notice/20260608113844-10-06-2026-tarikh-hte-11-06-2026-tarikh-prznt-hbignj-krrishi-biswbidzalyer-jnz-nirwacit-prartheederkrrishigucch-vrti-preeksha-2025-2026-sikshabrsh-bivinn-onushde-snatk-level-1semistar-1-sreneete-vrtir-nimitt-prkasit-vrti-bijngpti/show",
+          "pdf": false
+        },
+        {
+          "title": "০৫-০৭-২০২৬ তারিখ হতে ০৬-০৭-২০২৬ তারিখ পর্যন্ত হবিগঞ্জ কৃষি বিশ্ববিদ্যালয়ের জন্য নির্বাচিত প্রার্থীদের(কৃষিগুচ্ছ ভর্তি পরীক্ষা, ২০২৫-২০২৬ শিক্ষাবর্ষ) বিভিন্ন অনুষদে স্নাতক (লেভেল -১,সেমিস্টার ১) শ্রেণীতে ভর্তির নিমিত্ত প্রকাশিত ভর্তি বিজ্ঞপ্তি |",
+          "url": "https://hau.ac.bd/notice/20260630054415-05-07-2026-tarikh-hte-06-07-2026-tarikh-prznt-hbignj-krrishi-biswbidzalyer-jnz-nirwacit-prartheederkrrishigucch-vrti-preeksha-2025-2026-sikshabrsh-bivinn-onushde-snatk-level-1semistar-1-sreneete-vrtir-nimitt-prkasit-vrti-bijngpti/show",
+          "pdf": false
+        },
+        {
+          "title": "২০২৫-২৬ শিক্ষাবর্ষে ভর্তিকৃত স্নাতক পর্যায়ে লেভেল-১, সেমিস্টার-১ এর সকল অনুষদের শিক্ষার্থীদের “স্নাতক পর্যায়ে মডিউলার সেমিস্টার পদ্ধতির বিধিমালা ও নির্দেশিকা” অনুসারে কোর্স এনরোলমেন্ট ও ফরম ফিলাপ সম্পন্ন করার বিজ্ঞপ্তি |",
+          "url": "https://hau.ac.bd/notice/20260915022044-2025-26-sikshabrshe-vrtikrrit-snatk-przaye-level-1-semistar-1-er-skl-onushder-sikshartheeder-snatk-przaye-mdiular-semistar-pddhtir-bidhimala-oo-nirdesika-onusare-kors-enrolment-oo-frm-filap-smpnn-krar-bijngpti/show",
+          "pdf": false
+        },
+        {
+          "title": "হবিগঞ্জ কৃষি বিশ্ববিদ্যালয় সহ কৃষি গুচ্ছের নয়টি পাবলিক বিশ্ববিদ্যালয়ে ২০২৫-২৬ শিক্ষাবর্ষের কৃষি বিষয়ে গুচ্ছ পদ্ধতিতে স্নাতক ১ম বর্ষ ভর্তি পরীক্ষা অনুষ্ঠিত হয়েছে |",
+          "url": "https://hau.ac.bd/news/53",
+          "pdf": false
+        },
+        {
+          "title": "“মডিউলার সেমিস্টার পদ্ধতি অনুসারে ২০২৪-২৫ শিক্ষাবর্ষে ভর্তিকৃত স্নাতক লেভেল-০১, সেমিস্টার-০১ এর প্রত্যেক শিক্ষার্থীকে সেমিস্টার শুরুর পূর্বেই কোর্স এনরোলমেন্ট ও ফর্ম ফিল-আপ বিষয়ে বিজ্ঞপ্তি |",
+          "url": "https://hau.ac.bd/notice/20251228103622-mdiular-semistar-pddhti-onusare-2024-25-sikshabrshe-vrtikrrit-snatk-level-01-semistar-01-er-prtzek-sikshartheeke-semistar-surur-puurwei-kors-enrolment-oo-frm-fil-ap-bishye-bijngpti/show",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "smu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 1,
+      "latest": [
+        {
+          "title": "ভর্তি",
+          "url": "https://smu.edu.bd/bn/%e0%a6%ad%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%bf/",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "butex": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 6,
+      "latest": [
+        {
+          "title": "Undergraduate Programs",
+          "url": "https://www.butex.edu.bd/undergraduate-programs/",
+          "pdf": false
+        },
+        {
+          "title": "Academic Regulations: Undergraduate",
+          "url": "https://www.butex.edu.bd/wp-content/uploads/2024/01/Academic-Regulations_0001.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Undergraduate Admission",
+          "url": "https://www.butex.edu.bd/admissions/",
+          "pdf": false
+        },
+        {
+          "title": "Postgraduate Admission",
+          "url": "http://admission.butex.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Admission Notice of MSc in Textile Engineering",
+          "url": "https://www.butex.edu.bd/admission-notice-of-msc-in-textile-engineering/",
+          "pdf": false
+        },
+        {
+          "title": "Re-admission Notice of BSc in Textile Engineering L2-T1 (WPE) Session: 2025-26",
+          "url": "https://www.butex.edu.bd/re-admission-notice-of-bsc-in-textile-engineering-l2-t1-wpe-session-2025-26/",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "iau": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 5,
+      "latest": [
+        {
+          "title": " ফাজিল (সম্মান) ১ম বর্ষ ভর্তির অনলাইন আবেদন সিস্টেম",
+          "url": "http://admission.iau.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "ভর্তি বাতিলের আবেদনপত্র (নতুন) ১৩/১১/২০২৫",
+          "url": "http://iau.edu.bd/wp-content/uploads/2025/11/%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0.pdf",
+          "pdf": true
+        },
+        {
+          "title": "ফাজিল স্নাতক (পাস) শ্রেণিতে ভর্তির আবেদন ফরম (নতুন) ১৩/১১/২০২৫",
+          "url": "http://iau.edu.bd/wp-content/uploads/2025/11/%E0%A6%AB%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%B2-%E0%A6%B8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A6%95-%E0%A6%AA%E0%A6%BE%E0%A6%B8-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A3%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%AB%E0%A6%B0%E0%A6%AE.pdf",
+          "pdf": true
+        },
+        {
+          "title": "কামিল (স্নাতকোত্তর) মাস্টার্স ১ বছর মেয়াদী শ্রেণিতে ভর্তির আবেদন ফরম (নতুন) ১৩/১১/২০২৫",
+          "url": "http://iau.edu.bd/wp-content/uploads/2025/11/%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%B2-%E0%A6%B8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A6%95%E0%A7%8B%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8-%E0%A7%A7-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%AE%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%A6%E0%A7%80-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A3%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%AB%E0%A6%B0%E0%A6%AE.pdf",
+          "pdf": true
+        },
+        {
+          "title": "কামিল (স্নাতকোত্তর) ২ বছর মেয়াদী শ্রেণিতে ভর্তির আবেদন ফরম (নতুন) ১৩/১১/২০২৫",
+          "url": "http://iau.edu.bd/wp-content/uploads/2025/11/%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%B2-%E0%A6%B8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A6%95%E0%A7%8B%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A7%A8-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%AE%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%A6%E0%A7%80-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A3%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%AB%E0%A6%B0%E0%A6%AE.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "bsmru": {
+      "ok": false,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "error": "getaddrinfo EAI_AGAIN bsmru.ac.bd"
+    },
+    "buet-admission": {
+      "ok": false,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "error": "connect ETIMEDOUT 103.94.135.248:443"
+    },
+    "gstu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 15,
+      "latest": [
+        {
+          "title": "উদ্ভিদবিজ্ঞান বিভাগে এম এস কোর্সে ভর্তি বিজ্ঞপ্তি",
+          "url": "https://gstu.edu.bd/dev/sidebar_items/uploaded_files/notices/MS%20Admission%202024-2025%20Website.pdf",
+          "pdf": true
+        },
+        {
+          "title": "এমফিল/পিএইচডি কোর্সে ভর্তি বিজ্ঞপ্তি",
+          "url": "https://gstu.edu.bd/dev/sidebar_items/uploaded_files/MPhil_PhD_Circular/IMG_20251119_0007.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Evening MBA'র ১৫ তম ব্যাচে ভর্তি চলছে",
+          "url": "https://gstu.edu.bd/dev/sidebar_items/uploaded_files/EMBA_Circular/EMBA_Admission_Circular_2026.pdf",
+          "pdf": true
+        },
+        {
+          "title": "২০২৫-২০২৬ শিক্ষাবর্ষে ১ম বর্ষে ভর্তি",
+          "url": "https://gstu.edu.bd/admission/",
+          "pdf": false
+        },
+        {
+          "title": "Result (Undergraduate Admission)",
+          "url": "https://www.gstu.edu.bd/",
+          "pdf": false
+        },
+        {
+          "title": "GST গুচ্ছভুক্ত বশেমুরবিপ্রবিতে ভর্তিকৃত ২০২২-২০২৩ শিক্ষাবর্ষের শিক্ষার্থীদের ১ম বর্ষের ক্লাস আগামী ১৭/০৯/২০২৩ ইং তারিখ থেকে শুরু হবে।",
+          "url": "https://www.gstu.edu.bd/s/class_start_2023.jpg",
+          "pdf": false
+        },
+        {
+          "title": "GST গুচ্ছভুক্ত বশেমুরবিপ্রবিতে প্রাথমিক ভর্তিকৃত ও মাইগ্রেশনের মাধ্যমে GST গুচ্ছভুক্ত অন্য বিশ্ববিদ্যালয় থেকে আগত শিক্ষার্থীদের জানানো যাচ্ছে যে, আগামী ২৪/০৮/২০২৩ ইং তারিখে চূড়ান্ত ভর্তি প্রক্রিয়া সম্পন্ন করতে হবে।",
+          "url": "https://www.gstu.edu.bd/s/Admission2023-08-21-instruction.jpg",
+          "pdf": false
+        },
+        {
+          "title": "বশেমুরবিপ্রবি জিএসটি ভর্তি পরীক্ষা ২০২২-২০২৩ এর বিভিন্ন কোটার জন্য ভাইভার সময়সূচী",
+          "url": "https://www.gstu.edu.bd/s/GST-BSMRSTU%20QOUTA%20VIVA.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": null
+    },
+    "cstu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 2,
+      "latest": [
+        {
+          "title": "Admission",
+          "url": "https://admission.cstu.ac.bd/notice/list",
+          "pdf": false
+        },
+        {
+          "title": "GST Related Informations",
+          "url": "https://gstadmission.ac.bd/",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    },
+    "sstu": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 0,
+      "latest": [],
+      "lastNewAt": null
+    },
+    "kuriau": {
+      "ok": true,
+      "lastChecked": "2026-11-04T06:52:57.143Z",
+      "lastSuccess": "2026-11-04T06:52:57.143Z",
+      "error": null,
+      "linkCount": 1,
+      "latest": [
+        {
+          "title": "Undergraduate Admission Information",
+          "url": "https://acas.edu.bd/",
+          "pdf": false
+        }
+      ],
+      "lastNewAt": null
+    }
+  },
+  "lastRun": "2026-11-04T06:52:57.143Z"
+}

@@ -1,0 +1,488 @@
+[
+  {
+    "id": "du-admission",
+    "code": "DU",
+    "name": "University of Dhaka — Admission Portal",
+    "category": "Admission portal",
+    "url": "https://admission.eis.du.ac.bd/"
+  },
+  {
+    "id": "ru-admission",
+    "code": "RU",
+    "name": "University of Rajshahi — Admission Portal",
+    "category": "Admission portal",
+    "url": "https://admission.ru.ac.bd/"
+  },
+  {
+    "id": "buet-admission",
+    "code": "BUET",
+    "name": "BUET — Undergraduate Admission",
+    "category": "Admission portal",
+    "url": "https://ugadmission.buet.ac.bd/"
+  },
+  {
+    "id": "cu-admission",
+    "code": "CU",
+    "name": "University of Chittagong — Admission Portal",
+    "category": "Admission portal",
+    "url": "https://admission.cu.ac.bd/"
+  },
+  {
+    "id": "ju-admission",
+    "code": "JU",
+    "name": "Jahangirnagar University — Admission Portal",
+    "category": "Admission portal",
+    "url": "https://juniv-admission.org/"
+  },
+  {
+    "id": "gst-admission",
+    "code": "GST",
+    "name": "GST Cluster Admission",
+    "category": "Admission portal",
+    "url": "https://gstadmission.ac.bd/"
+  },
+  {
+    "id": "dgme-admission",
+    "code": "DGME",
+    "name": "Medical & Dental Admission (DGME)",
+    "category": "Admission portal",
+    "url": "https://dgme.teletalk.com.bd/"
+  },
+  {
+    "id": "ckruet-admission",
+    "code": "CKRUET",
+    "name": "CUET-KUET-RUET Cluster Admission",
+    "category": "Admission portal",
+    "url": "https://admissionckruet.ac.bd/"
+  },
+  {
+    "id": "agri-admission",
+    "code": "AGRI",
+    "name": "Agricultural Cluster Admission",
+    "category": "Admission portal",
+    "url": "https://acas.edu.bd/"
+  },
+  {
+    "id": "bup-admission",
+    "code": "BUP",
+    "name": "BUP — Admission Portal",
+    "category": "Admission portal",
+    "url": "https://admission.bup.edu.bd/"
+  },
+  {
+    "id": "du",
+    "code": "DU",
+    "name": "University of Dhaka",
+    "category": "University",
+    "url": "https://www.du.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "ru",
+    "code": "RU",
+    "name": "University of Rajshahi",
+    "category": "University",
+    "url": "https://www.ru.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "bau",
+    "code": "BAU",
+    "name": "Bangladesh Agricultural University",
+    "category": "University",
+    "url": "https://www.bau.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "buet",
+    "code": "BUET",
+    "name": "Bangladesh University of Engineering & Technology",
+    "category": "University",
+    "url": "https://www.buet.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "cu",
+    "code": "CU",
+    "name": "University of Chittagong",
+    "category": "University",
+    "url": "https://www.cu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "ju",
+    "code": "JU",
+    "name": "Jahangirnagar University",
+    "category": "University",
+    "url": "https://www.juniv.edu/",
+    "strict": true
+  },
+  {
+    "id": "iu",
+    "code": "IU",
+    "name": "Islamic University, Bangladesh",
+    "category": "University",
+    "url": "https://www.iu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "sust",
+    "code": "SUST",
+    "name": "Shahjalal University of Science & Technology",
+    "category": "University",
+    "url": "https://www.sust.edu/",
+    "strict": true
+  },
+  {
+    "id": "ku",
+    "code": "KU",
+    "name": "Khulna University",
+    "category": "University",
+    "url": "https://www.ku.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "nu",
+    "code": "NU",
+    "name": "National University",
+    "category": "University",
+    "url": "https://www.nu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "bou",
+    "code": "BOU",
+    "name": "Bangladesh Open University",
+    "category": "University",
+    "url": "https://www.bou.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "bsmmu",
+    "code": "BSMMU",
+    "name": "Bangabandhu Sheikh Mujib Medical University",
+    "category": "University",
+    "url": "https://www.bsmmu.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "bsmrau",
+    "code": "BSMRAU",
+    "name": "Bangabandhu Sheikh Mujibur Rahman Agricultural University",
+    "category": "University",
+    "url": "https://www.bsmrau.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "hstu",
+    "code": "HSTU",
+    "name": "Hajee Mohammad Danesh Science & Technology University",
+    "category": "University",
+    "url": "https://www.hstu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "mbstu",
+    "code": "MBSTU",
+    "name": "Mawlana Bhashani Science & Technology University",
+    "category": "University",
+    "url": "https://www.mbstu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "pstu",
+    "code": "PSTU",
+    "name": "Patuakhali Science And Technology University",
+    "category": "University",
+    "url": "https://www.pstu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "sau-dhaka",
+    "code": "SAU",
+    "name": "Sher-e-Bangla Agricultural University",
+    "category": "University",
+    "url": "https://www.sau.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "cuet",
+    "code": "CUET",
+    "name": "Chittagong University of Engineering & Technology",
+    "category": "University",
+    "url": "https://www.cuet.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "ruet",
+    "code": "RUET",
+    "name": "Rajshahi University of Engineering & Technology",
+    "category": "University",
+    "url": "https://www.ruet.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "kuet",
+    "code": "KUET",
+    "name": "Khulna University of Engineering & Technology",
+    "category": "University",
+    "url": "https://www.kuet.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "duet",
+    "code": "DUET",
+    "name": "Dhaka University of Engineering & Technology",
+    "category": "University",
+    "url": "https://www.duet.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "nstu",
+    "code": "NSTU",
+    "name": "Noakhali Science & Technology University",
+    "category": "University",
+    "url": "https://www.nstu.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "jnu",
+    "code": "JnU",
+    "name": "Jagannath University",
+    "category": "University",
+    "url": "https://www.jnu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "cou",
+    "code": "CoU",
+    "name": "Comilla University",
+    "category": "University",
+    "url": "https://www.cou.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "jkkniu",
+    "code": "JKKNIU",
+    "name": "Jatiya Kabi Kazi Nazrul Islam University",
+    "category": "University",
+    "url": "https://www.jkkniu.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "cvasu",
+    "code": "CVASU",
+    "name": "Chittagong Veterinary and Animal Sciences University",
+    "category": "University",
+    "url": "https://www.cvasu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "sau-sylhet",
+    "code": "SAU-S",
+    "name": "Sylhet Agricultural University",
+    "category": "University",
+    "url": "https://www.sau.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "just",
+    "code": "JUST",
+    "name": "Jessore University of Science & Technology",
+    "category": "University",
+    "url": "https://www.just.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "pust",
+    "code": "PUST",
+    "name": "Pabna University of Science and Technology",
+    "category": "University",
+    "url": "https://www.pust.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "brur",
+    "code": "BRUR",
+    "name": "Begum Rokeya University, Rangpur",
+    "category": "University",
+    "url": "https://www.brur.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "bup",
+    "code": "BUP",
+    "name": "Bangladesh University of Professionals",
+    "category": "University",
+    "url": "https://www.bup.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "gstu",
+    "code": "GSTU",
+    "name": "Gopalganj Science and Technology University (formerly BSMRSTU)",
+    "category": "University",
+    "url": "https://gstu.edu.bd/s/",
+    "strict": true
+  },
+  {
+    "id": "butex",
+    "code": "BUTEX",
+    "name": "Bangladesh University of Textiles",
+    "category": "University",
+    "url": "https://www.butex.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "bu",
+    "code": "BU",
+    "name": "University of Barishal",
+    "category": "University",
+    "url": "https://www.bu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "rmstu",
+    "code": "RMSTU",
+    "name": "Rangamati Science and Technology University",
+    "category": "University",
+    "url": "https://rmstu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "bsmrmu",
+    "code": "BSMRMU",
+    "name": "Bangabandhu Sheikh Mujibur Rahman Maritime University",
+    "category": "University",
+    "url": "https://www.bsmrmu.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "iau",
+    "code": "IAU",
+    "name": "Islamic Arabic University",
+    "category": "University",
+    "url": "https://www.iau.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "cmu",
+    "code": "CMU",
+    "name": "Chittagong Medical University",
+    "category": "University",
+    "url": "https://www.cmu.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "rmu",
+    "code": "RMU",
+    "name": "Rajshahi Medical University",
+    "category": "University",
+    "url": "https://www.rmu.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "rub",
+    "code": "RUB",
+    "name": "Rabindra University, Bangladesh",
+    "category": "University",
+    "url": "https://www.rub.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "bdu",
+    "code": "BDU",
+    "name": "Bangabandhu Sheikh Mujibur Rahman Digital University",
+    "category": "University",
+    "url": "https://www.bdu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "shu",
+    "code": "SHU",
+    "name": "Sheikh Hasina University",
+    "category": "University",
+    "url": "https://shubd.net/",
+    "strict": true
+  },
+  {
+    "id": "kau",
+    "code": "KAU",
+    "name": "Khulna Agricultural University",
+    "category": "University",
+    "url": "https://kau.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "bsfmstu",
+    "code": "BSFMSTU",
+    "name": "Bangamata Sheikh Fojilatunnesa Mujib Science and Technology University",
+    "category": "University",
+    "url": "https://bsfmstu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "smu",
+    "code": "SMU",
+    "name": "Sylhet Medical University",
+    "category": "University",
+    "url": "https://www.smu.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "bsmraau",
+    "code": "BSMRAAU",
+    "name": "Bangabandhu Sheikh Mujibur Rahman Aviation And Aerospace University",
+    "category": "University",
+    "url": "https://www.bsmraau.edu.bd/",
+    "strict": true
+  },
+  {
+    "id": "bsmru",
+    "code": "BSMRU",
+    "name": "Bangabandhu Sheikh Mujibur Rahman University, Kishoreganj",
+    "category": "University",
+    "url": "https://bsmru.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "hau",
+    "code": "HAU",
+    "name": "Hobiganj Agricultural University",
+    "category": "University",
+    "url": "https://www.hau.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "bsmrstup",
+    "code": "BSMRSTUP",
+    "name": "Bangabandhu Sheikh Mujibur Rahman Science & Technology University, Pirojpur",
+    "category": "University",
+    "url": "https://www.bsmrstup.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "cstu",
+    "code": "CSTU",
+    "name": "Chandpur Science and Technology University",
+    "category": "University",
+    "url": "https://cstu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "sstu",
+    "code": "SSTU",
+    "name": "Sunamganj Science and Technology University",
+    "category": "University",
+    "url": "https://sstu.ac.bd/",
+    "strict": true
+  },
+  {
+    "id": "kuriau",
+    "code": "KuriAU",
+    "name": "Kurigram Agricultural University",
+    "category": "University",
+    "url": "https://kuriau.edu.bd/",
+    "strict": true
+  }
+]

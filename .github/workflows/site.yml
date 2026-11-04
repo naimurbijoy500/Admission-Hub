@@ -1,0 +1,79 @@
+name: Monitor circulars & deploy site
+
+on:
+  # Deploy whenever you push changes.
+  push:
+    branches: ["main"]
+  # Check university websites every 3 hours (GitHub may delay scheduled runs a little).
+  schedule:
+    - cron: "17 */3 * * *"
+  # Allow running manually from the "Actions" tab.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "monitor-and-pages"
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    # Pushes only deploy; scheduled/manual runs check the websites first.
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check official admission websites
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: node scripts/monitor.js
+
+      - name: Save results to the repository
+        run: |
+          git config user.name "admission-hub-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update circular monitor data [skip ci]"
+            git push
+          fi
+
+  deploy:
+    needs: monitor
+    # Run after the monitor (or directly on push, when the monitor job is skipped).
+    if: always() && needs.monitor.result != 'failure' && needs.monitor.result != 'cancelled'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

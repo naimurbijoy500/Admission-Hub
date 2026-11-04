@@ -18,10 +18,10 @@
     <div class="container ticker-inner">
       <span class="ticker-badge">🔴 LIVE UPDATE</span>
       <div class="ticker-marquee" id="liveTickerText">
-        ঢাকা বিশ্ববিদ্যালয় (DU), বুয়েট (BUET), মেডিকেল (DGME), গুচ্ছ (GST) সহ সকল পাবলিক বিশ্ববিদ্যালয়ের ২০২৬-২৭ শিক্ষাবর্ষের ভর্তি বিজ্ঞপ্তি ও ওয়েবসাইট মনিটরিং চালু রয়েছে...
+        তথ্য লোড হচ্ছে...
       </div>
-      <button class="ticker-sync-btn" id="syncNowBtn" title="এখনই সকল বিশ্ববিদ্যালয়ের ওয়েবসাইট চেক করুন">
-        <span class="sync-icon" id="syncIcon">🔄</span> <span id="syncBtnText">সার্কুলার সিঙ্ক করুন</span>
+      <button class="ticker-sync-btn" id="syncNowBtn" title="সর্বশেষ তথ্য আবার লোড করুন">
+        <span class="sync-icon" id="syncIcon">🔄</span> <span id="syncBtnText">রিফ্রেশ</span>
       </button>
     </div>
   </div>
@@ -55,14 +55,14 @@
         <div class="notif-wrapper">
           <button class="icon-btn" id="notifBellBtn" title="নোটিফিকেশন ও অ্যালার্ট">
             <span>🔔</span>
-            <span class="badge-count pulse" id="unreadNotifBadge">3</span>
+            <span class="badge-count pulse" id="unreadNotifBadge" style="display:none;">0</span>
           </button>
           <!-- Notification Dropdown -->
           <div class="notif-dropdown" id="notifDropdown">
             <div class="notif-header">
               <div>
-                <h4>ভর্তি বিজ্ঞপ্তি নোটিফিকেশন</h4>
-                <p>নতুন সার্কুলার প্রকাশের সাথে সাথে অ্যালার্ট</p>
+                <h4>নতুন নোটিশ ও সার্কুলার</h4>
+                <p>অফিশিয়াল সাইটে স্বয়ংক্রিয়ভাবে শনাক্ত</p>
               </div>
               <button class="btn-xs" id="enablePushBtn">ব্রাউজার অ্যালার্ট চালু করুন</button>
             </div>
@@ -70,7 +70,7 @@
               <!-- Populated by JS -->
             </div>
             <div class="notif-footer">
-              <button class="btn-text" id="simulateNewCircularBtn">⚡ নতুন সার্কুলার অ্যালার্ট টেস্ট করুন</button>
+              <span style="font-size:0.75rem; color:var(--text-secondary);">প্রতি ৩ ঘণ্টায় চেক করা হয়</span>
               <button class="btn-text" id="markAllReadBtn">সব পঠিত করুন</button>
             </div>
           </div>
@@ -89,14 +89,14 @@
     <div class="hero-glow"></div>
     <div class="container hero-content">
       <div class="hero-pill">
-        <span class="live-dot"></span> বাংলাদেশের ৫৫+ পাবলিক বিশ্ববিদ্যালয়ের অফিশিয়াল পোর্টাল ইন্টিগ্রেশন
+        <span class="live-dot"></span> <span id="heroSourceCount">০</span>টি অফিশিয়াল ভর্তি ওয়েবসাইট স্বয়ংক্রিয়ভাবে মনিটর করা হচ্ছে
       </div>
       <h1 class="hero-title">
         সকল পাবলিক বিশ্ববিদ্যালয়ের <br />
         <span class="gradient-text">ভর্তি বিজ্ঞপ্তি ও পরীক্ষা ক্যালেন্ডার</span> এক ঠিকানায়
       </h1>
       <p class="hero-subtitle">
-        যেকোনো পাবলিক বিশ্ববিদ্যালয় নতুন ভর্তি সার্কুলার প্রকাশ করলেই তাৎক্ষণিক নোটিফিকেশন পান এবং স্বয়ংক্রিয়ভাবে আপনার ভর্তি ক্যালেন্ডারে আবেদনের শেষ তারিখ ও পরীক্ষার দিন যুক্ত করুন।
+        বিশ্ববিদ্যালয়ের অফিশিয়াল ওয়েবসাইটে নতুন নোটিশ বা সার্কুলার প্রকাশ হলে নোটিফিকেশন পান, আর আবেদনের শেষ তারিখ ও পরীক্ষার দিন ক্যালেন্ডারে দেখুন বা Google Calendar-এ যুক্ত করুন।
       </p>
 
       <!-- Quick Search & Action Bar -->
@@ -142,8 +142,8 @@
         <div class="stat-card">
           <div class="stat-icon uni-bg">🏛️</div>
           <div class="stat-info">
-            <h3 id="statTotalUni">55+</h3>
-            <p>সংযুক্ত পাবলিক বিশ্ববিদ্যালয়</p>
+            <h3 id="statTotalUni">০</h3>
+            <p>মনিটর করা অফিশিয়াল সাইট</p>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@
           </select>
 
           <button class="btn-outline" id="addCustomCircularBtn">
-            ➕ নতুন সার্কুলার যুক্ত করুন
+            ➕ নিজের জন্য সার্কুলার যুক্ত করুন
           </button>
         </div>
       </div>
@@ -216,7 +216,7 @@
         <div>
           <span class="section-tag">📅 স্বয়ংক্রিয় ভর্তি ক্যালেন্ডার</span>
           <h2 class="section-title">আবেদনের শেষ তারিখ ও ভর্তি পরীক্ষার সময়সূচি</h2>
-          <p class="section-desc">যেকোনো সার্কুলার প্রকাশিত হলে তার আবেদনের ডেডলাইন এবং ভর্তি পরীক্ষার তারিখ স্বয়ংক্রিয়ভাবে এই ক্যালেন্ডারে যুক্ত হয়ে যায়।</p>
+          <p class="section-desc">তালিকার প্রতিটি সার্কুলারের আবেদন শুরু, শেষ তারিখ এবং ভর্তি পরীক্ষার দিন এই ক্যালেন্ডারে দেখানো হয়। পুরো ক্যালেন্ডার ফোনে বা Google Calendar-এ নিতে .ics ফাইল ডাউনলোড করুন।</p>
         </div>
         <div class="calendar-actions">
           <button class="btn-outline" id="exportAllIcsBtn">📥 সম্পূর্ণ ক্যালেন্ডার ডাউনলোড (.ics)</button>
@@ -319,11 +319,8 @@
       <div class="section-header">
         <div>
           <span class="section-tag">🔗 অফিশিয়াল ওয়েবসাইট ইন্টিগ্রেশন</span>
-          <h2 class="section-title">সংযুক্ত পাবলিক বিশ্ববিদ্যালয় পোর্টাল ও লাইভ স্ট্যাটাস</h2>
-          <p class="section-desc">নিচের সকল পাবলিক বিশ্ববিদ্যালয়ের ভর্তি ওয়েবসাইট আমাদের সিস্টেমের সাথে সংযুক্ত। নতুন বিজ্ঞপ্তি প্রকাশের সাথে সাথে স্বয়ংক্রিয় নোটিফিকেশন ও ক্যালেন্ডার আপডেট হয়।</p>
-        </div>
-        <div class="directory-Actions">
-          <button class="btn-primary" id="testLiveWebhookBtn">⚡ নতুন সার্কুলার প্রকাশ সিমুলেট করুন</button>
+          <h2 class="section-title">মনিটর করা অফিশিয়াল ওয়েবসাইট ও স্ট্যাটাস</h2>
+          <p class="section-desc">একটি স্বয়ংক্রিয় বট (GitHub Actions) প্রতি ৩ ঘণ্টায় নিচের ওয়েবসাইটগুলো চেক করে। নতুন নোটিশ বা PDF পাওয়া গেলে নোটিফিকেশন তালিকায় ও টেলিগ্রামে জানানো হয়।</p>
         </div>
       </div>
 
@@ -344,7 +341,7 @@
   <div class="modal-backdrop" id="addCircularModalBackdrop">
     <div class="modal-content">
       <div class="modal-header">
-        <h3>➕ নতুন ভর্তি বিজ্ঞপ্তি যুক্ত করুন / ক্যালেন্ডারে সিঙ্ক করুন</h3>
+        <h3>➕ নিজের জন্য সার্কুলার যুক্ত করুন (শুধু এই ব্রাউজারে সংরক্ষিত)</h3>
         <button class="close-modal-btn" id="closeAddModalBtn">✕</button>
       </div>
       <form id="addCircularForm" class="modal-body-form">
@@ -405,7 +402,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn-outline" id="cancelAddModalBtn">বাতিল</button>
-          <button type="submit" class="btn-primary">🔔 সার্কুলার প্রকাশ ও ক্যালেন্ডারে যুক্ত করুন</button>
+          <button type="submit" class="btn-primary">✅ ক্যালেন্ডারে যুক্ত করুন</button>
         </div>
       </form>
     </div>
