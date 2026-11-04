@@ -256,8 +256,8 @@ function renderCirculars() {
     const verifyBadge = c.custom
       ? '<span class="verify-badge custom">👤 আপনার যুক্ত করা</span>'
       : c.verified
-        ? '<span class="verify-badge ok">✔ যাচাইকৃত</span>'
-        : '<span class="verify-badge warn" title="তারিখ ও তথ্য অফিশিয়াল সার্কুলারের সাথে মিলিয়ে নিন">⚠ নমুনা তথ্য — অফিশিয়াল সাইটে যাচাই করুন</span>';
+        ? '<span class="verify-badge ok">🤖 অফিশিয়াল সার্কুলার থেকে স্বয়ংক্রিয়ভাবে সংগৃহীত</span>'
+        : '<span class="verify-badge warn" title="নতুন সার্কুলার প্রকাশিত হলে AI স্বয়ংক্রিয়ভাবে এই তথ্য আপডেট করবে">⚠ প্রাক-সার্কুলার নমুনা তথ্য — নতুন সার্কুলার এলে অটো-আপডেট হবে</span>';
 
     return `
       <article class="circular-card">

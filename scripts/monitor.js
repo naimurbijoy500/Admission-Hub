@@ -1,14 +1,19 @@
 #!/usr/bin/env node
 // =========================================================================
-// Admission Hub - Circular Monitor
-// Visits each official admission website listed in data/sources.json,
-// collects admission-related links (notices / circulars / PDFs), and
-// records anything new in data/updates.json. Optionally sends a Telegram
-// message for every new item.
-//
-// Runs on GitHub Actions on a schedule (see .github/workflows/site.yml),
-// but can also be run locally with:  node scripts/monitor.js
-// No npm dependencies required (Node 18+).
+// Admission Hub - Circular Monitor & AI Circular Extractor
+// 1. Visits each official admission website listed in data/sources.json,
+//    with curl fallback for sites with broken HTTP headers or bot filters.
+// 2. Collects admission-related links (notices / circulars / PDFs), and
+//    records anything new in data/updates.json.
+// 3. When GEMINI_API_KEY is configured, automatically downloads any new
+//    admission circular PDF or notice page, uses Gemini (gemini-3.8-flash)
+//    with Structured Outputs to extract:
+//      - Application start & deadline dates (আবেদনের শেষ তারিখ)
+//      - Admission exam date (ভর্তি পরীক্ষার তারিখ)
+//      - Minimum SSC, HSC & Total GPA (ন্যূনতম মোট জিপিএ)
+//      - Application fee & total seats (আবেদন ফি ও আসন)
+//    and automatically creates/updates the card in data/circulars.json
+//    so the website card and Bangla calendar update automatically!
 // =========================================================================
 
 const fs = require('fs');
@@ -16,6 +21,7 @@ const path = require('path');
 const http = require('http');
 const https = require('https');
 const crypto = require('crypto');
+const { execFile } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
@@ -23,12 +29,15 @@ const SOURCES_FILE = path.join(DATA, 'sources.json');
 const SEEN_FILE = path.join(DATA, 'seen.json');
 const UPDATES_FILE = path.join(DATA, 'updates.json');
 const STATUS_FILE = path.join(DATA, 'status.json');
+const CIRCULARS_FILE = path.join(DATA, 'circulars.json');
 
 const MAX_UPDATES = 300;
 const MAX_LATEST_PER_SOURCE = 8;
 const TIMEOUT_MS = 30000;
 const HARD_TIMEOUT_MS = 45000;
 const CONCURRENCY = 8;
+const MAX_AI_EXTRACTIONS_PER_RUN = 6;
+const MAX_PDF_BYTES = 12 * 1024 * 1024; // 12 MB max PDF for inline base64
 
 // Words that suggest a link is about admission / a circular / a notice.
 const KEYWORDS = [
@@ -39,11 +48,16 @@ const KEYWORDS = [
 ];
 
 // Stricter list for university homepages ("strict": true in sources.json).
-// Homepages also list exam, staff, tender and other notices, so only links
-// that clearly mention admission are reported there.
 const STRICT_KEYWORDS = [
   'admission', 'undergraduate', '1st year', 'first year', 'cluster',
   'ভর্তি', 'প্রথম বর্ষ', '১ম বর্ষ', 'গুচ্ছ', 'স্নাতক (সম্মান)'
+];
+
+// Keywords that strongly suggest a link is an actual admission circular
+// (worthy of AI structured extraction for dates, GPA, fees, seats).
+const CIRCULAR_KEYWORDS = [
+  'admission', 'circular', 'prospectus', 'undergraduate', 'apply', 'application',
+  'ভর্তি', 'বিজ্ঞপ্তি', 'সার্কুলার', 'আবেদন', 'প্রথম বর্ষ', '১ম বর্ষ', 'গুচ্ছ'
 ];
 
 // Links we never care about (navigation, social media, etc).
@@ -68,20 +82,18 @@ function sha1(text) {
   return crypto.createHash('sha1').update(text).digest('hex').slice(0, 16);
 }
 
-// Fetch a URL as text. Follows redirects. Many Bangladeshi university sites
-// have misconfigured TLS certificates, so on a certificate error we retry
-// once without certificate verification (read-only public pages only).
-function fetchText(url, { insecure = false, redirects = 5 } = {}) {
+// Fetch raw Buffer (used for both HTML pages and PDF files).
+function fetchBuffer(url, { insecure = false, redirects = 5 } = {}) {
   return new Promise((resolve, reject) => {
     const lib = url.startsWith('https:') ? https : http;
     const req = lib.get(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; AdmissionHubMonitor/1.0; +https://github.com/naimurbijoy500/Admission-Hub)',
-        'Accept': 'text/html,application/xhtml+xml',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/pdf,*/*;q=0.8',
+        'Accept-Language': 'bn,en-US;q=0.9,en;q=0.8',
         'Accept-Encoding': 'identity'
       },
       rejectUnauthorized: !insecure,
-      // Some university servers send slightly malformed HTTP headers.
       insecureHTTPParser: true,
       timeout: TIMEOUT_MS
     }, res => {
@@ -89,24 +101,31 @@ function fetchText(url, { insecure = false, redirects = 5 } = {}) {
         res.resume();
         if (redirects <= 0) return reject(new Error('Too many redirects'));
         const next = new URL(res.headers.location, url).toString();
-        return resolve(fetchText(next, { insecure, redirects: redirects - 1 }));
+        return resolve(fetchBuffer(next, { insecure, redirects: redirects - 1 }));
       }
       if (res.statusCode >= 400) {
         res.resume();
         return reject(new Error(`HTTP ${res.statusCode}`));
       }
       const chunks = [];
-      res.on('data', c => chunks.push(c));
-      res.on('end', () => resolve({ html: Buffer.concat(chunks).toString('utf8'), finalUrl: url }));
+      let total = 0;
+      res.on('data', c => {
+        total += c.length;
+        if (total <= MAX_PDF_BYTES) chunks.push(c);
+      });
+      res.on('end', () => resolve({
+        buffer: Buffer.concat(chunks),
+        contentType: (res.headers['content-type'] || '').toLowerCase(),
+        finalUrl: url
+      }));
     });
     req.on('timeout', () => req.destroy(new Error('Timed out')));
-    // Some servers trickle data forever; give up after a fixed time.
     const hardTimer = setTimeout(() => req.destroy(new Error('Timed out')), HARD_TIMEOUT_MS);
     req.on('close', () => clearTimeout(hardTimer));
     req.on('error', err => {
       const certError = /certificate|self[- ]signed|unable to verify|CERT_|SSL/i.test(err.code + ' ' + err.message);
       if (certError && !insecure) {
-        resolve(fetchText(url, { insecure: true, redirects }));
+        resolve(fetchBuffer(url, { insecure: true, redirects }));
       } else {
         reject(err);
       }
@@ -114,17 +133,44 @@ function fetchText(url, { insecure = false, redirects = 5 } = {}) {
   });
 }
 
-// Try https first; if the server doesn't speak https at all, try plain http.
+// Fallback using system curl for servers with broken HTTP headers (like buet.ac.bd)
+// or basic TLS/header fingerprinters.
+function fetchWithCurl(url) {
+  return new Promise((resolve, reject) => {
+    const curlBin = process.platform === 'win32' ? 'curl.exe' : 'curl';
+    execFile(curlBin, [
+      '-s', '-L', '-k', '--max-time', '25',
+      '-A', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+      url
+    ], { encoding: 'buffer', maxBuffer: MAX_PDF_BYTES }, (err, stdout) => {
+      if (err || !stdout || stdout.length < 50) {
+        return reject(err || new Error('Empty response from curl'));
+      }
+      resolve({ buffer: stdout, contentType: 'text/html', finalUrl: url });
+    });
+  });
+}
+
 async function fetchPage(url) {
   try {
-    return await fetchText(url);
+    const res = await fetchBuffer(url);
+    return { html: res.buffer.toString('utf8'), finalUrl: res.finalUrl };
   } catch (err) {
-    const noHttps = /ECONNREFUSED|ECONNRESET|ETIMEDOUT|EPROTO|wrong version number|Timed out/i.test(err.code + ' ' + err.message);
-    if (url.startsWith('https://') && noHttps) {
+    const retryable = /ECONNREFUSED|ECONNRESET|ETIMEDOUT|EPROTO|wrong version number|Timed out|Parse Error|HTTP 403/i.test(err.code + ' ' + err.message);
+    if (retryable) {
       try {
-        return await fetchText('http://' + url.slice('https://'.length));
+        const res = await fetchWithCurl(url);
+        return { html: res.buffer.toString('utf8'), finalUrl: res.finalUrl };
       } catch {
-        // fall through to the original error
+        // Also try plain http if https failed
+        if (url.startsWith('https://')) {
+          try {
+            const res = await fetchBuffer('http://' + url.slice('https://'.length));
+            return { html: res.buffer.toString('utf8'), finalUrl: res.finalUrl };
+          } catch {
+            // fall through
+          }
+        }
       }
     }
     throw err;
@@ -144,12 +190,16 @@ function decodeEntities(str) {
 }
 
 function cleanText(html) {
-  return decodeEntities(html.replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
+  return decodeEntities(
+    html
+      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<[^>]*>/g, ' ')
+  ).replace(/\s+/g, ' ').trim();
 }
 
 // Extract admission-related links from a page.
 function extractLinks(html, baseUrl, strict = false) {
-  // Drop scripts/styles so their contents are not mistaken for links.
   const body = html
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ');
@@ -171,7 +221,6 @@ function extractLinks(html, baseUrl, strict = false) {
     }
 
     if (!title) {
-      // Use the title attribute or file name when the link has no text.
       const titleAttr = /title\s*=\s*(["'])(.*?)\1/i.exec(m[0]);
       title = titleAttr ? cleanText(titleAttr[2]) : decodeURIComponent(href.split('/').pop() || '');
     }
@@ -187,6 +236,203 @@ function extractLinks(html, baseUrl, strict = false) {
     if (!found.has(href)) found.set(href, { title, url: href, pdf: isPdf });
   }
   return [...found.values()];
+}
+
+// =========================================================================
+// Gemini AI Circular Reader (Structured Output via Interactions API)
+// Reads a newly discovered PDF or HTML notice and extracts exact dates,
+// GPA requirements, application fee, and seats into data/circulars.json.
+// =========================================================================
+const CIRCULAR_EXTRACTION_SCHEMA = {
+  type: 'object',
+  properties: {
+    isAdmissionCircular: {
+      type: 'boolean',
+      description: 'True ONLY if this document/notice contains undergraduate admission circular details (application dates, exam date, or GPA requirements). False for routine notices, tenders, seat plans, or unrelated news.'
+    },
+    banglaUniversityName: {
+      type: 'string',
+      description: 'University name in Bangla, e.g. ঢাকা বিশ্ববিদ্যালয় (ঢাবি)'
+    },
+    category: {
+      type: 'string',
+      enum: ['general', 'engineering', 'medical', 'cluster', 'science_tech', 'specialized']
+    },
+    units: {
+      type: 'string',
+      description: 'Units or faculties covered in Bangla, e.g. A, B, C ইউনিট'
+    },
+    applyStart: {
+      type: 'string',
+      description: 'Application start date in YYYY-MM-DD format (convert Bangla digits if needed). Empty string if not mentioned.'
+    },
+    applyDeadline: {
+      type: 'string',
+      description: 'Application deadline date in YYYY-MM-DD format (আবেদনের শেষ তারিখ). Empty string if not mentioned.'
+    },
+    examDate: {
+      type: 'string',
+      description: 'Admission exam date in YYYY-MM-DD format (ভর্তি পরীক্ষার তারিখ). If multiple unit dates exist, use the earliest date. Empty string if not mentioned.'
+    },
+    minSscGpa: {
+      type: 'number',
+      description: 'Minimum required SSC GPA (e.g. 3.5 or 4.0). Use 0 if not mentioned.'
+    },
+    minHscGpa: {
+      type: 'number',
+      description: 'Minimum required HSC GPA (e.g. 3.5 or 4.0). Use 0 if not mentioned.'
+    },
+    minTotalGpa: {
+      type: 'number',
+      description: 'Minimum total GPA (SSC + HSC combined, e.g. 8.00). Use 0 if not mentioned.'
+    },
+    allowedGroups: {
+      type: 'array',
+      items: { type: 'string', enum: ['science', 'arts', 'commerce'] },
+      description: 'Eligible HSC groups: science, arts, commerce'
+    },
+    fee: {
+      type: 'string',
+      description: 'Application fee in Bangla, e.g. ১,০০০ টাকা'
+    },
+    seats: {
+      type: 'string',
+      description: 'Total seats in Bangla if mentioned, e.g. ৪,৫০০ টি, or বিধি মোতাবেক'
+    },
+    summary: {
+      type: 'string',
+      description: 'Short 1-2 sentence summary in Bangla of the circular, including dates and key requirements.'
+    }
+  },
+  required: [
+    'isAdmissionCircular', 'banglaUniversityName', 'category', 'units',
+    'applyStart', 'applyDeadline', 'examDate', 'minSscGpa', 'minHscGpa',
+    'minTotalGpa', 'allowedGroups', 'fee', 'seats', 'summary'
+  ]
+};
+
+async function extractCircularWithGemini(item) {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) return null;
+
+  try {
+    console.log(`  🤖 [AI] Analyzing circular from ${item.code}: ${item.title}`);
+    const fetched = await fetchBuffer(item.url).catch(() => fetchWithCurl(item.url));
+    const isPdf = item.pdf || fetched.contentType.includes('application/pdf') || fetched.buffer.slice(0, 4).toString() === '%PDF';
+
+    const promptText =
+      `You are an expert assistant for Bangladesh public university admissions.\n` +
+      `University Code: ${item.code}\n` +
+      `University Name: ${item.name}\n` +
+      `Notice Title: ${item.title}\n` +
+      `Source URL: ${item.url}\n\n` +
+      `Read the attached admission circular / notice carefully. Extract the exact application start date, application deadline (আবেদনের শেষ তারিখ), admission test date (ভর্তি পরীক্ষার তারিখ), minimum GPA (ন্যূনতম মোট জিপিএ), application fee (আবেদন ফি), and total seats (আসন) into the requested JSON schema. Convert any Bangla numbers in dates to standard YYYY-MM-DD format, and keep display strings (fee, seats, units, summary, banglaUniversityName) in Bangla.`;
+
+    const contentParts = [{ type: 'text', text: promptText }];
+    if (isPdf) {
+      contentParts.push({
+        type: 'document',
+        mime_type: 'application/pdf',
+        data: fetched.buffer.toString('base64')
+      });
+    } else {
+      const pageText = cleanText(fetched.buffer.toString('utf8')).slice(0, 35000);
+      contentParts.push({
+        type: 'text',
+        text: `Page Content:\n${pageText}`
+      });
+    }
+
+    const res = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-goog-api-key': apiKey,
+        'Api-Revision': '2026-05-20'
+      },
+      body: JSON.stringify({
+        model: 'gemini-3.8-flash',
+        input: [{ role: 'user', content: contentParts }],
+        response_format: {
+          type: 'text',
+          mime_type: 'application/json',
+          schema: CIRCULAR_EXTRACTION_SCHEMA
+        }
+      })
+    });
+
+    if (!res.ok) {
+      console.warn(`  🤖 [AI] Gemini API HTTP ${res.status}: ${await res.text()}`);
+      return null;
+    }
+
+    const data = await res.json();
+    let jsonText = data.output_text;
+    if (!jsonText && Array.isArray(data.steps)) {
+      for (let i = data.steps.length - 1; i >= 0; i--) {
+        const step = data.steps[i];
+        if (step.type === 'model_output' && Array.isArray(step.content)) {
+          const textPart = step.content.find(p => p.type === 'text' && p.text);
+          if (textPart) { jsonText = textPart.text; break; }
+        }
+      }
+    }
+    if (!jsonText) return null;
+
+    const extracted = JSON.parse(jsonText);
+    if (!extracted.isAdmissionCircular) {
+      console.log(`  🤖 [AI] Notice is not a main admission circular (skipped card update).`);
+      return null;
+    }
+    if (!extracted.applyDeadline && !extracted.examDate) {
+      console.log(`  🤖 [AI] No deadline or exam date found in notice (skipped card update).`);
+      return null;
+    }
+
+    console.log(`  ✅ [AI] Extracted circular for ${item.code}: Deadline=${extracted.applyDeadline}, Exam=${extracted.examDate}, GPA=${extracted.minTotalGpa}`);
+    return extracted;
+  } catch (err) {
+    console.warn(`  🤖 [AI] Extraction failed for ${item.url}:`, err.message);
+    return null;
+  }
+}
+
+function upsertCircularCard(circulars, item, aiData) {
+  const existingIdx = circulars.findIndex(c => c.code.toUpperCase() === item.code.toUpperCase());
+  const existing = existingIdx >= 0 ? circulars[existingIdx] : {};
+
+  const validDate = d => /^\d{4}-\d{2}-\d{2}$/.test(d || '') ? d : '';
+
+  const updated = {
+    id: existing.id || `${item.code.toLowerCase()}-${new Date().getFullYear()}`,
+    code: item.code.toUpperCase(),
+    name: aiData.banglaUniversityName || existing.name || item.name,
+    englishName: existing.englishName || item.name,
+    category: aiData.category || existing.category || 'general',
+    units: aiData.units || existing.units || 'বিজ্ঞপ্তি দেখুন',
+    applyStart: validDate(aiData.applyStart) || existing.applyStart || new Date().toISOString().slice(0, 10),
+    applyDeadline: validDate(aiData.applyDeadline) || existing.applyDeadline || '',
+    examDate: validDate(aiData.examDate) || existing.examDate || '',
+    minSscGpa: aiData.minSscGpa > 0 ? aiData.minSscGpa : (existing.minSscGpa || 3.5),
+    minHscGpa: aiData.minHscGpa > 0 ? aiData.minHscGpa : (existing.minHscGpa || 3.5),
+    minTotalGpa: aiData.minTotalGpa > 0 ? aiData.minTotalGpa : (existing.minTotalGpa || 7.5),
+    allowedGroups: Array.isArray(aiData.allowedGroups) && aiData.allowedGroups.length
+      ? aiData.allowedGroups
+      : (existing.allowedGroups || ['science', 'arts', 'commerce']),
+    fee: aiData.fee || existing.fee || 'বিজ্ঞপ্তি দেখুন',
+    seats: aiData.seats || existing.seats || 'বিজ্ঞপ্তি দেখুন',
+    website: item.url || existing.website,
+    summary: aiData.summary || item.title,
+    verified: true,
+    updatedAt: new Date().toISOString()
+  };
+
+  if (existingIdx >= 0) {
+    circulars[existingIdx] = updated;
+  } else {
+    circulars.unshift(updated);
+  }
+  return updated;
 }
 
 async function sendTelegram(text) {
@@ -212,6 +458,7 @@ async function main() {
   const seen = readJson(SEEN_FILE, {});
   const updates = readJson(UPDATES_FILE, []);
   const status = readJson(STATUS_FILE, { sources: {} });
+  const circulars = readJson(CIRCULARS_FILE, []);
   const now = new Date().toISOString();
   const newItemsBySource = new Array(sources.length);
 
@@ -229,8 +476,6 @@ async function main() {
         const id = sha1(src.id + '|' + link.url + '|' + link.title);
         if (seenSet.has(id)) continue;
         seenSet.add(id);
-        // On the very first run we only record a baseline (no alerts),
-        // otherwise every existing notice would be reported as "new".
         if (!isFirstRun) {
           fresh.push({
             id,
@@ -269,7 +514,6 @@ async function main() {
     console.log(`${src.code.padEnd(9)} ${src.url}  ->  ${line}`);
   }
 
-  // Check several sites at the same time.
   let next = 0;
   const workers = Array.from({ length: Math.min(CONCURRENCY, sources.length) }, async () => {
     while (next < sources.length) {
@@ -279,6 +523,31 @@ async function main() {
   });
   await Promise.all(workers);
   const newItems = newItemsBySource.flat();
+
+  // If GEMINI_API_KEY is available, automatically parse new circular candidates
+  // and update data/circulars.json (which powers the cards & calendar).
+  let aiUpdatedCount = 0;
+  if (process.env.GEMINI_API_KEY && newItems.length > 0) {
+    const candidates = newItems.filter(item => {
+      const hay = (item.title + ' ' + item.url).toLowerCase();
+      return item.pdf || CIRCULAR_KEYWORDS.some(k => hay.includes(k));
+    }).slice(0, MAX_AI_EXTRACTIONS_PER_RUN);
+
+    for (const candidate of candidates) {
+      const aiData = await extractCircularWithGemini(candidate);
+      if (aiData) {
+        upsertCircularCard(circulars, candidate, aiData);
+        candidate.aiExtracted = true;
+        candidate.applyDeadline = aiData.applyDeadline;
+        candidate.examDate = aiData.examDate;
+        aiUpdatedCount++;
+      }
+    }
+    if (aiUpdatedCount > 0) {
+      writeJson(CIRCULARS_FILE, circulars);
+      console.log(`\n🎉 [AI] Automatically updated ${aiUpdatedCount} circular card(s) in data/circulars.json!`);
+    }
+  }
 
   // Remove status entries for sources that were deleted from sources.json.
   const ids = new Set(sources.map(s => s.id));
@@ -293,18 +562,18 @@ async function main() {
   writeJson(UPDATES_FILE, allUpdates);
   writeJson(STATUS_FILE, status);
 
-  console.log(`\nDone. ${newItems.length} new item(s).`);
+  console.log(`\nDone. ${newItems.length} new item(s), ${aiUpdatedCount} circular card(s) auto-updated.`);
 
   // Telegram alerts (only if secrets are configured).
   const siteUrl = process.env.SITE_URL || '';
   for (const item of newItems.slice(0, 20)) {
+    const extra = item.aiExtracted
+      ? `\n📅 আবেদনের শেষ তারিখ: ${item.applyDeadline || '—'}\n🎯 ভর্তি পরীক্ষা: ${item.examDate || '—'}\n✅ ওয়েবসাইটের কার্ড ও ক্যালেন্ডারে স্বয়ংক্রিয়ভাবে যুক্ত হয়েছে!`
+      : '';
     await sendTelegram(
-      `🎓 নতুন আপডেট: ${item.name} (${item.code})\n\n${item.title}\n\n🔗 ${item.url}` +
+      `🎓 নতুন আপডেট: ${item.name} (${item.code})\n\n${item.title}${extra}\n\n🔗 ${item.url}` +
       (siteUrl ? `\n\n🌐 ${siteUrl}` : '')
     );
-  }
-  if (newItems.length > 20) {
-    await sendTelegram(`➕ আরও ${newItems.length - 20}টি নতুন আপডেট পাওয়া গেছে।${siteUrl ? '\n' + siteUrl : ''}`);
   }
 }
 

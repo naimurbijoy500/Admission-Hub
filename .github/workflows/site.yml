@@ -4,9 +4,9 @@ on:
   # Deploy whenever you push changes.
   push:
     branches: ["main"]
-  # Check university websites every 3 hours (GitHub may delay scheduled runs a little).
+  # Check university websites every hour (GitHub may delay scheduled runs a little).
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "17 * * * *"
   # Allow running manually from the "Actions" tab.
   workflow_dispatch:
 
@@ -35,6 +35,7 @@ jobs:
 
       - name: Check official admission websites
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
