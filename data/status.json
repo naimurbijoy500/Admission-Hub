@@ -2,8 +2,8 @@
   "sources": {
     "gst-admission": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -11,10 +11,10 @@
     },
     "ru-admission": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
-      "linkCount": 7,
+      "linkCount": 9,
       "latest": [
         {
           "title": "University of Rajshahi",
@@ -50,14 +50,19 @@
           "title": "Complaint",
           "url": "https://admission.ru.ac.bd/student/complaint-box/create",
           "pdf": false
+        },
+        {
+          "title": "Login",
+          "url": "https://admission.ru.ac.bd/student/login",
+          "pdf": false
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "bup-admission": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 29,
       "latest": [
@@ -106,8 +111,8 @@
     },
     "cu-admission": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -115,8 +120,8 @@
     },
     "du-admission": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -124,10 +129,10 @@
     },
     "du": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
-      "linkCount": 10,
+      "linkCount": 12,
       "latest": [
         {
           "title": "Undergraduate Programs",
@@ -155,37 +160,37 @@
           "pdf": false
         },
         {
-          "title": "04 Nov Master of Science in Software Engineering (MSSE) Admission Notice (2026-2027) 04 Nov, 2026",
-          "url": "https://www.du.ac.bd/du_post_details/notice/29067",
+          "title": "আগামী ১১ নভেম্বর থেকে ঢাবি আন্ডারগ্র্যাজুয়েট প্রোগ্রামে ভর্তির আবেদন শুরু",
+          "url": "https://www.du.ac.bd/du_post_details/news/29096",
           "pdf": false
         },
         {
-          "title": "04 Nov POST GRADUATE DIPLOPMA IN INFORMATION TECHNOLOGY (PGDIT) ADMISSION NOTICE: SPRING 2026-27 04 Nov, 2026",
-          "url": "https://www.du.ac.bd/du_post_details/notice/29066",
+          "title": "05 Nov এমফিল. পিএইচডি ও ডিবিএ প্রোগ্রামে ভর্তিচ্ছু প্রার্থীদের বিজ্ঞপ্তি 05 Nov, 2026",
+          "url": "https://www.du.ac.bd/du_post_details/notice/29089",
           "pdf": false
         },
         {
-          "title": "04 Nov Executive Master in Information Technology (MIT) Admission Notice (Spring 2026-2027) 04 Nov, 2026",
-          "url": "https://www.du.ac.bd/du_post_details/notice/29065",
+          "title": "05 Nov ২০২৫-২০২৬ শিক্ষাবর্ষে এম.এস শ্রেণীর ভর্তি বিজ্ঞপ্তি 05 Nov, 2026",
+          "url": "https://www.du.ac.bd/du_post_details/notice/29088",
           "pdf": false
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "buet": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
       "lastNewAt": null
     },
     "ru": {
-      "ok": false,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-04T22:37:10.926Z",
-      "error": "Timed out",
+      "ok": true,
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "error": null,
       "linkCount": 3,
       "latest": [
         {
@@ -208,8 +213,8 @@
     },
     "ju-admission": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -217,8 +222,8 @@
     },
     "iu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -247,18 +252,18 @@
     },
     "sust": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
       "lastNewAt": null
     },
     "bau": {
-      "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
+      "ok": false,
+      "lastChecked": "2026-11-05T12:16:17.430Z",
       "lastSuccess": "2026-11-05T03:28:22.114Z",
-      "error": null,
+      "error": "HTTP 403",
       "linkCount": 6,
       "latest": [
         {
@@ -296,8 +301,8 @@
     },
     "nu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 635,
       "latest": [
@@ -346,10 +351,10 @@
     },
     "bou": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
-      "linkCount": 9,
+      "linkCount": 10,
       "latest": [
         {
           "title": "Online Admission",
@@ -362,9 +367,19 @@
           "pdf": false
         },
         {
+          "title": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়ের প্রতিষ্ঠাবার্ষিকী উপলক্ষে উপাচার্য মহোদয়ের শুভেচ্ছা বাণী || /a--> Time extension for admission of Professional MBA Program, Spring - 2026",
+          "url": "https://youtu.be/JEywajpvBj8?si=7g-oNiEzYSeJ78rG",
+          "pdf": false
+        },
+        {
           "title": "Online Admission Apply for admission online",
           "url": "https://bou.ac.bd/BOU/Admission",
           "pdf": false
+        },
+        {
+          "title": "Time extension for admission of Professional MBA Program, Spring - 2026 2026-11-05",
+          "url": "https://www.bou.ac.bd/upload/notice/admission/1881003552256545.pdf",
+          "pdf": true
         },
         {
           "title": "Extended Admission Time of B.Sc. in CSE Program: Session 2025 -2026 2026-11-03",
@@ -380,24 +395,14 @@
           "title": "Selected Applicant List for Admission of SSC (Niche-2) Program 2027 Batch (Session: 2027-2028) 2026-10-15",
           "url": "https://www.bou.ac.bd/upload/notice/admission/1879108953684254.pdf",
           "pdf": true
-        },
-        {
-          "title": "বিএমএড প্রোগ্রামে (শিক্ষাবর্ষ ২০২৭) ভর্তির নিমিত্তে মৌখিক পরীক্ষার জন্য নির্বাচিত প্রার্থীদের তালিকা 2026-10-14",
-          "url": "https://www.bou.ac.bd/upload/notice/admission/1878999252559070.pdf",
-          "pdf": true
-        },
-        {
-          "title": "Selected Applicant List for Written Admission Test of BFSN Program - 2026 2026-10-08",
-          "url": "https://www.bou.ac.bd/upload/notice/admission/1878460561302902.pdf",
-          "pdf": true
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "ku": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -405,8 +410,8 @@
     },
     "bsmmu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -414,8 +419,8 @@
     },
     "cu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -464,8 +469,8 @@
     },
     "mbstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -473,8 +478,8 @@
     },
     "hstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 13,
       "latest": [
@@ -523,16 +528,11 @@
     },
     "pstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
-      "linkCount": 7,
+      "linkCount": 6,
       "latest": [
-        {
-          "title": "Important Office Order About Postgraduate Admission",
-          "url": "https://www.pstu.ac.bd/notices/important-office-order-about-postgraduate-admission",
-          "pdf": false
-        },
         {
           "title": "Undergraduate Studies",
           "url": "https://www.pstu.ac.bd/faculties",
@@ -568,8 +568,8 @@
     },
     "ju": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -618,8 +618,8 @@
     },
     "sau-dhaka": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -633,8 +633,8 @@
     },
     "kuet": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -683,13 +683,13 @@
     },
     "agri-admission": {
       "ok": false,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
       "error": "HTTP 503"
     },
     "bsmrau": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -738,8 +738,8 @@
     },
     "ruet": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -788,8 +788,8 @@
     },
     "jnu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -809,17 +809,17 @@
           "pdf": false
         },
         {
-          "title": "Master of Social Science (Professional) in Governance and Policy Studies ভর্তির বিজ্ঞাপন ও ভর্তি ফরম সংক্রান্ত বিজ্ঞপ্তি",
-          "url": "https://jnu.ac.bd/assets/notice/109ac6e29327fcfd813e19749c7575d7.pdf",
+          "title": "Admission Announcement of M.Sc. in CSE (Professional) Program, Spring-2027",
+          "url": "https://jnu.ac.bd/assets/notice/4061e9ff8f9f0b6e6bc1d06616c107c3.pdf",
           "pdf": true
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "duet": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -868,8 +868,8 @@
     },
     "jkkniu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -918,13 +918,13 @@
     },
     "ckruet-admission": {
       "ok": false,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
       "error": "getaddrinfo EAI_AGAIN admissionckruet.ac.bd"
     },
     "cvasu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -963,8 +963,8 @@
     },
     "sau-sylhet": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -993,8 +993,8 @@
     },
     "just": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1013,8 +1013,8 @@
     },
     "cuet": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -1048,10 +1048,10 @@
     },
     "cou": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
-      "linkCount": 53,
+      "linkCount": 55,
       "latest": [
         {
           "title": "Admission",
@@ -1066,6 +1066,11 @@
         {
           "title": "ADMISSION ANNOUNCEMENT EMICT (WEEKEND PROGRAM)",
           "url": "https://www.cou.ac.bd/news-events-notices/565",
+          "pdf": false
+        },
+        {
+          "title": "05/Nov/2026 17th National Undergraduate Mathematics Olympiad 2026",
+          "url": "https://www.cou.ac.bd/news-events-notices/681",
           "pdf": false
         },
         {
@@ -1087,19 +1092,14 @@
           "title": "30/Aug/2026 ভর্তি বিজ্ঞপ্তি সংশোধিত - MA in (Taught/Mixed Mode) English Program. Department of English, Comilla University, Bangladesh.",
           "url": "https://www.cou.ac.bd/news-events-notices/639",
           "pdf": false
-        },
-        {
-          "title": "25/Aug/2026 ভর্তি বিজ্ঞপ্তি - M.Sc. (Engg.) in Information and Communication Technology (ICT)Program",
-          "url": "https://www.cou.ac.bd/news-events-notices/636",
-          "pdf": false
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "pust": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 14,
       "latest": [
@@ -1148,8 +1148,8 @@
     },
     "bup": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 13,
       "latest": [
@@ -1194,12 +1194,12 @@
           "pdf": false
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "nstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1213,8 +1213,8 @@
     },
     "rmstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1222,8 +1222,8 @@
     },
     "brur": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 7,
       "latest": [
@@ -1267,8 +1267,8 @@
     },
     "bu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 7,
       "latest": [
@@ -1288,6 +1288,11 @@
           "pdf": false
         },
         {
+          "title": "বরিশাল বিশ্ববিদ্যালয়ের ব্যবসায় শিক্ষা অনুষদের ফিন্যান্স এন্ড ব্যাংকিং বিভাগ থেকে স্নাতক (সম্মান) ডিগ্রি সম্পন্নকারী শিক্ষার্থীদের ২০২৪-২৫ শিক্ষাবর্ষের স্নাতকোত্তর (এমবিএ) শ্রেণিতে ভর্তি নোটিশ",
+          "url": "https://www.bu.ac.bd/notice/20261104-1793866324-6aec3a5443de9",
+          "pdf": false
+        },
+        {
           "title": "বরিশাল বিশ্ববিদ্যালয়ের সামাজিক বিজ্ঞান অনুষদের লোক প্রশাসন বিভাগের শিক্ষার্থীদের জন্য ২০২৪-২৫ শিক্ষাবর্ষে এমএসএস শ্রেণিতে ভর্তি নোটিশ",
           "url": "https://www.bu.ac.bd/notice/20261015-1792924352-6adddac09b526",
           "pdf": false
@@ -1301,19 +1306,14 @@
           "title": "বরিশাল বিশ্ববিদ্যালয়ের জীববিজ্ঞান অনুষদের মৃত্তিকা ও পরিবেশ বিজ্ঞান বিভাগের শিক্ষার্থীদের ২০২৪-২৫ শিক্ষাবর্ষে এমএস শ্রেণিতে ভর্তি নোটিশ",
           "url": "https://www.bu.ac.bd/notice/20260901-1788341309-6a97ec3da6a28",
           "pdf": false
-        },
-        {
-          "title": "কোস্টাল স্টাডিজ এন্ড ডিজাস্টার ম্যানেজমেন্ট বিভাগের শিক্ষার্থীদের জন্য ২০২৩-২৪ শিক্ষাবর্ষে এমএস শ্রেণিতে ভর্তি নোটিশ",
-          "url": "https://www.bu.ac.bd/notice/20260827-1787825708-6a900e2cb15a9",
-          "pdf": false
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "bsmrmu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -1362,8 +1362,8 @@
     },
     "dgme-admission": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1392,8 +1392,8 @@
     },
     "cmu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1407,8 +1407,8 @@
     },
     "rub": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 49,
       "latest": [
@@ -1457,8 +1457,8 @@
     },
     "bdu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1487,8 +1487,8 @@
     },
     "kau": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 19,
       "latest": [
@@ -1537,8 +1537,8 @@
     },
     "bsfmstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1557,8 +1557,8 @@
     },
     "bsmraau": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1566,8 +1566,8 @@
     },
     "shu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1575,13 +1575,13 @@
     },
     "bsmrstup": {
       "ok": false,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
       "error": "getaddrinfo ENOTFOUND www.bsmrstup.ac.bd"
     },
     "rmu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -1630,8 +1630,8 @@
     },
     "hau": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 16,
       "latest": [
@@ -1646,11 +1646,6 @@
           "pdf": false
         },
         {
-          "title": "২৬-০৪-২০২৬ তারিখ হতে ২৯-০৪-২০২৬ তারিখ পর্যন্ত হবিগঞ্জ কৃষি বিশ্ববিদ্যালয়ের জন্য নির্বাচিত প্রার্থীদের(কৃষিগুচ্ছ ভর্তি পরীক্ষা, ২০২৫-২০২৬ শিক্ষাবর্ষ) বিভিন্ন অনুষদে স্নাতক (লেভেল -১,সেমিস্টার ১) শ্রেণীতে ভর্তির নিমিত্ত প্রকাশিত ভর্তি বিজ্ঞপ্তি।",
-          "url": "https://hau.ac.bd/notice/20260420033022-26-04-2026-tarikh-hte-29-04-2026-tarikh-prznt-hbignj-krrishi-biswbidzalyer-jnz-nirwacit-prartheederkrrishigucch-vrti-preeksha-2025-2026-sikshabrsh-bivinn-onushde-snatk-level-1semistar-1-sreneete-vrtir-nimitt-prkasit-vrti-bijngpti/show",
-          "pdf": false
-        },
-        {
           "title": "হবিগঞ্জ কৃষি বিশ্ববিদ্যালয়ে কৃষিগুচ্ছ ভর্তি পরীক্ষা ২০২৫-২০২৬ শিক্ষাবর্ষে নির্বাচিত প্রার্থীদের ভর্তি বিজ্ঞপ্তি |",
           "url": "https://hau.ac.bd/notice/20260608113844-10-06-2026-tarikh-hte-11-06-2026-tarikh-prznt-hbignj-krrishi-biswbidzalyer-jnz-nirwacit-prartheederkrrishigucch-vrti-preeksha-2025-2026-sikshabrsh-bivinn-onushde-snatk-level-1semistar-1-sreneete-vrtir-nimitt-prkasit-vrti-bijngpti/show",
           "pdf": false
@@ -1658,6 +1653,11 @@
         {
           "title": "০৫-০৭-২০২৬ তারিখ হতে ০৬-০৭-২০২৬ তারিখ পর্যন্ত হবিগঞ্জ কৃষি বিশ্ববিদ্যালয়ের জন্য নির্বাচিত প্রার্থীদের(কৃষিগুচ্ছ ভর্তি পরীক্ষা, ২০২৫-২০২৬ শিক্ষাবর্ষ) বিভিন্ন অনুষদে স্নাতক (লেভেল -১,সেমিস্টার ১) শ্রেণীতে ভর্তির নিমিত্ত প্রকাশিত ভর্তি বিজ্ঞপ্তি |",
           "url": "https://hau.ac.bd/notice/20260630054415-05-07-2026-tarikh-hte-06-07-2026-tarikh-prznt-hbignj-krrishi-biswbidzalyer-jnz-nirwacit-prartheederkrrishigucch-vrti-preeksha-2025-2026-sikshabrsh-bivinn-onushde-snatk-level-1semistar-1-sreneete-vrtir-nimitt-prkasit-vrti-bijngpti/show",
+          "pdf": false
+        },
+        {
+          "title": "২৬-০৪-২০২৬ তারিখ হতে ২৯-০৪-২০২৬ তারিখ পর্যন্ত হবিগঞ্জ কৃষি বিশ্ববিদ্যালয়ের জন্য নির্বাচিত প্রার্থীদের(কৃষিগুচ্ছ ভর্তি পরীক্ষা, ২০২৫-২০২৬ শিক্ষাবর্ষ) বিভিন্ন অনুষদে স্নাতক (লেভেল -১,সেমিস্টার ১) শ্রেণীতে ভর্তির নিমিত্ত প্রকাশিত ভর্তি বিজ্ঞপ্তি।",
+          "url": "https://hau.ac.bd/notice/20260420033022-26-04-2026-tarikh-hte-29-04-2026-tarikh-prznt-hbignj-krrishi-biswbidzalyer-jnz-nirwacit-prartheederkrrishigucch-vrti-preeksha-2025-2026-sikshabrsh-bivinn-onushde-snatk-level-1semistar-1-sreneete-vrtir-nimitt-prkasit-vrti-bijngpti/show",
           "pdf": false
         },
         {
@@ -1680,8 +1680,8 @@
     },
     "smu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1695,10 +1695,10 @@
     },
     "butex": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
-      "linkCount": 5,
+      "linkCount": 4,
       "latest": [
         {
           "title": "Undergraduate Programs",
@@ -1719,19 +1719,14 @@
           "title": "Postgraduate Admission",
           "url": "http://admission.butex.edu.bd/",
           "pdf": false
-        },
-        {
-          "title": "Admission Notice of MSc in Textile Engineering",
-          "url": "https://www.butex.edu.bd/admission-notice-of-msc-in-textile-engineering/",
-          "pdf": false
         }
       ],
       "lastNewAt": null
     },
     "iau": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -1765,18 +1760,18 @@
     },
     "bsmru": {
       "ok": false,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
       "error": "getaddrinfo EAI_AGAIN bsmru.ac.bd"
     },
     "buet-admission": {
       "ok": false,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
       "error": "Timed out"
     },
     "gstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 15,
       "latest": [
@@ -1825,8 +1820,8 @@
     },
     "cstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1845,8 +1840,8 @@
     },
     "sstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1854,8 +1849,8 @@
     },
     "kuriau": {
       "ok": true,
-      "lastChecked": "2026-11-05T03:28:22.114Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
+      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastSuccess": "2026-11-05T12:16:17.430Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1868,5 +1863,5 @@
       "lastNewAt": null
     }
   },
-  "lastRun": "2026-11-05T03:28:22.114Z"
+  "lastRun": "2026-11-05T12:16:17.430Z"
 }

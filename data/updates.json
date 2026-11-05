@@ -1,5 +1,145 @@
 [
   {
+    "id": "c6e1ba01339fd5f7",
+    "source": "ru-admission",
+    "code": "RU",
+    "name": "University of Rajshahi — Admission Portal",
+    "title": "Login",
+    "url": "https://admission.ru.ac.bd/student/login",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "0b489798b03e6853",
+    "source": "ru-admission",
+    "code": "RU",
+    "name": "University of Rajshahi — Admission Portal",
+    "title": "Registration",
+    "url": "https://admission.ru.ac.bd/student/registration",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "ca88fd63610faee0",
+    "source": "du",
+    "code": "DU",
+    "name": "University of Dhaka",
+    "title": "আগামী ১১ নভেম্বর থেকে ঢাবি আন্ডারগ্র্যাজুয়েট প্রোগ্রামে ভর্তির আবেদন শুরু",
+    "url": "https://www.du.ac.bd/du_post_details/news/29096",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "85dbb569cb41770c",
+    "source": "du",
+    "code": "DU",
+    "name": "University of Dhaka",
+    "title": "05 Nov এমফিল. পিএইচডি ও ডিবিএ প্রোগ্রামে ভর্তিচ্ছু প্রার্থীদের বিজ্ঞপ্তি 05 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29089",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "92ce0b2d0dcac7e8",
+    "source": "du",
+    "code": "DU",
+    "name": "University of Dhaka",
+    "title": "05 Nov ২০২৫-২০২৬ শিক্ষাবর্ষে এম.এস শ্রেণীর ভর্তি বিজ্ঞপ্তি 05 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29088",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "10b988edb4dbc6fc",
+    "source": "du",
+    "code": "DU",
+    "name": "University of Dhaka",
+    "title": "05 Nov শক্তি ইনস্টিটিউটের ২০২৫-২০২৬ শিক্ষাবর্ষের MS in Renewable Energy Technology (MRET) কোর্সের ভর্তি পরিক্ষা স্থগিত 05 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29086",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "b025ce695b1a3114",
+    "source": "bou",
+    "code": "BOU",
+    "name": "Bangladesh Open University",
+    "title": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়ের প্রতিষ্ঠাবার্ষিকী উপলক্ষে উপাচার্য মহোদয়ের শুভেচ্ছা বাণী || /a--> Time extension for admission of Professional MBA Program, Spring - 2026",
+    "url": "https://youtu.be/JEywajpvBj8?si=7g-oNiEzYSeJ78rG",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "103b245d3777cc7e",
+    "source": "bou",
+    "code": "BOU",
+    "name": "Bangladesh Open University",
+    "title": "Time extension for admission of Professional MBA Program, Spring - 2026 2026-11-05",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881003552256545.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "b98e9f60b7bf02e1",
+    "source": "jnu",
+    "code": "JnU",
+    "name": "Jagannath University",
+    "title": "Admission Announcement of M.Sc. in CSE (Professional) Program, Spring-2027",
+    "url": "https://jnu.ac.bd/assets/notice/4061e9ff8f9f0b6e6bc1d06616c107c3.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "65c5861889900d18",
+    "source": "cou",
+    "code": "CoU",
+    "name": "Comilla University",
+    "title": "05/Nov/2026 17th National Undergraduate Mathematics Olympiad 2026",
+    "url": "https://www.cou.ac.bd/news-events-notices/681",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "2c6c9c3fd68182cc",
+    "source": "cou",
+    "code": "CoU",
+    "name": "Comilla University",
+    "title": "17th National Undergraduate Mathematics Olympiad 2026",
+    "url": "https://cou.ac.bd/news-events-notices/681",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "debd8178156b4461",
+    "source": "bup",
+    "code": "BUP",
+    "name": "Bangladesh University of Professionals",
+    "title": "Nov 05, 2026 Extended Deadline : Admission Circular of Masters in Information Systems Security (MISS-Professional...",
+    "url": "https://www.bup.edu.bd/public/upload/news/20261105_1793855626.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "bc7fa1d6c83a74a4",
+    "source": "bup",
+    "code": "BUP",
+    "name": "Bangladesh University of Professionals",
+    "title": "Nov 05, 2026 Extended Deadline : Admission Circular of Masters in Information & Communication Technology (MICT-Pr...",
+    "url": "https://www.bup.edu.bd/public/upload/news/20261105_1793855305.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
+    "id": "a56eabf641d49723",
+    "source": "bu",
+    "code": "BU",
+    "name": "University of Barishal",
+    "title": "বরিশাল বিশ্ববিদ্যালয়ের ব্যবসায় শিক্ষা অনুষদের ফিন্যান্স এন্ড ব্যাংকিং বিভাগ থেকে স্নাতক (সম্মান) ডিগ্রি সম্পন্নকারী শিক্ষার্থীদের ২০২৪-২৫ শিক্ষাবর্ষের স্নাতকোত্তর (এমবিএ) শ্রেণিতে ভর্তি নোটিশ",
+    "url": "https://www.bu.ac.bd/notice/20261104-1793866324-6aec3a5443de9",
+    "pdf": false,
+    "detectedAt": "2026-11-05T12:16:17.430Z"
+  },
+  {
     "id": "2a54481c2c581dfb",
     "source": "ku",
     "code": "KU",
