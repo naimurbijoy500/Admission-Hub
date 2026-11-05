@@ -468,7 +468,23 @@ async function main() {
     let line;
     try {
       const { html, finalUrl } = await fetchPage(src.url);
-      const links = extractLinks(html, finalUrl, Boolean(src.strict));
+      let links = extractLinks(html, finalUrl, Boolean(src.strict));
+      // If a university also has a separate admission portal, check it and merge links
+      if (src.admissionUrl && src.admissionUrl !== src.url) {
+        try {
+          const adm = await fetchPage(src.admissionUrl);
+          const admLinks = extractLinks(adm.html, adm.finalUrl, false);
+          const seenUrls = new Set(links.map(l => l.url));
+          for (const l of admLinks) {
+            if (!seenUrls.has(l.url)) {
+              seenUrls.add(l.url);
+              links.push(l);
+            }
+          }
+        } catch {
+          // Admission portal may be offline out-of-season; main site still works
+        }
+      }
       const isFirstRun = !Array.isArray(seen[src.id]);
       const seenSet = new Set(seen[src.id] || []);
 

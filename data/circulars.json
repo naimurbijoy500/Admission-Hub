@@ -20,6 +20,7 @@
     "fee": "১,০৫০ টাকা",
     "seats": "৭,১২৮ টি",
     "website": "https://admission.eis.du.ac.bd",
+    "logoDomain": "du.ac.bd",
     "summary": "ঢাকা বিশ্ববিদ্যালয়ের ২০২৬-২৭ শিক্ষাবর্ষের আন্ডারগ্র্যাজুয়েট প্রোগ্রামের ভর্তি আবেদন চলছে। অনলাইনে আবেদন ও ফি জমা দেওয়া যাবে ২৫ নভেম্বর পর্যন্ত।",
     "verified": false
   },
@@ -47,7 +48,7 @@
   },
   {
     "id": "medical-2026",
-    "code": "MBC",
+    "code": "DGME",
     "name": "সরকারি ও বেসরকারি মেডিকেল কলেজ (DGME)",
     "englishName": "MBBS & BDS Admission Bangladesh",
     "category": "medical",
@@ -63,7 +64,8 @@
     ],
     "fee": "১,০০০ টাকা",
     "seats": "৫,৩৮০ টি (সরকারি)",
-    "website": "http://dgme.teletalk.com.bd",
+    "website": "https://dgme.teletalk.com.bd",
+    "logoDomain": "dgme.gov.bd",
     "summary": "সকল সরকারি ও বেসরকারি মেডিকেল কলেজে এমবিবিএস ভর্তি পরীক্ষার আবেদন চলছে। জীববিজ্ঞানে ন্যূনতম জিপিএ ৪.০০ থাকতে হবে।",
     "verified": false
   },
@@ -136,6 +138,7 @@
     "fee": "৯০০ টাকা",
     "seats": "১,৮৪৪ টি",
     "website": "https://juniv-admission.org",
+    "logoDomain": "juniv.edu",
     "summary": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের ২০২৬-২৭ শিক্ষাবর্ষের স্নাতক (সম্মান) প্রথম বর্ষের ভর্তি বিজ্ঞপ্তি প্রকাশিত হয়েছে।",
     "verified": false
   },
@@ -182,6 +185,7 @@
     "fee": "১,২০০ টাকা",
     "seats": "৩,২৩১ টি",
     "website": "https://admissionckruet.ac.bd",
+    "logoDomain": "cuet.ac.bd",
     "summary": "চট্টগ্রাম, খুলনা ও রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়ের সমন্বিত ভর্তি পরীক্ষার বিজ্ঞপ্তি প্রকাশিত হয়েছে।",
     "verified": false
   },
@@ -204,6 +208,7 @@
     "fee": "১,২০০ টাকা",
     "seats": "৩,৭১৮ টি",
     "website": "https://acas.edu.bd",
+    "logoDomain": "bau.edu.bd",
     "summary": "বাংলাদেশ কৃষি বিশ্ববিদ্যালয় (বাকৃবি), শেরেবাংলা কৃষি বিশ্ববিদ্যালয় (শেকৃবি) সহ ৯টি কৃষি বিশ্ববিদ্যালয়ের গুচ্ছ ভর্তি সার্কুলার।",
     "verified": false
   },

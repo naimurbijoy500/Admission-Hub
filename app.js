@@ -1,22 +1,69 @@
 // =========================================================================
-// Admission Hub Bangladesh - Frontend
-// Data sources (all generated / stored in the GitHub repo):
-//   data/circulars.json  - structured circular info (dates, GPA, fees) for the calendar
-//   data/updates.json    - new notices auto-detected by scripts/monitor.js
-//   data/status.json     - last check time & latest links for each official site
-//   data/sources.json    - list of monitored official admission websites
+// Admission Hub Bangladesh - Frontend (Clean Service/API Architecture)
+// Ready for seamless migration to ASP.NET Core Web API / React + SQL Server.
+//
+// Current Static Data Endpoints (can be swapped via API_CONFIG.BASE_URL):
+//   GET /circulars.json  -> List<AdmissionCircularDto>
+//   GET /sources.json    -> List<UniversitySourceDto>
+//   GET /status.json     -> MonitorStatusDto
+//   GET /updates.json    -> List<CircularNoticeDto>
 // =========================================================================
 
-const CATEGORY_LABELS = {
-  general: 'সাধারণ ও স্বায়ত্তশাসিত বিশ্ববিদ্যালয়',
-  engineering: 'প্রকৌশল ও প্রযুক্তি (Engineering)',
-  medical: 'মেডিকেল ও ডেন্টাল',
-  cluster: 'গুচ্ছ ভর্তি সিস্টেম (Cluster)',
-  science_tech: 'বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়',
-  specialized: 'বিশেষায়িত পাবলিক বিশ্ববিদ্যালয়'
+const API_CONFIG = {
+  // When migrating to ASP.NET Core, change this to '/api/v1'
+  BASE_URL: 'data',
+  ENDPOINTS: {
+    CIRCULARS: 'circulars.json',
+    SOURCES: 'sources.json',
+    STATUS: 'status.json',
+    UPDATES: 'updates.json'
+  },
+  REFRESH_INTERVAL_MS: 10 * 60 * 1000
 };
 
-const REFRESH_INTERVAL_MS = 10 * 60 * 1000; // re-check data every 10 minutes while the page is open
+const CATEGORY_LABELS = {
+  general: 'সাধারণ ও স্বায়ত্তশাসিত',
+  engineering: 'প্রকৌশল ও প্রযুক্তি',
+  medical: 'মেডিকেল ও ডেন্টাল',
+  cluster: 'গুচ্ছ ভর্তি সিস্টেম',
+  science_tech: 'বিজ্ঞান ও প্রযুক্তি',
+  specialized: 'বিশেষায়িত বিশ্ববিদ্যালয়'
+};
+
+// Official University Seal / Logo Mapping (Wikimedia Commons & Official Emblem Assets)
+// Falls back automatically to official domain favicon & styled crest badge.
+const OFFICIAL_UNIVERSITY_LOGOS = {
+  DU: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/University_of_Dhaka_logo.svg/200px-University_of_Dhaka_logo.svg.png',
+  BUET: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/BUET_LOGO.svg/200px-BUET_LOGO.svg.png',
+  RU: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/University_of_Rajshahi_logo.svg/200px-University_of_Rajshahi_logo.svg.png',
+  CU: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/University_of_Chittagong_logo.svg/200px-University_of_Chittagong_logo.svg.png',
+  JU: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Jahangirnagar_University_Logo.svg/200px-Jahangirnagar_University_Logo.svg.png',
+  BAU: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Bangladesh_Agricultural_University_logo.svg/200px-Bangladesh_Agricultural_University_logo.svg.png',
+  SUST: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Shahjalal_University_of_Science_and_Technology_logo.png/200px-Shahjalal_University_of_Science_and_Technology_logo.png',
+  KU: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Khulna_University_Logo.svg/200px-Khulna_University_Logo.svg.png',
+  IU: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Islamic_University%2C_Bangladesh_logo.svg/200px-Islamic_University%2C_Bangladesh_logo.svg.png',
+  JNU: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Jagannath_University_logo.svg/200px-Jagannath_University_logo.svg.png',
+  BUP: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Bangladesh_University_of_Professionals_logo.svg/200px-Bangladesh_University_of_Professionals_logo.svg.png',
+  MIST: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Military_Institute_of_Science_and_Technology_Logo.svg/200px-Military_Institute_of_Science_and_Technology_Logo.svg.png',
+  CUET: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/87/CUET_Vector_Logo.svg/200px-CUET_Vector_Logo.svg.png',
+  KUET: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/77/KUET_logo.svg/200px-KUET_logo.svg.png',
+  RUET: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/80/RUET_logo.svg/200px-RUET_logo.svg.png',
+  DUET: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/90/DUET_Logo.svg/200px-DUET_Logo.svg.png',
+  BUTEX: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Bangladesh_University_of_Textiles_logo.svg/200px-Bangladesh_University_of_Textiles_logo.svg.png',
+  COU: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Comilla_University_logo.svg/200px-Comilla_University_logo.svg.png',
+  BU: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/University_of_Barisal_logo.svg/200px-University_of_Barisal_logo.svg.png',
+  BRUR: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Begum_Rokeya_University_logo.svg/200px-Begum_Rokeya_University_logo.svg.png',
+  HSTU: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Hajee_Mohammad_Danesh_Science_%26_Technology_University_logo.png/200px-Hajee_Mohammad_Danesh_Science_%26_Technology_University_logo.png',
+  MBSTU: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Mawlana_Bhashani_Science_and_Technology_University_logo.png/200px-Mawlana_Bhashani_Science_and_Technology_University_logo.png',
+  NSTU: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Noakhali_Science_and_Technology_University_logo.png/200px-Noakhali_Science_and_Technology_University_logo.png',
+  PUST: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Pabna_University_of_Science_and_Technology_logo.png/200px-Pabna_University_of_Science_and_Technology_logo.png',
+  JUST: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Jessore_University_of_Science_and_Technology_logo.svg/200px-Jessore_University_of_Science_and_Technology_logo.svg.png',
+  NU: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/88/National_University%2C_Bangladesh_logo.svg/200px-National_University%2C_Bangladesh_logo.svg.png',
+  BOU: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Bangladesh_Open_University_logo.svg/200px-Bangladesh_Open_University_logo.svg.png',
+  BSMMU: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Bangabandhu_Sheikh_Mujib_Medical_University_logo.svg/200px-Bangabandhu_Sheikh_Mujib_Medical_University_logo.svg.png',
+  DGME: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Government_Seal_of_Bangladesh.svg/200px-Government_Seal_of_Bangladesh.svg.png',
+  MBC: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Government_Seal_of_Bangladesh.svg/200px-Government_Seal_of_Bangladesh.svg.png'
+};
 
 // State
 let circulars = [];
@@ -26,7 +73,7 @@ let updates = [];
 let customCirculars = JSON.parse(localStorage.getItem('admissionHub_custom') || '[]');
 let savedIds = JSON.parse(localStorage.getItem('admissionHub_saved') || '[]');
 let readUpdateIds = new Set(JSON.parse(localStorage.getItem('admissionHub_readUpdates') || '[]'));
-let knownUpdateIds = null; // ids seen during this page session (for live alerts)
+let knownUpdateIds = null;
 
 let activeCategory = 'all';
 let activeStatus = 'all';
@@ -41,7 +88,7 @@ let selectedCalDate = null;
 let timelineFilter = 'all';
 
 // ---------------------------------------------------------------------------
-// Helpers
+// Helpers & University Logo Resolver
 // ---------------------------------------------------------------------------
 const BN_DIGITS = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
 const BN_MONTHS = [
@@ -57,6 +104,38 @@ function escapeHtml(str) {
   return String(str ?? '').replace(/[&<>"']/g, ch => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
   }[ch]));
+}
+
+function extractDomain(url, fallbackDomain) {
+  if (fallbackDomain) return fallbackDomain;
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return 'du.ac.bd';
+  }
+}
+
+// Renders an official university logo with automatic 2-tier fallback:
+// 1. Official Wikimedia/University emblem -> 2. Google S2 High-Res Favicon -> 3. Styled Code Crest
+function renderUniLogo(code, url, logoDomain, sizeClass = '') {
+  const upper = String(code || '').toUpperCase();
+  const domain = extractDomain(url, logoDomain);
+  const faviconUrl = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
+  const primaryLogo = OFFICIAL_UNIVERSITY_LOGOS[upper] || faviconUrl;
+
+  return `
+    <div class="uni-logo-wrap ${sizeClass}" title="${escapeHtml(upper)}">
+      <img
+        class="uni-logo-img"
+        src="${escapeHtml(primaryLogo)}"
+        data-favicon="${escapeHtml(faviconUrl)}"
+        alt="${escapeHtml(upper)}"
+        loading="lazy"
+        onerror="if(this.src!==this.dataset.favicon){this.src=this.dataset.favicon;}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
+      />
+      <span class="uni-logo-fallback">${escapeHtml(upper)}</span>
+    </div>
+  `;
 }
 
 function todayStr() {
@@ -84,7 +163,6 @@ function getDaysRemaining(deadlineStr) {
   return Math.ceil((target - new Date()) / (1000 * 60 * 60 * 24));
 }
 
-// Status is calculated from the dates, so it is always current.
 function computeStatus(c) {
   const t = todayStr();
   if (c.applyStart && t < c.applyStart) return 'upcoming';
@@ -92,17 +170,26 @@ function computeStatus(c) {
   return 'open';
 }
 
+// Deduplicates circulars by university code so there is never duplicate info
 function allCirculars() {
-  return [...customCirculars, ...circulars].map(c => ({ ...c, status: computeStatus(c) }));
+  const map = new Map();
+  for (const item of [...customCirculars, ...circulars]) {
+    const key = String(item.code || item.id).toUpperCase();
+    if (!map.has(key)) {
+      map.set(key, { ...item, status: computeStatus(item) });
+    }
+  }
+  return [...map.values()];
 }
 
-async function loadJson(path, fallback) {
+async function fetchEndpoint(endpoint, fallback) {
   try {
-    const res = await fetch(`${path}?t=${Date.now()}`, { cache: 'no-store' });
+    const url = `${API_CONFIG.BASE_URL}/${endpoint}?t=${Date.now()}`;
+    const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error(res.status);
     return await res.json();
   } catch (err) {
-    console.warn('Could not load', path, err);
+    console.warn('Could not load', endpoint, err);
     return fallback;
   }
 }
@@ -121,33 +208,38 @@ function playNotificationSound() {
     gain.connect(ctx.destination);
     osc.start();
     osc.stop(ctx.currentTime + 0.45);
-  } catch (e) {
-    // Browsers may block audio before the first user interaction.
-  }
+  } catch (e) {}
 }
 
 // ---------------------------------------------------------------------------
-// Data loading
+// Data Loading
 // ---------------------------------------------------------------------------
 async function loadData({ silent = false } = {}) {
   const [c, s, st, u] = await Promise.all([
-    loadJson('data/circulars.json', []),
-    loadJson('data/sources.json', []),
-    loadJson('data/status.json', { sources: {} }),
-    loadJson('data/updates.json', [])
+    fetchEndpoint(API_CONFIG.ENDPOINTS.CIRCULARS, []),
+    fetchEndpoint(API_CONFIG.ENDPOINTS.SOURCES, []),
+    fetchEndpoint(API_CONFIG.ENDPOINTS.STATUS, { sources: {} }),
+    fetchEndpoint(API_CONFIG.ENDPOINTS.UPDATES, [])
   ]);
   circulars = c;
-  sources = s;
+
+  // Deduplicate sources by code as a safeguard
+  const seenCodes = new Set();
+  sources = s.filter(src => {
+    const k = String(src.code || src.id).toUpperCase();
+    if (seenCodes.has(k)) return false;
+    seenCodes.add(k);
+    return true;
+  });
+
   status = st;
   updates = u;
 
-  // First visit ever: don't flood the user with old items as "unread".
   if (!localStorage.getItem('admissionHub_readUpdates')) {
     updates.forEach(item => readUpdateIds.add(item.id));
     persistRead();
   }
 
-  // Live alerts for items that appeared while the page was open.
   if (knownUpdateIds) {
     const fresh = updates.filter(item => !knownUpdateIds.has(item.id));
     fresh.slice(0, 5).forEach(alertNewUpdate);
@@ -200,7 +292,7 @@ function renderTicker() {
   if (updates.length > 0) {
     el.textContent = updates.slice(0, 5).map(u => `${u.code}: ${u.title}`).join('  •  ');
   } else {
-    el.textContent = `${toBanglaNum(sources.length)}টি অফিশিয়াল ভর্তি ওয়েবসাইট নিয়মিত চেক করা হচ্ছে। সর্বশেষ চেক: ${timeAgo(status.lastRun)}`;
+    el.textContent = `${toBanglaNum(sources.length)}টি পাবলিক বিশ্ববিদ্যালয় ও ভর্তি পোর্টাল নিয়মিত মনিটর হচ্ছে • সর্বশেষ চেক: ${timeAgo(status.lastRun)}`;
   }
 }
 
@@ -243,31 +335,31 @@ function renderCirculars() {
     const isSaved = savedIds.includes(c.id);
 
     const statusMap = {
-      open: ['🟢 আবেদন চলছে', 'status-open'],
+      open: ['🟢 চলমান', 'status-open'],
       upcoming: ['🟡 আসন্ন', 'status-upcoming'],
-      closed: ['🔴 আবেদন শেষ', 'status-closed']
+      closed: ['🔴 সমাপ্ত', 'status-closed']
     };
     const [statusText, statusClass] = statusMap[c.status];
 
-    let countdownLabel = 'আবেদনের সময় শেষ হয়েছে';
-    if (c.status === 'upcoming') countdownLabel = `🗓 আবেদন শুরু ${formatBanglaDate(c.applyStart)}`;
-    else if (daysLeft >= 0) countdownLabel = `⏳ আবেদনের বাকি ${toBanglaNum(daysLeft)} দিন`;
+    let countdownLabel = 'আবেদনের সময় শেষ';
+    if (c.status === 'upcoming') countdownLabel = `🗓 শুরু: ${formatBanglaDate(c.applyStart)}`;
+    else if (daysLeft >= 0) countdownLabel = `⏳ বাকি ${toBanglaNum(daysLeft)} দিন`;
 
     const verifyBadge = c.custom
-      ? '<span class="verify-badge custom">👤 আপনার যুক্ত করা</span>'
+      ? '<span class="verify-badge custom">👤 কাস্টম</span>'
       : c.verified
-        ? '<span class="verify-badge ok">🤖 অফিশিয়াল সার্কুলার থেকে স্বয়ংক্রিয়ভাবে সংগৃহীত</span>'
-        : '<span class="verify-badge warn" title="নতুন সার্কুলার প্রকাশিত হলে AI স্বয়ংক্রিয়ভাবে এই তথ্য আপডেট করবে">⚠ প্রাক-সার্কুলার নমুনা তথ্য — নতুন সার্কুলার এলে অটো-আপডেট হবে</span>';
+        ? '<span class="verify-badge ok">🤖 AI যাচাইকৃত</span>'
+        : '<span class="verify-badge warn" title="নতুন সার্কুলার প্রকাশিত হলে AI স্বয়ংক্রিয়ভাবে এই তথ্য আপডেট করবে">⏳ সম্ভাব্য তথ্য (অটো-আপডেট হবে)</span>';
 
     return `
       <article class="circular-card">
         <div>
           <div class="card-top">
             <div class="uni-badge-group">
-              <div class="uni-short-avatar">${escapeHtml(c.code)}</div>
+              ${renderUniLogo(c.code, c.website, c.logoDomain)}
               <div class="uni-title-wrap">
                 <h3>${escapeHtml(c.name)}</h3>
-                <span class="uni-category-label">${CATEGORY_LABELS[c.category] || 'পাবলিক বিশ্ববিদ্যালয়'}</span>
+                <span class="uni-category-label">${CATEGORY_LABELS[c.category] || 'পাবলিক বিশ্ববিদ্যালয়'} • <strong>${escapeHtml(c.code)}</strong></span>
               </div>
             </div>
             <div class="card-top-right">
@@ -278,11 +370,10 @@ function renderCirculars() {
             </div>
           </div>
 
-          ${verifyBadge}
-
-          <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 10px 0 14px;">
-            ${escapeHtml(c.summary || '')}
-          </p>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; gap:6px; flex-wrap:wrap;">
+            ${verifyBadge}
+            <span style="font-size:0.75rem; color:var(--text-secondary); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:210px;" title="${escapeHtml(c.units)}">📚 ${escapeHtml(c.units)}</span>
+          </div>
 
           <div class="card-meta-grid">
             <div class="meta-item">
@@ -305,14 +396,14 @@ function renderCirculars() {
 
           <div class="countdown-banner">
             <span class="countdown-timer">${countdownLabel}</span>
-            <span style="font-size: 0.76rem; color: var(--text-secondary);">📅 ক্যালেন্ডারে আছে</span>
+            <span style="font-size: 0.72rem; color: var(--text-secondary);">📅 ক্যালেন্ডারে যুক্ত</span>
           </div>
         </div>
 
         <div class="card-actions">
           <button class="btn-primary" onclick="openCircularModal('${c.id}')">📄 বিস্তারিত</button>
-          <button class="btn-outline" onclick="addToGoogleCalendar('${c.id}')" title="Google Calendar-এ যুক্ত করুন">📅 Google Calendar</button>
-          <a href="${escapeHtml(c.website)}" target="_blank" rel="noopener" class="btn-outline">🔗 অফিশিয়াল সাইট</a>
+          <button class="btn-outline" onclick="addToGoogleCalendar('${c.id}')" title="Google Calendar-এ যুক্ত করুন">📅 ক্যালেন্ডার</button>
+          <a href="${escapeHtml(c.website)}" target="_blank" rel="noopener" class="btn-outline">🔗 পোর্টাল</a>
         </div>
       </article>
     `;
@@ -341,25 +432,25 @@ window.openCircularModal = function (id) {
   if (!c) return;
   const content = document.getElementById('circularModalContent');
   const src = sources.find(s => s.code.toLowerCase() === String(c.code).toLowerCase());
-  const latest = src && status.sources[src.id] ? (status.sources[src.id].latest || []) : [];
+  const st = src ? (status.sources[src.id] || status.sources[src.id + '-admission']) : null;
+  const latest = st ? (st.latest || []) : [];
 
   content.innerHTML = `
     <div class="modal-header">
       <div class="uni-badge-group">
-        <div class="uni-short-avatar">${escapeHtml(c.code)}</div>
+        ${renderUniLogo(c.code, c.website, c.logoDomain)}
         <div>
-          <h3>${escapeHtml(c.name)}</h3>
-          <p style="font-size:0.85rem; color:var(--text-secondary);">${escapeHtml(c.englishName || '')}</p>
+          <h3>${escapeHtml(c.name)} (${escapeHtml(c.code)})</h3>
+          <p style="font-size:0.8rem; color:var(--text-secondary);">${escapeHtml(c.englishName || '')}</p>
         </div>
       </div>
       <button class="close-modal-btn" onclick="closeCircularModal()">✕</button>
     </div>
 
-    <div style="display:flex; flex-direction:column; gap:14px;">
-      ${!c.verified && !c.custom ? '<div class="verify-badge warn" style="display:block;">⚠ এই তারিখ ও শর্তগুলো নমুনা তথ্য। আবেদন করার আগে অবশ্যই অফিশিয়াল সার্কুলার দেখে নিন।</div>' : ''}
-      <p style="color:var(--text-secondary);">${escapeHtml(c.summary || '')}</p>
+    <div style="display:flex; flex-direction:column; gap:10px;">
+      <p style="font-size:0.88rem; color:var(--text-secondary);">${escapeHtml(c.summary || '')}</p>
 
-      <div class="card-meta-grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
+      <div class="card-meta-grid" style="grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); margin-bottom:0;">
         <div class="meta-item"><span>ইউনিট সমূহ</span><strong>${escapeHtml(c.units)}</strong></div>
         <div class="meta-item"><span>আবেদন শুরুর তারিখ</span><strong>${formatBanglaDate(c.applyStart)}</strong></div>
         <div class="meta-item"><span>আবেদনের শেষ তারিখ</span><strong style="color:var(--warning);">${formatBanglaDate(c.applyDeadline)}</strong></div>
@@ -369,8 +460,8 @@ window.openCircularModal = function (id) {
       </div>
 
       ${latest.length ? `
-        <div style="background:var(--bg-secondary); padding:14px; border-radius:12px;">
-          <h4 style="margin-bottom:8px; font-size:0.95rem;">📰 অফিশিয়াল সাইটে সর্বশেষ পাওয়া নোটিশ</h4>
+        <div style="background:var(--bg-secondary); padding:10px 12px; border-radius:10px;">
+          <h4 style="margin-bottom:6px; font-size:0.88rem;">📰 অফিশিয়াল সাইটে সর্বশেষ প্রাপ্ত নোটিশ</h4>
           ${latest.map(l => `<a class="notice-link" href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${l.pdf ? '📄' : '🔗'} ${escapeHtml(l.title)}</a>`).join('')}
         </div>` : ''}
     </div>
@@ -435,9 +526,9 @@ function generateAndDownloadIcs(list, filename) {
 function getAllCalendarEvents() {
   const events = [];
   allCirculars().forEach(c => {
-    const base = { uniId: c.id, code: c.code, uniName: c.name };
-    if (c.applyStart) events.push({ ...base, date: c.applyStart, type: 'start', title: `${c.code} আবেদন শুরু` });
-    if (c.applyDeadline) events.push({ ...base, date: c.applyDeadline, type: 'deadline', title: `${c.code} শেষ দিন` });
+    const base = { uniId: c.id, code: c.code, uniName: c.name, website: c.website, logoDomain: c.logoDomain };
+    if (c.applyStart) events.push({ ...base, date: c.applyStart, type: 'start', title: `${c.code} শুরু` });
+    if (c.applyDeadline) events.push({ ...base, date: c.applyDeadline, type: 'deadline', title: `${c.code} শেষ` });
     if (c.examDate) events.push({ ...base, date: c.examDate, type: 'exam', title: `${c.code} পরীক্ষা` });
   });
   return events.sort((a, b) => new Date(a.date) - new Date(b.date));
@@ -490,24 +581,27 @@ function renderTimeline() {
   }
 
   if (events.length === 0) {
-    listEl.innerHTML = '<p style="color:var(--text-secondary); text-align:center; padding:24px;">কোনো ইভেন্ট নেই।</p>';
+    listEl.innerHTML = '<p style="color:var(--text-secondary); text-align:center; padding:18px;">কোনো ইভেন্ট নেই।</p>';
     return;
   }
 
   const labels = { start: '🟦 আবেদন শুরু', deadline: '⏳ আবেদনের শেষ দিন', exam: '🎯 ভর্তি পরীক্ষা' };
   listEl.innerHTML = events.map(ev => `
     <div class="timeline-item type-${ev.type}">
-      <div class="timeline-info">
-        <h4>${escapeHtml(ev.uniName)} (${escapeHtml(ev.code)})</h4>
-        <p>${labels[ev.type]} • <strong>${formatBanglaDate(ev.date)}</strong></p>
+      <div style="display:flex; align-items:center; gap:10px;">
+        ${renderUniLogo(ev.code, ev.website, ev.logoDomain, 'sm')}
+        <div class="timeline-info">
+          <h4>${escapeHtml(ev.uniName)} (${escapeHtml(ev.code)})</h4>
+          <p>${labels[ev.type]} • <strong>${formatBanglaDate(ev.date)}</strong></p>
+        </div>
       </div>
-      <button class="btn-outline" style="padding:6px 10px; font-size:0.78rem;" onclick="openCircularModal('${ev.uniId}')">দেখুন</button>
+      <button class="btn-outline" style="padding:5px 9px; font-size:0.75rem;" onclick="openCircularModal('${ev.uniId}')">দেখুন</button>
     </div>
   `).join('');
 }
 
 // ---------------------------------------------------------------------------
-// Notifications (from data/updates.json, produced by the GitHub Actions monitor)
+// Notifications
 // ---------------------------------------------------------------------------
 function renderNotifications() {
   const listEl = document.getElementById('notifList');
@@ -517,7 +611,7 @@ function renderNotifications() {
   badgeEl.style.display = unread > 0 ? 'flex' : 'none';
 
   if (updates.length === 0) {
-    listEl.innerHTML = `<div style="padding:20px; color:var(--text-secondary); font-size:0.88rem;">
+    listEl.innerHTML = `<div style="padding:16px; color:var(--text-secondary); font-size:0.84rem;">
       এখনো কোনো নতুন নোটিশ শনাক্ত হয়নি। অফিশিয়াল ওয়েবসাইটগুলোতে নতুন কিছু প্রকাশ হলে এখানে দেখাবে।
     </div>`;
     return;
@@ -525,7 +619,7 @@ function renderNotifications() {
 
   listEl.innerHTML = updates.slice(0, 50).map(u => `
     <div class="notif-item ${readUpdateIds.has(u.id) ? '' : 'unread'}" onclick="handleNotifClick('${u.id}')">
-      <div class="notif-item-icon">${u.pdf ? '📄' : '🔔'}</div>
+      ${renderUniLogo(u.code, u.url, null, 'sm')}
       <div class="notif-item-body">
         <h5>${escapeHtml(u.name)} (${escapeHtml(u.code)})</h5>
         <p>${escapeHtml(u.title)}</p>
@@ -544,33 +638,34 @@ window.handleNotifClick = function (id) {
 };
 
 // ---------------------------------------------------------------------------
-// Monitored official websites directory
+// Monitored Official Websites Directory (Deduplicated + Logos)
 // ---------------------------------------------------------------------------
 function renderDirectory() {
   const grid = document.getElementById('universityDirectoryGrid');
   grid.innerHTML = sources.map(src => {
-    const st = status.sources[src.id];
-    let stateHtml = '<span class="dir-status pending">⏺ এখনো চেক করা হয়নি</span>';
+    const st = status.sources[src.id] || status.sources[src.id + '-admission'];
+    let stateHtml = '<span class="dir-status pending">⏺ অপেক্ষমাণ</span>';
     if (st && st.ok) {
-      stateHtml = `<span class="dir-status"><span class="live-dot" style="width:7px; height:7px;"></span> চেক হয়েছে ${timeAgo(st.lastChecked)} • ${toBanglaNum(st.linkCount || 0)}টি লিংক</span>`;
+      stateHtml = `<span class="dir-status"><span class="live-dot" style="width:6px; height:6px;"></span> সক্রিয় • ${toBanglaNum(st.linkCount || 0)}টি লিংক</span>`;
     } else if (st && !st.ok) {
-      stateHtml = `<span class="dir-status error" title="${escapeHtml(st.error)}">⚠ সাইটে পৌঁছানো যায়নি (${timeAgo(st.lastChecked)})</span>`;
+      stateHtml = `<span class="dir-status error" title="${escapeHtml(st.error)}">⚠ সার্ভার অফলাইন</span>`;
     }
-    const latest = st && st.latest ? st.latest.slice(0, 3) : [];
+    const latest = st && st.latest ? st.latest.slice(0, 2) : [];
+    const targetUrl = src.admissionUrl || src.url;
     return `
       <div class="dir-card">
         <div class="dir-card-header">
-          <div class="uni-short-avatar" style="width:42px; height:42px; font-size:0.78rem;">${escapeHtml(src.code)}</div>
-          <div>
-            <h4 style="font-size:0.96rem;">${escapeHtml(src.name)}</h4>
+          ${renderUniLogo(src.code, src.url, null, 'sm')}
+          <div style="min-width:0;">
+            <h4 style="font-size:0.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${escapeHtml(src.name)}">${escapeHtml(src.name)}</h4>
             ${stateHtml}
           </div>
         </div>
         ${latest.length ? `<div class="dir-latest">${latest.map(l =>
           `<a class="notice-link" href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${l.pdf ? '📄' : '🔗'} ${escapeHtml(l.title)}</a>`).join('')}</div>` : ''}
         <div style="display:flex; justify-content:space-between; align-items:center;">
-          <span style="font-size:0.75rem; color:var(--text-secondary);">${escapeHtml(src.url.replace(/^https?:\/\//, '').replace(/\/$/, ''))}</span>
-          <a href="${escapeHtml(src.url)}" target="_blank" rel="noopener" class="btn-outline" style="padding:5px 10px; font-size:0.78rem;">ভিজিট ↗</a>
+          <span style="font-size:0.72rem; color:var(--text-secondary);">${escapeHtml(src.code)} • ${escapeHtml(src.category || '')}</span>
+          <a href="${escapeHtml(targetUrl)}" target="_blank" rel="noopener" class="btn-outline" style="padding:4px 9px; font-size:0.74rem;">পোর্টাল ↗</a>
         </div>
       </div>`;
   }).join('');
@@ -580,13 +675,13 @@ function showToast(message) {
   const container = document.getElementById('toastContainer');
   const toast = document.createElement('div');
   toast.className = 'toast';
-  toast.innerHTML = `<span style="font-size:1.3rem;">🔔</span><div style="font-size:0.9rem; font-weight:500;">${message}</div>`;
+  toast.innerHTML = `<span style="font-size:1.1rem;">🔔</span><div style="font-size:0.85rem; font-weight:500;">${message}</div>`;
   container.appendChild(toast);
-  setTimeout(() => toast.remove(), 5000);
+  setTimeout(() => toast.remove(), 4500);
 }
 
 // ---------------------------------------------------------------------------
-// Event listeners
+// Event Listeners
 // ---------------------------------------------------------------------------
 function setupEventListeners() {
   const searchInput = document.getElementById('searchInput');
@@ -651,12 +746,12 @@ function setupEventListeners() {
 
   const requestBrowserNotif = async () => {
     if (!('Notification' in window)) {
-      showToast('আপনার ব্রাউজারে নোটিফিকেশন সাপোর্ট নেই। ফোনে অ্যালার্ট পেতে টেলিগ্রাম চ্যানেল ব্যবহার করুন।');
+      showToast('আপনার ব্রাউজারে নোটিফিকেশন সাপোর্ট নেই।');
       return;
     }
     const perm = await Notification.requestPermission();
     showToast(perm === 'granted'
-      ? '✅ ব্রাউজার নোটিফিকেশন চালু হয়েছে। পেজ খোলা থাকলে নতুন নোটিশ এলেই জানাবে।'
+      ? '✅ ব্রাউজার নোটিফিকেশন চালু হয়েছে।'
       : '❌ নোটিফিকেশনের অনুমতি দেওয়া হয়নি।');
   };
   document.getElementById('enablePushBtn').addEventListener('click', requestBrowserNotif);
@@ -667,7 +762,7 @@ function setupEventListeners() {
     icon.classList.add('spinning');
     await loadData();
     icon.classList.remove('spinning');
-    showToast(`🔄 তথ্য রিফ্রেশ হয়েছে। সর্বশেষ সার্ভার চেক: ${timeAgo(status.lastRun)}`);
+    showToast(`🔄 তথ্য রিফ্রেশ হয়েছে। সর্বশেষ চেক: ${timeAgo(status.lastRun)}`);
   });
 
   document.getElementById('themeToggleBtn').addEventListener('click', () => {
@@ -723,22 +818,23 @@ function setupEventListeners() {
       return;
     }
     box.innerHTML = `
-      <h4 style="margin-bottom:6px; color:var(--accent-primary);">
-        🎉 মোট জিপিএ ${toBanglaNum(total.toFixed(2))} দিয়ে আপনি ${toBanglaNum(eligible.length)}টিতে আবেদন করতে পারেন:
+      <h4 style="margin-bottom:6px; font-size:0.9rem; color:var(--accent-primary);">
+        🎉 মোট জিপিএ ${toBanglaNum(total.toFixed(2))} দিয়ে আপনি ${toBanglaNum(eligible.length)}টিতে আবেদন করতে পারবেন:
       </h4>
-      <p style="font-size:0.78rem; color:var(--text-secondary); margin-bottom:12px;">বিষয়ভিত্তিক শর্ত (যেমন গণিত/জীববিজ্ঞানে জিপিএ) অফিশিয়াল সার্কুলারে মিলিয়ে নিন।</p>
       ${eligible.map(c => `
         <div class="eligible-item">
-          <div>
-            <strong>${escapeHtml(c.name)} (${escapeHtml(c.code)})</strong>
-            <p style="font-size:0.78rem; color:var(--text-secondary);">ন্যূনতম: ${toBanglaNum(c.minTotalGpa)} • ডেডলাইন: ${formatBanglaDate(c.applyDeadline)}</p>
+          <div style="display:flex; align-items:center; gap:8px;">
+            ${renderUniLogo(c.code, c.website, c.logoDomain, 'sm')}
+            <div>
+              <strong style="font-size:0.86rem;">${escapeHtml(c.name)} (${escapeHtml(c.code)})</strong>
+              <p style="font-size:0.74rem; color:var(--text-secondary);">ন্যূনতম: ${toBanglaNum(c.minTotalGpa)} • শেষ তারিখ: ${formatBanglaDate(c.applyDeadline)}</p>
+            </div>
           </div>
-          <button class="btn-outline" style="padding:6px 10px; font-size:0.8rem;" onclick="openCircularModal('${c.id}')">বিস্তারিত</button>
+          <button class="btn-outline" style="padding:5px 9px; font-size:0.75rem;" onclick="openCircularModal('${c.id}')">বিস্তারিত</button>
         </div>`).join('')}
     `;
   });
 
-  // Personal circulars (saved only in this browser)
   const addBackdrop = document.getElementById('addCircularModalBackdrop');
   document.getElementById('addCustomCircularBtn').addEventListener('click', () => addBackdrop.classList.add('show'));
   const closeAdd = () => addBackdrop.classList.remove('show');
@@ -766,14 +862,14 @@ function setupEventListeners() {
       fee: val('newAppFee'),
       seats: '',
       website: val('newWebsiteUrl'),
-      summary: 'আপনার নিজের যুক্ত করা সার্কুলার (শুধু এই ব্রাউজারে সংরক্ষিত)।'
+      summary: 'আপনার যুক্ত করা কাস্টম সার্কুলার।'
     };
     customCirculars.unshift(item);
     localStorage.setItem('admissionHub_custom', JSON.stringify(customCirculars));
     closeAdd();
     e.target.reset();
     renderAll();
-    showToast(`✅ ${escapeHtml(item.name)} যুক্ত হয়েছে এবং ক্যালেন্ডারে তারিখগুলো বসানো হয়েছে।`);
+    showToast(`✅ ${escapeHtml(item.name)} যুক্ত হয়েছে।`);
   });
 
   document.getElementById('circularModalBackdrop').addEventListener('click', e => {
@@ -788,7 +884,7 @@ async function initApp() {
 
   setupEventListeners();
   await loadData();
-  setInterval(() => loadData({ silent: true }), REFRESH_INTERVAL_MS);
+  setInterval(() => loadData({ silent: true }), API_CONFIG.REFRESH_INTERVAL_MS);
 }
 
 document.addEventListener('DOMContentLoaded', initApp);
