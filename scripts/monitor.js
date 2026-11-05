@@ -7,13 +7,13 @@
 //    records anything new in data/updates.json.
 // 3. When GEMINI_API_KEY is configured, automatically downloads any new
 //    admission circular PDF or notice page, uses Gemini (gemini-3.8-flash)
-//    with Structured Outputs to extract:
+//    with Structured Outputs to extract ONLY real published data:
 //      - Application start & deadline dates (আবেদনের শেষ তারিখ)
 //      - Admission exam date (ভর্তি পরীক্ষার তারিখ)
 //      - Minimum SSC, HSC & Total GPA (ন্যূনতম মোট জিপিএ)
 //      - Application fee & total seats (আবেদন ফি ও আসন)
 //    and automatically creates/updates the card in data/circulars.json
-//    so the website card and Bangla calendar update automatically!
+//    without ever inventing fake/default values.
 // =========================================================================
 
 const fs = require('fs');
@@ -50,21 +50,28 @@ const KEYWORDS = [
 // Stricter list for university homepages ("strict": true in sources.json).
 const STRICT_KEYWORDS = [
   'admission', 'undergraduate', '1st year', 'first year', 'cluster',
-  'ভর্তি', 'প্রথম বর্ষ', '১ম বর্ষ', 'গুচ্ছ', 'স্নাতক (সম্মান)'
+  'ভর্তি', 'প্রথম বর্ষ', '১ম বর্ষ', 'গুচ্ছ', 'স্নাতক (সম্মান)', 'আন্ডারগ্র্যাজুয়েট'
 ];
 
 // Keywords that strongly suggest a link is an actual admission circular
 // (worthy of AI structured extraction for dates, GPA, fees, seats).
 const CIRCULAR_KEYWORDS = [
   'admission', 'circular', 'prospectus', 'undergraduate', 'apply', 'application',
-  'ভর্তি', 'বিজ্ঞপ্তি', 'সার্কুলার', 'আবেদন', 'প্রথম বর্ষ', '১ম বর্ষ', 'গুচ্ছ'
+  'ভর্তি', 'বিজ্ঞপ্তি', 'সার্কুলার', 'আবেদন', 'প্রথম বর্ষ', '১ম বর্ষ', 'গুচ্ছ', 'আন্ডারগ্র্যাজুয়েট'
 ];
 
-// Links we never care about (navigation, social media, etc).
+// Links we never care about (navigation, auth links, social media, etc).
 const IGNORE = [
-  'facebook.com', 'twitter.com', 'x.com/', 'youtube.com', 'linkedin.com',
-  'instagram.com', 'mailto:', 'tel:', 'javascript:', 'play.google.com'
+  'facebook.com', 'twitter.com', 'x.com/', 'youtube.com', 'youtu.be', 'linkedin.com',
+  'instagram.com', 'mailto:', 'tel:', 'javascript:', 'play.google.com',
+  '/student/login', '/student/registration', '/login', '/register', '/publication-details/'
 ];
+
+// Generic navigation link titles to skip
+const IGNORE_TITLES = new Set([
+  'login', 'log in', 'sign in', 'registration', 'register', 'home', 'contact',
+  'contact us', 'helpline', 'complain', 'complaint', 'faq', 'read more', 'details'
+]);
 
 function readJson(file, fallback) {
   try {
@@ -219,12 +226,14 @@ function extractLinks(html, baseUrl, strict = false) {
     } catch {
       continue;
     }
+    if (IGNORE.some(bad => href.toLowerCase().includes(bad))) continue;
 
     if (!title) {
       const titleAttr = /title\s*=\s*(["'])(.*?)\1/i.exec(m[0]);
       title = titleAttr ? cleanText(titleAttr[2]) : decodeURIComponent(href.split('/').pop() || '');
     }
     if (title.length < 4 || title.length > 250) continue;
+    if (IGNORE_TITLES.has(title.toLowerCase())) continue;
 
     const haystack = (title + ' ' + href).toLowerCase();
     const isPdf = /\.pdf(\?|$)/i.test(href);
@@ -242,13 +251,14 @@ function extractLinks(html, baseUrl, strict = false) {
 // Gemini AI Circular Reader (Structured Output via Interactions API)
 // Reads a newly discovered PDF or HTML notice and extracts exact dates,
 // GPA requirements, application fee, and seats into data/circulars.json.
+// Never invents or guesses unannounced fields.
 // =========================================================================
 const CIRCULAR_EXTRACTION_SCHEMA = {
   type: 'object',
   properties: {
     isAdmissionCircular: {
       type: 'boolean',
-      description: 'True ONLY if this document/notice contains undergraduate admission circular details (application dates, exam date, or GPA requirements). False for routine notices, tenders, seat plans, or unrelated news.'
+      description: 'True ONLY if this document/notice is an official undergraduate admission circular or schedule notice containing real application dates or exam dates. False for postgraduate/MSc/MBA/MPhil/PhD notices, routine notices, tenders, seat plans, or unrelated news.'
     },
     banglaUniversityName: {
       type: 'string',
@@ -260,31 +270,31 @@ const CIRCULAR_EXTRACTION_SCHEMA = {
     },
     units: {
       type: 'string',
-      description: 'Units or faculties covered in Bangla, e.g. A, B, C ইউনিট'
+      description: 'Units or faculties covered in Bangla if mentioned, e.g. ক, খ, গ ইউনিট. Empty string if not mentioned.'
     },
     applyStart: {
       type: 'string',
-      description: 'Application start date in YYYY-MM-DD format (convert Bangla digits if needed). Empty string if not mentioned.'
+      description: 'Application start date in YYYY-MM-DD format if explicitly stated in the notice. Empty string if not stated.'
     },
     applyDeadline: {
       type: 'string',
-      description: 'Application deadline date in YYYY-MM-DD format (আবেদনের শেষ তারিখ). Empty string if not mentioned.'
+      description: 'Application deadline date in YYYY-MM-DD format (আবেদনের শেষ তারিখ) if explicitly stated. Empty string if not stated.'
     },
     examDate: {
       type: 'string',
-      description: 'Admission exam date in YYYY-MM-DD format (ভর্তি পরীক্ষার তারিখ). If multiple unit dates exist, use the earliest date. Empty string if not mentioned.'
+      description: 'Admission exam date in YYYY-MM-DD format (ভর্তি পরীক্ষার তারিখ) if explicitly stated. If multiple unit dates exist, use the earliest date. Empty string if not stated.'
     },
     minSscGpa: {
       type: 'number',
-      description: 'Minimum required SSC GPA (e.g. 3.5 or 4.0). Use 0 if not mentioned.'
+      description: 'Minimum required SSC GPA explicitly stated in the notice (e.g. 3.5 or 4.0). MUST be 0 if not explicitly stated.'
     },
     minHscGpa: {
       type: 'number',
-      description: 'Minimum required HSC GPA (e.g. 3.5 or 4.0). Use 0 if not mentioned.'
+      description: 'Minimum required HSC GPA explicitly stated in the notice (e.g. 3.5 or 4.0). MUST be 0 if not explicitly stated.'
     },
     minTotalGpa: {
       type: 'number',
-      description: 'Minimum total GPA (SSC + HSC combined, e.g. 8.00). Use 0 if not mentioned.'
+      description: 'Minimum total GPA (SSC + HSC combined, e.g. 8.00) explicitly stated in the notice. MUST be 0 if not explicitly stated.'
     },
     allowedGroups: {
       type: 'array',
@@ -293,15 +303,15 @@ const CIRCULAR_EXTRACTION_SCHEMA = {
     },
     fee: {
       type: 'string',
-      description: 'Application fee in Bangla, e.g. ১,০০০ টাকা'
+      description: 'Application fee in Bangla ONLY if explicitly stated in the notice (e.g. ১,০০০ টাকা). Empty string if not stated.'
     },
     seats: {
       type: 'string',
-      description: 'Total seats in Bangla if mentioned, e.g. ৪,৫০০ টি, or বিধি মোতাবেক'
+      description: 'Total seats in Bangla ONLY if explicitly stated in the notice (e.g. ৪,৫০০ টি). Empty string if not stated.'
     },
     summary: {
       type: 'string',
-      description: 'Short 1-2 sentence summary in Bangla of the circular, including dates and key requirements.'
+      description: 'Short factual 1-2 sentence summary in Bangla of the official notice.'
     }
   },
   required: [
@@ -321,12 +331,12 @@ async function extractCircularWithGemini(item) {
     const isPdf = item.pdf || fetched.contentType.includes('application/pdf') || fetched.buffer.slice(0, 4).toString() === '%PDF';
 
     const promptText =
-      `You are an expert assistant for Bangladesh public university admissions.\n` +
+      `You are an accurate assistant for Bangladesh public university undergraduate admissions.\n` +
       `University Code: ${item.code}\n` +
       `University Name: ${item.name}\n` +
       `Notice Title: ${item.title}\n` +
       `Source URL: ${item.url}\n\n` +
-      `Read the attached admission circular / notice carefully. Extract the exact application start date, application deadline (আবেদনের শেষ তারিখ), admission test date (ভর্তি পরীক্ষার তারিখ), minimum GPA (ন্যূনতম মোট জিপিএ), application fee (আবেদন ফি), and total seats (আসন) into the requested JSON schema. Convert any Bangla numbers in dates to standard YYYY-MM-DD format, and keep display strings (fee, seats, units, summary, banglaUniversityName) in Bangla.`;
+      `Read the attached admission circular / notice carefully. Extract ONLY facts that are explicitly stated in the document. Do NOT guess or invent any date, GPA, fee, or seat count — leave unannounced strings empty ("") and unannounced numbers as 0. Convert any Bangla numbers in dates to standard YYYY-MM-DD format.`;
 
     const contentParts = [{ type: 'text', text: promptText }];
     if (isPdf) {
@@ -381,7 +391,7 @@ async function extractCircularWithGemini(item) {
 
     const extracted = JSON.parse(jsonText);
     if (!extracted.isAdmissionCircular) {
-      console.log(`  🤖 [AI] Notice is not a main admission circular (skipped card update).`);
+      console.log(`  🤖 [AI] Notice is not an undergraduate admission circular (skipped card update).`);
       return null;
     }
     if (!extracted.applyDeadline && !extracted.examDate) {
@@ -389,7 +399,7 @@ async function extractCircularWithGemini(item) {
       return null;
     }
 
-    console.log(`  ✅ [AI] Extracted circular for ${item.code}: Deadline=${extracted.applyDeadline}, Exam=${extracted.examDate}, GPA=${extracted.minTotalGpa}`);
+    console.log(`  ✅ [AI] Extracted real circular for ${item.code}: Deadline=${extracted.applyDeadline || 'TBA'}, Exam=${extracted.examDate || 'TBA'}, GPA=${extracted.minTotalGpa || 'TBA'}`);
     return extracted;
   } catch (err) {
     console.warn(`  🤖 [AI] Extraction failed for ${item.url}:`, err.message);
@@ -409,19 +419,20 @@ function upsertCircularCard(circulars, item, aiData) {
     name: aiData.banglaUniversityName || existing.name || item.name,
     englishName: existing.englishName || item.name,
     category: aiData.category || existing.category || 'general',
-    units: aiData.units || existing.units || 'বিজ্ঞপ্তি দেখুন',
-    applyStart: validDate(aiData.applyStart) || existing.applyStart || new Date().toISOString().slice(0, 10),
+    units: aiData.units || existing.units || 'সকল ইউনিট',
+    applyStart: validDate(aiData.applyStart) || existing.applyStart || '',
     applyDeadline: validDate(aiData.applyDeadline) || existing.applyDeadline || '',
     examDate: validDate(aiData.examDate) || existing.examDate || '',
-    minSscGpa: aiData.minSscGpa > 0 ? aiData.minSscGpa : (existing.minSscGpa || 3.5),
-    minHscGpa: aiData.minHscGpa > 0 ? aiData.minHscGpa : (existing.minHscGpa || 3.5),
-    minTotalGpa: aiData.minTotalGpa > 0 ? aiData.minTotalGpa : (existing.minTotalGpa || 7.5),
+    minSscGpa: aiData.minSscGpa > 0 ? aiData.minSscGpa : (existing.minSscGpa || 0),
+    minHscGpa: aiData.minHscGpa > 0 ? aiData.minHscGpa : (existing.minHscGpa || 0),
+    minTotalGpa: aiData.minTotalGpa > 0 ? aiData.minTotalGpa : (existing.minTotalGpa || 0),
     allowedGroups: Array.isArray(aiData.allowedGroups) && aiData.allowedGroups.length
       ? aiData.allowedGroups
       : (existing.allowedGroups || ['science', 'arts', 'commerce']),
-    fee: aiData.fee || existing.fee || 'বিজ্ঞপ্তি দেখুন',
-    seats: aiData.seats || existing.seats || 'বিজ্ঞপ্তি দেখুন',
-    website: item.url || existing.website,
+    fee: aiData.fee || existing.fee || '',
+    seats: aiData.seats || existing.seats || '',
+    website: existing.website || item.url,
+    noticeUrl: item.url,
     summary: aiData.summary || item.title,
     verified: true,
     updatedAt: new Date().toISOString()
@@ -584,7 +595,7 @@ async function main() {
   const siteUrl = process.env.SITE_URL || '';
   for (const item of newItems.slice(0, 20)) {
     const extra = item.aiExtracted
-      ? `\n📅 আবেদনের শেষ তারিখ: ${item.applyDeadline || '—'}\n🎯 ভর্তি পরীক্ষা: ${item.examDate || '—'}\n✅ ওয়েবসাইটের কার্ড ও ক্যালেন্ডারে স্বয়ংক্রিয়ভাবে যুক্ত হয়েছে!`
+      ? `\n📅 আবেদনের শেষ তারিখ: ${item.applyDeadline || 'প্রকাশিতব্য'}\n🎯 ভর্তি পরীক্ষা: ${item.examDate || 'প্রকাশিতব্য'}\n✅ ওয়েবসাইটের কার্ড ও ক্যালেন্ডারে স্বয়ংক্রিয়ভাবে যুক্ত হয়েছে!`
       : '';
     await sendTelegram(
       `🎓 নতুন আপডেট: ${item.name} (${item.code})\n\n${item.title}${extra}\n\n🔗 ${item.url}` +

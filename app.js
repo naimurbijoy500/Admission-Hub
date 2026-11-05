@@ -1,12 +1,7 @@
 // =========================================================================
 // Admission Hub Bangladesh - Frontend (Clean Service/API Architecture)
+// 100% Real Verified Data Only — No Demo or Placeholder Circulars.
 // Ready for seamless migration to ASP.NET Core Web API / React + SQL Server.
-//
-// Current Static Data Endpoints (can be swapped via API_CONFIG.BASE_URL):
-//   GET /circulars.json  -> List<AdmissionCircularDto>
-//   GET /sources.json    -> List<UniversitySourceDto>
-//   GET /status.json     -> MonitorStatusDto
-//   GET /updates.json    -> List<CircularNoticeDto>
 // =========================================================================
 
 const API_CONFIG = {
@@ -30,8 +25,6 @@ const CATEGORY_LABELS = {
   specialized: 'বিশেষায়িত বিশ্ববিদ্যালয়'
 };
 
-// Official University Seal / Logo Mapping (Wikimedia Commons & Official Emblem Assets)
-// Falls back automatically to official domain favicon & styled crest badge.
 const OFFICIAL_UNIVERSITY_LOGOS = {
   DU: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/University_of_Dhaka_logo.svg/200px-University_of_Dhaka_logo.svg.png',
   BUET: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/BUET_LOGO.svg/200px-BUET_LOGO.svg.png',
@@ -61,8 +54,7 @@ const OFFICIAL_UNIVERSITY_LOGOS = {
   NU: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/88/National_University%2C_Bangladesh_logo.svg/200px-National_University%2C_Bangladesh_logo.svg.png',
   BOU: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Bangladesh_Open_University_logo.svg/200px-Bangladesh_Open_University_logo.svg.png',
   BSMMU: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Bangabandhu_Sheikh_Mujib_Medical_University_logo.svg/200px-Bangabandhu_Sheikh_Mujib_Medical_University_logo.svg.png',
-  DGME: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Government_Seal_of_Bangladesh.svg/200px-Government_Seal_of_Bangladesh.svg.png',
-  MBC: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Government_Seal_of_Bangladesh.svg/200px-Government_Seal_of_Bangladesh.svg.png'
+  DGME: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Government_Seal_of_Bangladesh.svg/200px-Government_Seal_of_Bangladesh.svg.png'
 };
 
 // State
@@ -115,8 +107,6 @@ function extractDomain(url, fallbackDomain) {
   }
 }
 
-// Renders an official university logo with automatic 2-tier fallback:
-// 1. Official Wikimedia/University emblem -> 2. Google S2 High-Res Favicon -> 3. Styled Code Crest
 function renderUniLogo(code, url, logoDomain, sizeClass = '') {
   const upper = String(code || '').toUpperCase();
   const domain = extractDomain(url, logoDomain);
@@ -144,7 +134,7 @@ function todayStr() {
 }
 
 function formatBanglaDate(dateStr) {
-  if (!dateStr) return 'শীঘ্রই জানানো হবে';
+  if (!dateStr) return 'প্রকাশিতব্য';
   const [y, m, d] = dateStr.split('-').map(Number);
   return `${toBanglaNum(d)} ${BN_MONTHS[m - 1]} ${toBanglaNum(y)}`;
 }
@@ -159,18 +149,19 @@ function timeAgo(iso) {
 }
 
 function getDaysRemaining(deadlineStr) {
+  if (!deadlineStr) return null;
   const target = new Date(deadlineStr + 'T23:59:59');
   return Math.ceil((target - new Date()) / (1000 * 60 * 60 * 24));
 }
 
 function computeStatus(c) {
   const t = todayStr();
+  if (!c.applyStart && !c.applyDeadline) return 'upcoming';
   if (c.applyStart && t < c.applyStart) return 'upcoming';
   if (c.applyDeadline && t > c.applyDeadline) return 'closed';
   return 'open';
 }
 
-// Deduplicates circulars by university code so there is never duplicate info
 function allCirculars() {
   const map = new Map();
   for (const item of [...customCirculars, ...circulars]) {
@@ -223,7 +214,6 @@ async function loadData({ silent = false } = {}) {
   ]);
   circulars = c;
 
-  // Deduplicate sources by code as a safeguard
   const seenCodes = new Set();
   sources = s.filter(src => {
     const k = String(src.code || src.id).toUpperCase();
@@ -318,9 +308,9 @@ function renderCirculars() {
   });
 
   filtered.sort((a, b) => {
-    if (activeSort === 'exam') return new Date(a.examDate) - new Date(b.examDate);
-    if (activeSort === 'recent') return new Date(b.applyStart) - new Date(a.applyStart);
-    return new Date(a.applyDeadline) - new Date(b.applyDeadline);
+    if (activeSort === 'exam') return new Date(a.examDate || '2099-12-31') - new Date(b.examDate || '2099-12-31');
+    if (activeSort === 'recent') return new Date(b.applyStart || '2000-01-01') - new Date(a.applyStart || '2000-01-01');
+    return new Date(a.applyDeadline || '2099-12-31') - new Date(b.applyDeadline || '2099-12-31');
   });
 
   if (filtered.length === 0) {
@@ -341,15 +331,24 @@ function renderCirculars() {
     };
     const [statusText, statusClass] = statusMap[c.status];
 
-    let countdownLabel = 'আবেদনের সময় শেষ';
-    if (c.status === 'upcoming') countdownLabel = `🗓 শুরু: ${formatBanglaDate(c.applyStart)}`;
-    else if (daysLeft >= 0) countdownLabel = `⏳ বাকি ${toBanglaNum(daysLeft)} দিন`;
+    let countdownLabel = 'আবেদনের তারিখ এখনো প্রকাশিত হয়নি';
+    if (c.status === 'upcoming' && c.applyStart) countdownLabel = `🗓 আবেদন শুরু: ${formatBanglaDate(c.applyStart)}`;
+    else if (c.status === 'upcoming' && c.examDate) countdownLabel = `🎯 পরীক্ষার তারিখ: ${formatBanglaDate(c.examDate)}`;
+    else if (c.applyDeadline && daysLeft !== null && daysLeft >= 0) countdownLabel = `⏳ আবেদনের বাকি ${toBanglaNum(daysLeft)} দিন`;
+    else if (c.applyDeadline && daysLeft !== null && daysLeft < 0) countdownLabel = 'আবেদনের সময় শেষ';
 
     const verifyBadge = c.custom
-      ? '<span class="verify-badge custom">👤 কাস্টম</span>'
-      : c.verified
-        ? '<span class="verify-badge ok">🤖 AI যাচাইকৃত</span>'
-        : '<span class="verify-badge warn" title="নতুন সার্কুলার প্রকাশিত হলে AI স্বয়ংক্রিয়ভাবে এই তথ্য আপডেট করবে">⏳ সম্ভাব্য তথ্য (অটো-আপডেট হবে)</span>';
+      ? '<span class="verify-badge custom">👤 আপনার যুক্ত করা</span>'
+      : '<span class="verify-badge ok">✔ অফিশিয়াল বিজ্ঞপ্তি থেকে সংগৃহীত</span>';
+
+    const gpaDisplay = Number(c.minTotalGpa) > 0
+      ? `⭐ ${toBanglaNum(Number(c.minTotalGpa).toFixed(2))}`
+      : 'প্রকাশিতব্য';
+
+    let feeSeatsDisplay = 'প্রকাশিতব্য';
+    if (c.fee && c.seats) feeSeatsDisplay = `💳 ${escapeHtml(c.fee)} (${escapeHtml(c.seats)})`;
+    else if (c.fee) feeSeatsDisplay = `💳 ${escapeHtml(c.fee)}`;
+    else if (c.seats) feeSeatsDisplay = `💺 ${escapeHtml(c.seats)}`;
 
     return `
       <article class="circular-card">
@@ -386,11 +385,11 @@ function renderCirculars() {
             </div>
             <div class="meta-item">
               <span>ন্যূনতম মোট জিপিএ</span>
-              <strong>⭐ ${toBanglaNum(Number(c.minTotalGpa || 0).toFixed(2))}</strong>
+              <strong>${gpaDisplay}</strong>
             </div>
             <div class="meta-item">
               <span>আবেদন ফি ও আসন</span>
-              <strong>💳 ${escapeHtml(c.fee || '—')} (${escapeHtml(c.seats || '—')})</strong>
+              <strong>${feeSeatsDisplay}</strong>
             </div>
           </div>
 
@@ -403,7 +402,7 @@ function renderCirculars() {
         <div class="card-actions">
           <button class="btn-primary" onclick="openCircularModal('${c.id}')">📄 বিস্তারিত</button>
           <button class="btn-outline" onclick="addToGoogleCalendar('${c.id}')" title="Google Calendar-এ যুক্ত করুন">📅 ক্যালেন্ডার</button>
-          <a href="${escapeHtml(c.website)}" target="_blank" rel="noopener" class="btn-outline">🔗 পোর্টাল</a>
+          <a href="${escapeHtml(c.sourceNoticeUrl || c.website)}" target="_blank" rel="noopener" class="btn-outline">🔗 অফিশিয়াল নোটিশ</a>
         </div>
       </article>
     `;
@@ -455,9 +454,17 @@ window.openCircularModal = function (id) {
         <div class="meta-item"><span>আবেদন শুরুর তারিখ</span><strong>${formatBanglaDate(c.applyStart)}</strong></div>
         <div class="meta-item"><span>আবেদনের শেষ তারিখ</span><strong style="color:var(--warning);">${formatBanglaDate(c.applyDeadline)}</strong></div>
         <div class="meta-item"><span>ভর্তি পরীক্ষার তারিখ</span><strong style="color:var(--accent-primary);">${formatBanglaDate(c.examDate)}</strong></div>
-        <div class="meta-item"><span>ন্যূনতম জিপিএ</span><strong>SSC: ${toBanglaNum(c.minSscGpa)} | HSC: ${toBanglaNum(c.minHscGpa)} (মোট: ${toBanglaNum(c.minTotalGpa)})</strong></div>
-        <div class="meta-item"><span>আবেদন ফি ও আসন</span><strong>${escapeHtml(c.fee)} • ${escapeHtml(c.seats || '—')}</strong></div>
+        <div class="meta-item"><span>ন্যূনতম জিপিএ</span><strong>${Number(c.minTotalGpa) > 0 ? `SSC: ${toBanglaNum(c.minSscGpa)} | HSC: ${toBanglaNum(c.minHscGpa)} (মোট: ${toBanglaNum(c.minTotalGpa)})` : 'প্রকাশিতব্য'}</strong></div>
+        <div class="meta-item"><span>আবেদন ফি ও আসন</span><strong>${escapeHtml(c.fee || 'প্রকাশিতব্য')} • ${escapeHtml(c.seats || 'প্রকাশিতব্য')}</strong></div>
       </div>
+
+      ${Array.isArray(c.unitExams) && c.unitExams.length ? `
+        <div style="background:var(--bg-secondary); padding:10px 12px; border-radius:10px;">
+          <h4 style="margin-bottom:6px; font-size:0.88rem;">🎯 ইউনিটভিত্তিক ভর্তি পরীক্ষার অফিশিয়াল তারিখ</h4>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:6px; font-size:0.82rem;">
+            ${c.unitExams.map(u => `<div style="padding:5px 8px; background:var(--bg-card); border-radius:6px; border:1px solid var(--border-color);"><strong>${escapeHtml(u.unit)}:</strong> ${formatBanglaDate(u.date)}</div>`).join('')}
+          </div>
+        </div>` : ''}
 
       ${latest.length ? `
         <div style="background:var(--bg-secondary); padding:10px 12px; border-radius:10px;">
@@ -469,6 +476,7 @@ window.openCircularModal = function (id) {
     <div class="modal-footer">
       <button class="btn-outline" onclick="downloadSingleIcs('${c.id}')">📥 .ics ফাইল</button>
       <button class="btn-outline" onclick="addToGoogleCalendar('${c.id}')">📅 Google Calendar</button>
+      ${c.sourceNoticeUrl ? `<a href="${escapeHtml(c.sourceNoticeUrl)}" target="_blank" rel="noopener" class="btn-outline">📰 মূল বিজ্ঞপ্তি</a>` : ''}
       <a href="${escapeHtml(c.website)}" target="_blank" rel="noopener" class="btn-primary">🌐 অফিশিয়াল পোর্টাল</a>
     </div>
   `;
@@ -481,14 +489,17 @@ window.closeCircularModal = function () {
 
 window.addToGoogleCalendar = function (id) {
   const c = findCircular(id);
-  if (!c) return;
+  if (!c || !c.examDate) {
+    showToast('এই সার্কুলারের পরীক্ষার তারিখ এখনো প্রকাশিত হয়নি।');
+    return;
+  }
   const day = c.examDate.replace(/-/g, '');
   const next = new Date(c.examDate + 'T00:00:00');
   next.setDate(next.getDate() + 1);
   const end = `${next.getFullYear()}${String(next.getMonth() + 1).padStart(2, '0')}${String(next.getDate()).padStart(2, '0')}`;
   const title = encodeURIComponent(`ভর্তি পরীক্ষা: ${c.name} (${c.code})`);
   const details = encodeURIComponent(
-    `ইউনিট: ${c.units}\nআবেদনের শেষ তারিখ: ${c.applyDeadline}\nঅফিশিয়াল ওয়েবসাইট: ${c.website}`
+    `ইউনিট: ${c.units}\nআবেদনের শেষ তারিখ: ${c.applyDeadline || 'প্রকাশিতব্য'}\nঅফিশিয়াল ওয়েবসাইট: ${c.website}`
   );
   window.open(`https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${day}/${end}&details=${details}`, '_blank', 'noopener');
 };
@@ -507,8 +518,15 @@ function generateAndDownloadIcs(list, filename) {
       `DTSTART;VALUE=DATE:${date.replace(/-/g, '')}`, `SUMMARY:${summary}`, `DESCRIPTION:${desc}`, 'END:VEVENT');
   };
   list.forEach(c => {
+    addEvent(`${c.id}-start`, c.applyStart, `আবেদন শুরু: ${c.name} (${c.code})`, `অফিশিয়াল পোর্টাল: ${c.website}`);
     addEvent(`${c.id}-deadline`, c.applyDeadline, `আবেদনের শেষ দিন: ${c.name} (${c.code})`, `অফিশিয়াল পোর্টাল: ${c.website}`);
-    addEvent(`${c.id}-exam`, c.examDate, `ভর্তি পরীক্ষা: ${c.name} (${c.code})`, `ইউনিট: ${c.units} | ${c.website}`);
+    if (Array.isArray(c.unitExams) && c.unitExams.length) {
+      c.unitExams.forEach((u, idx) => {
+        addEvent(`${c.id}-exam-${idx}`, u.date, `ভর্তি পরীক্ষা: ${c.name} (${u.unit})`, `অফিশিয়াল পোর্টাল: ${c.website}`);
+      });
+    } else {
+      addEvent(`${c.id}-exam`, c.examDate, `ভর্তি পরীক্ষা: ${c.name} (${c.code})`, `ইউনিট: ${c.units} | ${c.website}`);
+    }
   });
   lines.push('END:VCALENDAR');
 
@@ -527,9 +545,15 @@ function getAllCalendarEvents() {
   const events = [];
   allCirculars().forEach(c => {
     const base = { uniId: c.id, code: c.code, uniName: c.name, website: c.website, logoDomain: c.logoDomain };
-    if (c.applyStart) events.push({ ...base, date: c.applyStart, type: 'start', title: `${c.code} শুরু` });
-    if (c.applyDeadline) events.push({ ...base, date: c.applyDeadline, type: 'deadline', title: `${c.code} শেষ` });
-    if (c.examDate) events.push({ ...base, date: c.examDate, type: 'exam', title: `${c.code} পরীক্ষা` });
+    if (c.applyStart) events.push({ ...base, date: c.applyStart, type: 'start', title: `${c.code} আবেদন শুরু` });
+    if (c.applyDeadline) events.push({ ...base, date: c.applyDeadline, type: 'deadline', title: `${c.code} শেষ দিন` });
+    if (Array.isArray(c.unitExams) && c.unitExams.length) {
+      c.unitExams.forEach(u => {
+        if (u.date) events.push({ ...base, date: u.date, type: 'exam', title: `${c.code} (${u.unit})` });
+      });
+    } else if (c.examDate) {
+      events.push({ ...base, date: c.examDate, type: 'exam', title: `${c.code} ভর্তি পরীক্ষা` });
+    }
   });
   return events.sort((a, b) => new Date(a.date) - new Date(b.date));
 }
@@ -548,7 +572,7 @@ function renderCalendar() {
     const fullDate = `${calYear}-${String(calMonth + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
     const dayEvents = allEvents.filter(e => e.date === fullDate);
     const pills = dayEvents.slice(0, 3).map(ev =>
-      `<span class="cal-pill ${ev.type}" title="${escapeHtml(ev.uniName)}">${escapeHtml(ev.title)}</span>`
+      `<span class="cal-pill ${ev.type}" title="${escapeHtml(ev.uniName)}: ${escapeHtml(ev.title)}">${escapeHtml(ev.title)}</span>`
     ).join('');
     const more = dayEvents.length > 3 ? `<span class="cal-more">+${toBanglaNum(dayEvents.length - 3)}</span>` : '';
 
@@ -591,8 +615,8 @@ function renderTimeline() {
       <div style="display:flex; align-items:center; gap:10px;">
         ${renderUniLogo(ev.code, ev.website, ev.logoDomain, 'sm')}
         <div class="timeline-info">
-          <h4>${escapeHtml(ev.uniName)} (${escapeHtml(ev.code)})</h4>
-          <p>${labels[ev.type]} • <strong>${formatBanglaDate(ev.date)}</strong></p>
+          <h4>${escapeHtml(ev.title)}</h4>
+          <p>${escapeHtml(ev.uniName)} • ${labels[ev.type]}: <strong>${formatBanglaDate(ev.date)}</strong></p>
         </div>
       </div>
       <button class="btn-outline" style="padding:5px 9px; font-size:0.75rem;" onclick="openCircularModal('${ev.uniId}')">দেখুন</button>
@@ -638,7 +662,7 @@ window.handleNotifClick = function (id) {
 };
 
 // ---------------------------------------------------------------------------
-// Monitored Official Websites Directory (Deduplicated + Logos)
+// Monitored Official Websites Directory
 // ---------------------------------------------------------------------------
 function renderDirectory() {
   const grid = document.getElementById('universityDirectoryGrid');
@@ -808,18 +832,19 @@ function setupEventListeners() {
     const ssc = parseFloat(document.getElementById('sscGpa').value) || 0;
     const hsc = parseFloat(document.getElementById('hscGpa').value) || 0;
     const total = ssc + hsc;
-    const eligible = allCirculars().filter(c =>
+    const withGpaRules = allCirculars().filter(c => Number(c.minTotalGpa) > 0);
+    const eligible = withGpaRules.filter(c =>
       (c.allowedGroups || []).includes(group) && ssc >= c.minSscGpa && hsc >= c.minHscGpa && total >= c.minTotalGpa
     );
     const box = document.getElementById('gpaResultsBox');
     if (eligible.length === 0) {
       box.innerHTML = `<div class="calc-placeholder"><span>⚠️</span>
-        <p>মোট জিপিএ ${toBanglaNum(total.toFixed(2))} দিয়ে তালিকার কোনো বিশ্ববিদ্যালয়ের ন্যূনতম শর্ত পূরণ হয়নি।</p></div>`;
+        <p>প্রকাশিত অফিশিয়াল সার্কুলারগুলোর মধ্যে মোট জিপিএ ${toBanglaNum(total.toFixed(2))} দিয়ে কোনোটির ন্যূনতম শর্ত পূরণ হয়নি।</p></div>`;
       return;
     }
     box.innerHTML = `
       <h4 style="margin-bottom:6px; font-size:0.9rem; color:var(--accent-primary);">
-        🎉 মোট জিপিএ ${toBanglaNum(total.toFixed(2))} দিয়ে আপনি ${toBanglaNum(eligible.length)}টিতে আবেদন করতে পারবেন:
+        🎉 প্রকাশিত অফিশিয়াল সার্কুলার অনুযায়ী মোট জিপিএ ${toBanglaNum(total.toFixed(2))} দিয়ে আপনি ${toBanglaNum(eligible.length)}টিতে আবেদন করতে পারবেন:
       </h4>
       ${eligible.map(c => `
         <div class="eligible-item">
