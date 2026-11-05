@@ -1,5 +1,605 @@
 [
   {
+    "id": "eee725eebcac3d62",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "University of Rajshahi",
+    "url": "https://admission.ru.ac.bd/",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "1942361718cfd536",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "Admission Notices",
+    "url": "https://admission.ru.ac.bd/student/notices",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "66c8e73775d8ca9e",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "Application Guideline",
+    "url": "https://admission.ru.ac.bd/student/application-guideline",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "59aaffc019ce1a8e",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "Payment Instructions",
+    "url": "https://admission.ru.ac.bd/student/payment-instructions",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "fafceed0ec4d8c7e",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "Photo/Selfie Instructions",
+    "url": "https://admission.ru.ac.bd/student/photo-selfie-instructions",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "1e4e2ad34f970733",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "How To Apply",
+    "url": "https://admission.bup.edu.bd/Admission/HowToApply.aspx",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "dc4f953a4c591867",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Exam Center Location",
+    "url": "https://admission.bup.edu.bd/ApplicationDocs/exam_center.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "c5aca01f52cb12e8",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "MPhil/PhD Programs",
+    "url": "https://chsr-admission.bup.edu.bd/Admission/Home",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "aa0795620bea8e78",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Apply (International Students)",
+    "url": "https://internationalstudents.bup.edu.bd/",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "874b74ea6dde88b5",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Bachelors Programs",
+    "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramV3.aspx?ecat=4",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "f0d3e9ab5de17f8d",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Masters Programs",
+    "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgram.aspx?ecat=6",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "08ce82f2c65c2172",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Diploma Programs",
+    "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramDiploma.aspx",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "9baa84e3240df07d",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Certificate Courses",
+    "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgram.aspx?ecat=0",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "ef4736e7de741cd1",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/Extended%20Admission%20Notice%20(Jan-2027).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "2d2ffd0faa2dc45f",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/MCSE%20(29-10-26).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "8b3c0635231c977a",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/MCS%20(29-10-26).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "6c91b02c8bf8dce7",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/Admission%20circular%20-%20MPH%20Jan-2027.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "2b09c33810a93996",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/59-Admission%20Circular%20(MESM-2027)(For%20Website).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "66bb0935c2da2e59",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/LLM_Admission_Circular_29th_Batch_Compact-2.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "47bddc032a9e3c1e",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/Admission%20Notice%20(Jan-2027).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "180df84252aecb57",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/MCSE.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "d64d3e572b1ce95d",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/MCS.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "9d0de4b6c7ade463",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/Admission%20Circular%20of%20Masters%20in%20Information%20Systems%20Security%20(MISS)%20(Session%202026-2027).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "01f100203e9c739e",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/Admission%20Circular%20of%20Masters%20in%20Information%20&%20Communication%20Technology%20(MICT)%20(Session%202026-2027).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "4b8e0a2c9525ec9d",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/Admission%20Circular%20for%20MDS-Professional%202026-2027.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "a70a8789d4c9f471",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/20260831_1788165883.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "3168445a85cb7b1f",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/BUP_Scan_.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "f8ddba47bfd0c440",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/Final%20Selected%20List%20of%20MBA%20(Professional),%20Session%20Sep-Dec%202026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "b7cfa9760cc7590a",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/Admission%20Written%20Test%20Result%20September-2026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "25fc61ba2700a19f",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/List%20of%20Eligible%20Candidates%20for%20Written%20Test%20MBA%20(Prof).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "f1263361e548f807",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/MPH%20Admission%20Result%20(July-Dec%202026)%20B-9.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "b0f6f6d6356a8490",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/NOTICE%20FOR%20ADMISSION-Masters%20in%20Information%20and%20Communication%20Engineering%20(MICE)%20(Session%202025-2026).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "441469d98dea1ead",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/LLM_Admission_Circular_for%20LLM%20Prof%2028%20Batch.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "e454e21cf4015f46",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "Prospectus",
+    "url": "https://admission.sust.edu.bd/documents/view/prospectus",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "73b8e3f63933add5",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "Calculators",
+    "url": "https://admission.sust.edu.bd/calculatormodels.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "428396f54d8f6e4a",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "Rank List",
+    "url": "https://admission.sust.edu.bd/admission-result",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "4564ea333eb095ee",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "Help",
+    "url": "https://admission.sust.edu.bd/helpdesk",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "e2d7862564c7a2be",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "Cancel",
+    "url": "https://admission.sust.edu.bd/welcome",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "d22b7f28477725cc",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "SPMA",
+    "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_SPMA_rank_list_sort_by_roll.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "b5d36adc8ab2c191",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "SCMA",
+    "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_SCMA_rank_list_sort_by_roll.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "134f092702b29a9f",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "Olympiad",
+    "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_OMA_rank_list_sort_by_roll.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "d17439706a7870ff",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "A1/A2",
+    "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_rank_list_unit_a1_sort_by_roll.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "f6b2d692ec911f71",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "A2 (আর্কিটেকচার)",
+    "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_rank_list_unit_a2_sort_by_roll.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "790150d7c818eb8b",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "B (বিজ্ঞান)",
+    "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_rank_list_unit_b_sci_sort_by_roll.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "8f9b3573d4929d26",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "B (মানবিক)",
+    "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_rank_list_unit_b_hum_sort_by_roll.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "a631c2b68567ba2a",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "B (ব্যবসা শিক্ষা)",
+    "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_rank_list_unit_b_bus_sort_by_roll.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "5ea4a02fdb7c9c07",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "1.png",
+    "url": "https://admission.sust.edu.bd/web/gallery/1.png",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "d2578eec3fbbe069",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "2.png",
+    "url": "https://admission.sust.edu.bd/web/gallery/2.png",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "1552658df8a14ecf",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "3.png",
+    "url": "https://admission.sust.edu.bd/web/gallery/3.png",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "ef9218623e7cd5c8",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "4.png",
+    "url": "https://admission.sust.edu.bd/web/gallery/4.png",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "f34e5ce11970b018",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "5.png",
+    "url": "https://admission.sust.edu.bd/web/gallery/5.png",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "6cc9b86883cb5fc2",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "6.png",
+    "url": "https://admission.sust.edu.bd/web/gallery/6.png",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "858abd224579be36",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "7.png",
+    "url": "https://admission.sust.edu.bd/web/gallery/7.png",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "eb085164c8f80c18",
+    "source": "sust",
+    "code": "SUST",
+    "name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "10.png",
+    "url": "https://admission.sust.edu.bd/web/gallery/10.png",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "9e26fd27eec143dc",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৪ সালের বিএসসি (অনার্স) ইন AMT, KMT ও FDT প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার চূড়ান্ত ফলাফল প্রকাশ সংক্রান্ত বিজ্ঞপ্তি।",
+    "url": "https://www.nu.ac.bd/uploads/notices/notice_17279_pub_date_05112026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "716172de9a8486ba",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৪ সালের বিবিএ (প্রফেশনাল) প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার উত্তরপত্র পুনর্মূল্যায়ন সংক্রান্ত বিজ্ঞপ্তি।",
+    "url": "https://www.nu.ac.bd/uploads/notices/notice_17277_pub_date_05112026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "d26bdad7319f6eaf",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৫ সালের অনার্স ১ম বর্ষ ব্যবহারিক পরীক্ষা (আইসিটি)-এর সংশোধিত কেন্দ্র তালিকা।",
+    "url": "https://www.nu.ac.bd/uploads/notices/ICT_1st_Center_List_pub_date_05112026.PDF",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "f1c40a569c693f96",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৫ সালের অনার্স ১ম বর্ষ ব্যবহারিক পরীক্ষা (প্রাণিবিদ্যা)-এর সংশোধিত কেন্দ্র তালিকা।",
+    "url": "https://www.nu.ac.bd/uploads/notices/Zoology_1st_Center_List_pub_date_05112026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "a65f2340b6b68d5d",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "আন্ডারগ্র্যাজুয়েট একাডেমিক ক্যালেন্ডার (সংশোধিত-১)",
+    "url": "https://www.duet.ac.bd/notice/academic-notices/2508/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9C%E0%A7%81%E0%A7%9F%E0%A7%87%E0%A6%9F-%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%95-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%BF%E0%A6%A4-%E0%A7%A7",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
+    "id": "95052cb5f11678e5",
+    "source": "butex",
+    "code": "BUTEX",
+    "name": "বাংলাদেশ টেক্সটাইল বিশ্ববিদ্যালয় (বুটেক্স)",
+    "title": "Admission Notice of 11th Batch (WPE, TEM Dept.) MSc in Textile Engineering",
+    "url": "https://www.butex.edu.bd/admission-notice-of-11-batch-wpe-tem-dept-msc-in-textile-engineering/",
+    "pdf": false,
+    "detectedAt": "2026-11-05T19:59:18.651Z"
+  },
+  {
     "id": "ca88fd63610faee0",
     "source": "du",
     "code": "DU",

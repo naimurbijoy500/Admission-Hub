@@ -2,126 +2,8 @@
   "sources": {
     "gst-admission": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
-      "error": null,
-      "linkCount": 0,
-      "latest": [],
-      "lastNewAt": null
-    },
-    "ru-admission": {
-      "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
-      "error": null,
-      "linkCount": 9,
-      "latest": [
-        {
-          "title": "University of Rajshahi",
-          "url": "https://admission.ru.ac.bd/",
-          "pdf": false
-        },
-        {
-          "title": "Admission Notices",
-          "url": "https://admission.ru.ac.bd/student/notices",
-          "pdf": false
-        },
-        {
-          "title": "Application Guideline",
-          "url": "https://admission.ru.ac.bd/student/application-guideline",
-          "pdf": false
-        },
-        {
-          "title": "Payment Instructions",
-          "url": "https://admission.ru.ac.bd/student/payment-instructions",
-          "pdf": false
-        },
-        {
-          "title": "Photo/Selfie Instructions",
-          "url": "https://admission.ru.ac.bd/student/photo-selfie-instructions",
-          "pdf": false
-        },
-        {
-          "title": "Helpline",
-          "url": "https://admission.ru.ac.bd/student/helpline",
-          "pdf": false
-        },
-        {
-          "title": "Complaint",
-          "url": "https://admission.ru.ac.bd/student/complaint-box/create",
-          "pdf": false
-        },
-        {
-          "title": "Login",
-          "url": "https://admission.ru.ac.bd/student/login",
-          "pdf": false
-        }
-      ],
-      "lastNewAt": "2026-11-05T12:16:17.430Z"
-    },
-    "bup-admission": {
-      "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
-      "error": null,
-      "linkCount": 29,
-      "latest": [
-        {
-          "title": "Home",
-          "url": "https://admission.bup.edu.bd/Admission/Home.aspx",
-          "pdf": false
-        },
-        {
-          "title": "How To Apply",
-          "url": "https://admission.bup.edu.bd/Admission/HowToApply.aspx",
-          "pdf": false
-        },
-        {
-          "title": "Exam Center Location",
-          "url": "https://admission.bup.edu.bd/ApplicationDocs/exam_center.pdf",
-          "pdf": true
-        },
-        {
-          "title": "MPhil/PhD Programs",
-          "url": "https://chsr-admission.bup.edu.bd/Admission/Home",
-          "pdf": false
-        },
-        {
-          "title": "Apply (International Students)",
-          "url": "https://internationalstudents.bup.edu.bd/",
-          "pdf": false
-        },
-        {
-          "title": "Bachelors Programs",
-          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramV3.aspx?ecat=4",
-          "pdf": false
-        },
-        {
-          "title": "Masters Programs",
-          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgram.aspx?ecat=6",
-          "pdf": false
-        },
-        {
-          "title": "Diploma Programs",
-          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramDiploma.aspx",
-          "pdf": false
-        }
-      ],
-      "lastNewAt": null
-    },
-    "cu-admission": {
-      "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
-      "error": null,
-      "linkCount": 0,
-      "latest": [],
-      "lastNewAt": null
-    },
-    "du-admission": {
-      "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -129,8 +11,8 @@
     },
     "du": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 12,
       "latest": [
@@ -179,8 +61,8 @@
     },
     "buet": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -188,10 +70,10 @@
     },
     "ru": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
-      "linkCount": 3,
+      "linkCount": 8,
       "latest": [
         {
           "title": "Admission",
@@ -207,23 +89,39 @@
           "title": "সুপারভাইজার/প্রিন্সিপ্যাল সুপারভাইজার/কো-সুপারভাইজার নিয়োগ, পরিবর্তন ও অব্যহতি/পদবী সংযোজন/নামের বানান সংশোধন/শিরোনাম পরিবর্তন, সংশোধন ও সংযোজন/ ভর্তি/রেজিস্ট্রেশন বাতিল/নিয়মিত প্রোগ্রাম থেকে খন্ডকালীন প্রোগ্রামে স্থানান্তরের বি জ্ঞ প্তি",
           "url": "https://www.ru.ac.bd/blog/notice/%e0%a6%b8%e0%a7%81%e0%a6%aa%e0%a6%be%e0%a6%b0%e0%a6%ad%e0%a6%be%e0%a6%87%e0%a6%9c%e0%a6%be%e0%a6%b0-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%a8%e0%a7%8d%e0%a6%b8%e0%a6%bf%e0%a6%aa%e0%a7%8d%e0%a6%af/",
           "pdf": false
+        },
+        {
+          "title": "University of Rajshahi",
+          "url": "https://admission.ru.ac.bd/",
+          "pdf": false
+        },
+        {
+          "title": "Admission Notices",
+          "url": "https://admission.ru.ac.bd/student/notices",
+          "pdf": false
+        },
+        {
+          "title": "Application Guideline",
+          "url": "https://admission.ru.ac.bd/student/application-guideline",
+          "pdf": false
+        },
+        {
+          "title": "Payment Instructions",
+          "url": "https://admission.ru.ac.bd/student/payment-instructions",
+          "pdf": false
+        },
+        {
+          "title": "Photo/Selfie Instructions",
+          "url": "https://admission.ru.ac.bd/student/photo-selfie-instructions",
+          "pdf": false
         }
       ],
-      "lastNewAt": null
-    },
-    "ju-admission": {
-      "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
-      "error": null,
-      "linkCount": 0,
-      "latest": [],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T19:59:18.651Z"
     },
     "iu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -252,40 +150,61 @@
     },
     "sust": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
-      "linkCount": 0,
-      "latest": [],
-      "lastNewAt": null
-    },
-    "bau": {
-      "ok": false,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T03:28:22.114Z",
-      "error": "HTTP 403",
-      "linkCount": 6,
+      "linkCount": 21,
       "latest": [
         {
-          "title": "Online Apply",
-          "url": "https://app.bau.edu.bd/ug_admission",
+          "title": "Prospectus",
+          "url": "https://admission.sust.edu.bd/documents/view/prospectus",
           "pdf": false
         },
         {
-          "title": "Download Admission Form",
-          "url": "https://www.bau.edu.bd/ug_admission",
+          "title": "Calculators",
+          "url": "https://admission.sust.edu.bd/calculatormodels.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Rank List",
+          "url": "https://admission.sust.edu.bd/admission-result",
           "pdf": false
         },
         {
-          "title": "Online Apply",
-          "url": "https://app.bau.edu.bd/msAdmissionForm",
+          "title": "Help",
+          "url": "https://admission.sust.edu.bd/helpdesk",
           "pdf": false
         },
         {
-          "title": "Undergraduate Adimission",
-          "url": "https://www.bau.edu.bd/main/undergraduate-adimission",
+          "title": "Cancel",
+          "url": "https://admission.sust.edu.bd/welcome",
           "pdf": false
         },
+        {
+          "title": "SPMA",
+          "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_SPMA_rank_list_sort_by_roll.pdf",
+          "pdf": true
+        },
+        {
+          "title": "SCMA",
+          "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_SCMA_rank_list_sort_by_roll.pdf",
+          "pdf": true
+        },
+        {
+          "title": "Olympiad",
+          "url": "https://suad-fs.sgp1.cdn.digitaloceanspaces.com/result/final_OMA_rank_list_sort_by_roll.pdf",
+          "pdf": true
+        }
+      ],
+      "lastNewAt": "2026-11-05T19:59:18.651Z"
+    },
+    "bau": {
+      "ok": true,
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
+      "error": null,
+      "linkCount": 2,
+      "latest": [
         {
           "title": "Learn More",
           "url": "https://id.bau.edu.bd/section/undergraduate-admission-open-for-2025-2026-session",
@@ -301,10 +220,10 @@
     },
     "nu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
-      "linkCount": 635,
+      "linkCount": 639,
       "latest": [
         {
           "title": "Admission Service",
@@ -337,24 +256,24 @@
           "pdf": false
         },
         {
-          "title": "২০২৫ সালের অনার্স ১ম বর্ষ ব্যবহারিক পরীক্ষা (পরিসংখ্যান) এর সংশোধিত কেন্দ্র তালিকা।",
-          "url": "https://www.nu.ac.bd/uploads/notices/Center_List-Hp1_(Practical_Exam-2025).pdf",
+          "title": "২০২৪ সালের বিএসসি (অনার্স) ইন AMT, KMT ও FDT প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার চূড়ান্ত ফলাফল প্রকাশ সংক্রান্ত বিজ্ঞপ্তি।",
+          "url": "https://www.nu.ac.bd/uploads/notices/notice_17279_pub_date_05112026.pdf",
           "pdf": true
         },
         {
-          "title": "২০২৪ সালের থিয়েটার এন্ড মিডিয়া স্টাডিজ (অনার্স) প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার ফরম পূরণের বিজ্ঞপ্তি।",
-          "url": "https://www.nu.ac.bd/uploads/notices/notice_17265_pub_date_02112026.pdf",
+          "title": "২০২৪ সালের বিবিএ (প্রফেশনাল) প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার উত্তরপত্র পুনর্মূল্যায়ন সংক্রান্ত বিজ্ঞপ্তি।",
+          "url": "https://www.nu.ac.bd/uploads/notices/notice_17277_pub_date_05112026.pdf",
           "pdf": true
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T19:59:18.651Z"
     },
     "bou": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
-      "linkCount": 10,
+      "linkCount": 9,
       "latest": [
         {
           "title": "Online Admission",
@@ -364,11 +283,6 @@
         {
           "title": "Admission",
           "url": "https://www.bou.ac.bd/NoticeBoard/Admission",
-          "pdf": false
-        },
-        {
-          "title": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়ের প্রতিষ্ঠাবার্ষিকী উপলক্ষে উপাচার্য মহোদয়ের শুভেচ্ছা বাণী || /a--> Time extension for admission of Professional MBA Program, Spring - 2026",
-          "url": "https://youtu.be/JEywajpvBj8?si=7g-oNiEzYSeJ78rG",
           "pdf": false
         },
         {
@@ -395,14 +309,19 @@
           "title": "Selected Applicant List for Admission of SSC (Niche-2) Program 2027 Batch (Session: 2027-2028) 2026-10-15",
           "url": "https://www.bou.ac.bd/upload/notice/admission/1879108953684254.pdf",
           "pdf": true
+        },
+        {
+          "title": "বিএমএড প্রোগ্রামে (শিক্ষাবর্ষ ২০২৭) ভর্তির নিমিত্তে মৌখিক পরীক্ষার জন্য নির্বাচিত প্রার্থীদের তালিকা 2026-10-14",
+          "url": "https://www.bou.ac.bd/upload/notice/admission/1878999252559070.pdf",
+          "pdf": true
         }
       ],
       "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "ku": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -410,8 +329,8 @@
     },
     "bsmmu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -419,8 +338,8 @@
     },
     "cu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -469,8 +388,8 @@
     },
     "mbstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -478,10 +397,10 @@
     },
     "hstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
-      "linkCount": 13,
+      "linkCount": 12,
       "latest": [
         {
           "title": "Undergraduate Programme",
@@ -504,11 +423,6 @@
           "pdf": true
         },
         {
-          "title": "২০২৬ শিক্ষাবর্ষে ভর্তিকৃত ছাত্র-ছাত্রীদের প্রোফাইলে স্টুডেন্ট আইডি প্রদান করা হয়েছে",
-          "url": "https://admission.hstu.ac.bd/home/login",
-          "pdf": false
-        },
-        {
           "title": "MBA (Evening) Program, May-2017 Admission Circular has been announced (click here to see details)",
           "url": "http://hstu.ac.bd/admission/postgraduat",
           "pdf": false
@@ -522,14 +436,19 @@
           "title": "হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ের স্নাতক ১ম বর্ষ ভর্তি পরীক্ষা - ২০২৬ উপলক্ষ্যে আজ বিশ্ববিদ্যালয়ের সকল শিক্ষক, কর্মকর্তা ও কর্মচারীদের সাথে মতবিনিময় করেন মাননীয় ভাইস-চ্যান্সেলর প্রফেসর ড. মো. এনামউল্যা View Details",
           "url": "https://hstu.ac.bd/page/events_details/id/191",
           "pdf": false
+        },
+        {
+          "title": "‘সি’ ও ‘ডি’ ইউনিটের পরীক্ষার মধ্য দিয়ে শেষ হলো হাবিপ্রবির ২০২৫ শিক্ষাবর্ষের স্নাতক পর্যায়ের ভর্তি পরীক্ষা View Details",
+          "url": "https://hstu.ac.bd/page/events_details/id/153",
+          "pdf": false
         }
       ],
       "lastNewAt": null
     },
     "pstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -568,8 +487,8 @@
     },
     "ju": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -618,8 +537,8 @@
     },
     "sau-dhaka": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -633,8 +552,8 @@
     },
     "kuet": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -683,13 +602,13 @@
     },
     "agri-admission": {
       "ok": false,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
       "error": "HTTP 503"
     },
     "bsmrau": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -738,8 +657,8 @@
     },
     "ruet": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -788,8 +707,8 @@
     },
     "jnu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -818,10 +737,10 @@
     },
     "duet": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
-      "linkCount": 8,
+      "linkCount": 9,
       "latest": [
         {
           "title": "Admission",
@@ -849,6 +768,11 @@
           "pdf": false
         },
         {
+          "title": "আন্ডারগ্র্যাজুয়েট একাডেমিক ক্যালেন্ডার (সংশোধিত-১)",
+          "url": "https://www.duet.ac.bd/notice/academic-notices/2508/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9C%E0%A7%81%E0%A7%9F%E0%A7%87%E0%A6%9F-%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%95-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%BF%E0%A6%A4-%E0%A7%A7",
+          "pdf": false
+        },
+        {
           "title": "পোস্টগ্র্যাজুয়েট প্রোগ্রামের ২০২৫-২০২৬ শিক্ষাবর্ষের ভর্তি বিজ্ঞপ্তি (সংশোধিত)",
           "url": "https://www.duet.ac.bd/notice/admission-notices/2499/%E0%A6%AA%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9C%E0%A7%81%E0%A7%9F%E0%A7%87%E0%A6%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AB-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%BF%E0%A6%A4",
           "pdf": false
@@ -857,19 +781,14 @@
           "title": "ডুয়েটের বিএসসি ইঞ্জিনিয়ারিং ও ব্যাচেলর অব আর্কিটেকচার প্রোগ্রামের ভর্তি পরীক্ষা-২০২৬ সুষ্ঠুভাবে সম্পন্ন",
           "url": "https://www.duet.ac.bd/news/204/%E0%A6%A1%E0%A7%81%E0%A7%9F%E0%A7%87%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF-%E0%A6%87%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%82-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%87%E0%A6%B2%E0%A6%B0-%E0%A6%85%E0%A6%AC-%E0%A6%86%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%95%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%B8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A7%81%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A8%E0%A7%8D%E0%A6%A8",
           "pdf": false
-        },
-        {
-          "title": "eRegistration(Undergraduate)",
-          "url": "https://ugr.duetbd.org/",
-          "pdf": false
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T19:59:18.651Z"
     },
     "jkkniu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -918,13 +837,13 @@
     },
     "ckruet-admission": {
       "ok": false,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
       "error": "getaddrinfo EAI_AGAIN admissionckruet.ac.bd"
     },
     "cvasu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -963,8 +882,8 @@
     },
     "sau-sylhet": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -993,8 +912,8 @@
     },
     "just": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1013,8 +932,8 @@
     },
     "cuet": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -1048,8 +967,8 @@
     },
     "cou": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 55,
       "latest": [
@@ -1098,8 +1017,8 @@
     },
     "pust": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 14,
       "latest": [
@@ -1148,58 +1067,58 @@
     },
     "bup": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
-      "linkCount": 13,
+      "linkCount": 28,
       "latest": [
         {
-          "title": "BUP Admission website",
-          "url": "https://admission.bup.edu.bd/",
+          "title": "How To Apply",
+          "url": "https://admission.bup.edu.bd/Admission/HowToApply.aspx",
           "pdf": false
         },
         {
-          "title": "Undergraduate",
-          "url": "https://www.bup.edu.bd/academics/1",
+          "title": "Exam Center Location",
+          "url": "https://admission.bup.edu.bd/ApplicationDocs/exam_center.pdf",
+          "pdf": true
+        },
+        {
+          "title": "MPhil/PhD Programs",
+          "url": "https://chsr-admission.bup.edu.bd/Admission/Home",
           "pdf": false
         },
         {
-          "title": "Undergraduate Program",
-          "url": "https://www.bup.edu.bd/academics/admission/1",
+          "title": "Apply (International Students)",
+          "url": "https://internationalstudents.bup.edu.bd/",
           "pdf": false
         },
         {
-          "title": "Graduate Program",
-          "url": "https://www.bup.edu.bd/academics/admission/2",
+          "title": "Bachelors Programs",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramV3.aspx?ecat=4",
           "pdf": false
         },
         {
-          "title": "Postgraduate Program",
-          "url": "https://www.bup.edu.bd/academics/admission/3",
+          "title": "Masters Programs",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgram.aspx?ecat=6",
           "pdf": false
         },
         {
-          "title": "Apply Now",
-          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramV3?ecat=4",
+          "title": "Diploma Programs",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramDiploma.aspx",
           "pdf": false
         },
         {
-          "title": "Apply Now",
-          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgram?ecat=6",
-          "pdf": false
-        },
-        {
-          "title": "Apply Now",
-          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgramPhd",
+          "title": "Certificate Courses",
+          "url": "https://admission.bup.edu.bd/Admission/Candidate/SelectProgram.aspx?ecat=0",
           "pdf": false
         }
       ],
-      "lastNewAt": "2026-11-05T12:16:17.430Z"
+      "lastNewAt": "2026-11-05T19:59:18.651Z"
     },
     "nstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1213,8 +1132,8 @@
     },
     "rmstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1222,16 +1141,11 @@
     },
     "brur": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
-      "linkCount": 7,
+      "linkCount": 5,
       "latest": [
-        {
-          "title": "Online Admission & Form Fill-Up Old",
-          "url": "http://ss.brur.ac.bd/Login",
-          "pdf": false
-        },
         {
           "title": "Online Admission & Form Fill-Up New",
           "url": "https://sims.brur.ac.bd/",
@@ -1256,19 +1170,14 @@
           "title": "MPhil",
           "url": "https://www.brur.ac.bd/admission/mphil",
           "pdf": false
-        },
-        {
-          "title": "Online Admission & Form Fill-Up",
-          "url": "https://ss.brur.ac.bd/Login",
-          "pdf": false
         }
       ],
       "lastNewAt": null
     },
     "bu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 7,
       "latest": [
@@ -1312,8 +1221,8 @@
     },
     "bsmrmu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -1362,8 +1271,8 @@
     },
     "dgme-admission": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1392,8 +1301,8 @@
     },
     "cmu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1407,8 +1316,8 @@
     },
     "rub": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 49,
       "latest": [
@@ -1457,8 +1366,8 @@
     },
     "bdu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1487,8 +1396,8 @@
     },
     "kau": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 19,
       "latest": [
@@ -1537,8 +1446,8 @@
     },
     "bsfmstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1557,8 +1466,8 @@
     },
     "bsmraau": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1566,8 +1475,8 @@
     },
     "shu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1575,13 +1484,13 @@
     },
     "bsmrstup": {
       "ok": false,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
       "error": "getaddrinfo ENOTFOUND www.bsmrstup.ac.bd"
     },
     "rmu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -1630,8 +1539,8 @@
     },
     "hau": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 16,
       "latest": [
@@ -1680,8 +1589,8 @@
     },
     "smu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1695,10 +1604,10 @@
     },
     "butex": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
-      "linkCount": 4,
+      "linkCount": 5,
       "latest": [
         {
           "title": "Undergraduate Programs",
@@ -1719,14 +1628,19 @@
           "title": "Postgraduate Admission",
           "url": "http://admission.butex.edu.bd/",
           "pdf": false
+        },
+        {
+          "title": "Admission Notice of 11th Batch (WPE, TEM Dept.) MSc in Textile Engineering",
+          "url": "https://www.butex.edu.bd/admission-notice-of-11-batch-wpe-tem-dept-msc-in-textile-engineering/",
+          "pdf": false
         }
       ],
-      "lastNewAt": null
+      "lastNewAt": "2026-11-05T19:59:18.651Z"
     },
     "iau": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -1760,18 +1674,13 @@
     },
     "bsmru": {
       "ok": false,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
       "error": "getaddrinfo EAI_AGAIN bsmru.ac.bd"
-    },
-    "buet-admission": {
-      "ok": false,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "error": "Timed out"
     },
     "gstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 15,
       "latest": [
@@ -1820,8 +1729,8 @@
     },
     "cstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1840,8 +1749,8 @@
     },
     "sstu": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1849,8 +1758,8 @@
     },
     "kuriau": {
       "ok": true,
-      "lastChecked": "2026-11-05T12:16:17.430Z",
-      "lastSuccess": "2026-11-05T12:16:17.430Z",
+      "lastChecked": "2026-11-05T19:59:18.651Z",
+      "lastSuccess": "2026-11-05T19:59:18.651Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1863,5 +1772,5 @@
       "lastNewAt": null
     }
   },
-  "lastRun": "2026-11-05T12:16:17.430Z"
+  "lastRun": "2026-11-05T19:59:18.651Z"
 }
