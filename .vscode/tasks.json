@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀 Start Local Dev Server",
+      "type": "shell",
+      "command": "node scripts/dev-server.js",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "🕷️ Run Live University Scraper",
+      "type": "shell",
+      "command": "node scripts/monitor.js",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "✅ Check JS & JSON Syntax",
+      "type": "shell",
+      "command": "npm run check",
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "⬆️ Sync & Push to GitHub",
+      "type": "shell",
+      "command": "git pull --rebase origin main && git push origin main",
+      "problemMatcher": []
+    }
+  ]
+}

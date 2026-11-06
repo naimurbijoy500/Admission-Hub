@@ -1,0 +1,15 @@
+{
+  "name": "admission-hub",
+  "version": "1.0.0",
+  "description": "বাংলাদেশ পাবলিক বিশ্ববিদ্যালয় ভর্তি পোর্টাল (Admission Hub) — Real-time circular monitor, Bangla calendar & GPA eligibility checker",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/dev-server.js",
+    "dev": "node scripts/dev-server.js",
+    "scrape": "node scripts/monitor.js",
+    "check": "node --check app.js && node --check scripts/monitor.js && node --check scripts/dev-server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
