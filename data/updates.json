@@ -1,5 +1,15 @@
 [
   {
+    "id": "5bb81071e48dbdc3",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/MPH%20B-10%20Admission%20(Jan-June%202027).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-06T15:54:21.481Z"
+  },
+  {
     "id": "eee725eebcac3d62",
     "source": "ru",
     "code": "RU",
