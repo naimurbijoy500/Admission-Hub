@@ -2,8 +2,8 @@
   "sources": {
     "gst-admission": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -11,8 +11,8 @@
     },
     "du": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 13,
       "latest": [
@@ -61,8 +61,8 @@
     },
     "buet": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -70,8 +70,8 @@
     },
     "ru": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -119,10 +119,10 @@
       "lastNewAt": "2026-11-05T19:59:18.651Z"
     },
     "iu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.iu.ac.bd",
       "linkCount": 4,
       "latest": [
         {
@@ -150,8 +150,8 @@
     },
     "sust": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 21,
       "latest": [
@@ -200,8 +200,8 @@
     },
     "bau": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -239,10 +239,10 @@
       "lastNewAt": null
     },
     "nu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.nu.ac.bd",
       "linkCount": 639,
       "latest": [
         {
@@ -289,10 +289,10 @@
       "lastNewAt": "2026-11-05T19:59:18.651Z"
     },
     "bou": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.bou.ac.bd",
       "linkCount": 9,
       "latest": [
         {
@@ -340,8 +340,8 @@
     },
     "ku": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -349,8 +349,8 @@
     },
     "bsmmu": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -358,8 +358,8 @@
     },
     "cu": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -407,19 +407,19 @@
       "lastNewAt": null
     },
     "mbstu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.mbstu.ac.bd",
       "linkCount": 0,
       "latest": [],
       "lastNewAt": null
     },
     "hstu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.hstu.ac.bd",
       "linkCount": 12,
       "latest": [
         {
@@ -466,10 +466,10 @@
       "lastNewAt": null
     },
     "pstu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "Timed out",
       "linkCount": 6,
       "latest": [
         {
@@ -507,8 +507,8 @@
     },
     "ju": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -556,10 +556,10 @@
       "lastNewAt": null
     },
     "sau-dhaka": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.sau.edu.bd",
       "linkCount": 1,
       "latest": [
         {
@@ -572,8 +572,8 @@
     },
     "kuet": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -622,14 +622,14 @@
     },
     "agri-admission": {
       "ok": false,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "error": "HTTP 503"
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "error": "getaddrinfo EAI_AGAIN acas.edu.bd"
     },
     "bsmrau": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.bsmrau.edu.bd",
       "linkCount": 9,
       "latest": [
         {
@@ -676,10 +676,10 @@
       "lastNewAt": null
     },
     "ruet": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.ruet.ac.bd",
       "linkCount": 10,
       "latest": [
         {
@@ -726,10 +726,10 @@
       "lastNewAt": "2026-11-08T13:19:19.157Z"
     },
     "jnu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.jnu.ac.bd",
       "linkCount": 4,
       "latest": [
         {
@@ -756,10 +756,10 @@
       "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "duet": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "Timed out",
       "linkCount": 10,
       "latest": [
         {
@@ -806,10 +806,10 @@
       "lastNewAt": "2026-11-08T13:19:19.157Z"
     },
     "jkkniu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.jkkniu.edu.bd",
       "linkCount": 8,
       "latest": [
         {
@@ -857,13 +857,13 @@
     },
     "ckruet-admission": {
       "ok": false,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "error": "getaddrinfo EAI_AGAIN admissionckruet.ac.bd"
     },
     "cvasu": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -901,10 +901,10 @@
       "lastNewAt": null
     },
     "sau-sylhet": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.sau.ac.bd",
       "linkCount": 4,
       "latest": [
         {
@@ -931,10 +931,10 @@
       "lastNewAt": null
     },
     "just": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.just.edu.bd",
       "linkCount": 2,
       "latest": [
         {
@@ -951,10 +951,10 @@
       "lastNewAt": null
     },
     "cuet": {
-      "ok": false,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T13:19:19.157Z",
-      "error": "write EPROTO C01C4C165B7D0000:error:0A000458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1601:SSL alert number 112\n",
+      "ok": true,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
+      "error": null,
       "linkCount": 5,
       "latest": [
         {
@@ -986,10 +986,10 @@
       "lastNewAt": null
     },
     "cou": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.cou.ac.bd",
       "linkCount": 54,
       "latest": [
         {
@@ -1036,10 +1036,10 @@
       "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "pust": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.pust.ac.bd",
       "linkCount": 14,
       "latest": [
         {
@@ -1086,10 +1086,10 @@
       "lastNewAt": null
     },
     "bup": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN admission.bup.edu.bd",
       "linkCount": 28,
       "latest": [
         {
@@ -1137,8 +1137,8 @@
     },
     "nstu": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1151,19 +1151,19 @@
       "lastNewAt": null
     },
     "rmstu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN rmstu.ac.bd",
       "linkCount": 0,
       "latest": [],
       "lastNewAt": null
     },
     "brur": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "Timed out",
       "linkCount": 5,
       "latest": [
         {
@@ -1195,10 +1195,10 @@
       "lastNewAt": null
     },
     "bu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.bu.ac.bd",
       "linkCount": 7,
       "latest": [
         {
@@ -1240,10 +1240,10 @@
       "lastNewAt": "2026-11-05T12:16:17.430Z"
     },
     "bsmrmu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.bsmrmu.edu.bd",
       "linkCount": 11,
       "latest": [
         {
@@ -1291,8 +1291,8 @@
     },
     "dgme-admission": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1320,10 +1320,10 @@
       "lastNewAt": null
     },
     "cmu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.cmu.edu.bd",
       "linkCount": 1,
       "latest": [
         {
@@ -1335,10 +1335,10 @@
       "lastNewAt": null
     },
     "rub": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.rub.ac.bd",
       "linkCount": 51,
       "latest": [
         {
@@ -1385,10 +1385,10 @@
       "lastNewAt": "2026-11-08T13:19:19.157Z"
     },
     "bdu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.bdu.ac.bd",
       "linkCount": 4,
       "latest": [
         {
@@ -1415,10 +1415,10 @@
       "lastNewAt": null
     },
     "kau": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN kau.ac.bd",
       "linkCount": 19,
       "latest": [
         {
@@ -1465,10 +1465,10 @@
       "lastNewAt": null
     },
     "bsfmstu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN bsfmstu.ac.bd",
       "linkCount": 2,
       "latest": [
         {
@@ -1485,18 +1485,18 @@
       "lastNewAt": null
     },
     "bsmraau": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "Timed out",
       "linkCount": 0,
       "latest": [],
       "lastNewAt": null
     },
     "shu": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1504,14 +1504,14 @@
     },
     "bsmrstup": {
       "ok": false,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "error": "getaddrinfo ENOTFOUND www.bsmrstup.ac.bd"
     },
     "rmu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "Timed out",
       "linkCount": 8,
       "latest": [
         {
@@ -1558,10 +1558,10 @@
       "lastNewAt": null
     },
     "hau": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.hau.ac.bd",
       "linkCount": 16,
       "latest": [
         {
@@ -1609,8 +1609,8 @@
     },
     "smu": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1623,10 +1623,10 @@
       "lastNewAt": null
     },
     "butex": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.butex.edu.bd",
       "linkCount": 5,
       "latest": [
         {
@@ -1658,10 +1658,10 @@
       "lastNewAt": "2026-11-05T19:59:18.651Z"
     },
     "iau": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN www.iau.edu.bd",
       "linkCount": 5,
       "latest": [
         {
@@ -1694,14 +1694,14 @@
     },
     "bsmru": {
       "ok": false,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "error": "getaddrinfo EAI_AGAIN bsmru.ac.bd"
     },
     "gstu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN gstu.edu.bd",
       "linkCount": 15,
       "latest": [
         {
@@ -1749,8 +1749,8 @@
     },
     "cstu": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1768,18 +1768,18 @@
       "lastNewAt": null
     },
     "sstu": {
-      "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
+      "ok": false,
+      "lastChecked": "2026-11-08T22:52:05.757Z",
       "lastSuccess": "2026-11-08T18:49:52.869Z",
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN sstu.ac.bd",
       "linkCount": 0,
       "latest": [],
       "lastNewAt": null
     },
     "kuriau": {
       "ok": true,
-      "lastChecked": "2026-11-08T18:49:52.869Z",
-      "lastSuccess": "2026-11-08T18:49:52.869Z",
+      "lastChecked": "2026-11-08T22:52:05.757Z",
+      "lastSuccess": "2026-11-08T22:52:05.757Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1792,5 +1792,5 @@
       "lastNewAt": null
     }
   },
-  "lastRun": "2026-11-08T18:49:52.869Z"
+  "lastRun": "2026-11-08T22:52:05.757Z"
 }
