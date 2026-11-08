@@ -1,5 +1,55 @@
 [
   {
+    "id": "61b61d7ac69a560d",
+    "source": "ruet",
+    "code": "RUET",
+    "name": "রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (রুয়েট)",
+    "title": "\"List of eligible candidates for the admission test of Ph.D. / M.Sc. / M. Engineering / PGD programs for the Fall Semester 2026 at IICT.\"",
+    "url": "https://www.ruet.ac.bd/notice/list-of-eligible-candidates-for-the-admission-test-of-phd-msc-m-engineering-pgd-programs-for-the-fall-semester-2026-at-iict",
+    "pdf": false,
+    "detectedAt": "2026-11-08T13:19:19.157Z"
+  },
+  {
+    "id": "d77c90d4a7fc7078",
+    "source": "ruet",
+    "code": "RUET",
+    "name": "রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (রুয়েট)",
+    "title": "\"Regarding the call for research project proposals to support undergraduate students in their research activities.\"",
+    "url": "https://www.ruet.ac.bd/notice/regarding-the-call-for-research-project-proposals-to-support-undergraduate-students-in-their-research-activities",
+    "pdf": false,
+    "detectedAt": "2026-11-08T13:19:19.157Z"
+  },
+  {
+    "id": "e9c8ee6ffa153a26",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "তওই কৌশল বিভাগের শিক্ষার্থীর ভর্তি বাতিল সংক্রান্ত অফিস আদেশ",
+    "url": "https://www.duet.ac.bd/notice/others/2524/%E0%A6%A4%E0%A6%93%E0%A6%87-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%B0-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%85%E0%A6%AB%E0%A6%BF%E0%A6%B8-%E0%A6%86%E0%A6%A6%E0%A7%87%E0%A6%B6",
+    "pdf": false,
+    "detectedAt": "2026-11-08T13:19:19.157Z"
+  },
+  {
+    "id": "9b9b213625dcf86e",
+    "source": "rub",
+    "code": "RUB",
+    "name": "রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ",
+    "title": "ভর্তি বিজ্ঞপ্তি (এমবিএ), ম্যানেজমেন্ট বিভাগ",
+    "url": "https://www.rub.ac.bd/assets/files/notice/282_2049.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-08T13:19:19.157Z"
+  },
+  {
+    "id": "e5369ab2e77e52e0",
+    "source": "rub",
+    "code": "RUB",
+    "name": "রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ",
+    "title": "পুনঃভর্তি বিজ্ঞপ্তি (এমএসএস), সমাজবিজ্ঞান বিভাগ",
+    "url": "https://www.rub.ac.bd/assets/files/notice/281_2018.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-08T13:19:19.157Z"
+  },
+  {
     "id": "978b908ad1c0d8fc",
     "source": "du",
     "code": "DU",
