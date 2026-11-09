@@ -1,5 +1,45 @@
 [
   {
+    "id": "92887128c169c5e8",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Extended Admission Time of CALP Program, 261 Term (January - June, 2026) 2026-11-09",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881373551080934.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-09T11:25:58.858Z"
+  },
+  {
+    "id": "32ea47f4d6e5d447",
+    "source": "jnu",
+    "code": "JnU",
+    "name": "জগন্নাথ বিশ্ববিদ্যালয় (জবি)",
+    "title": "২০২৬-২০২৭ শিক্ষাবর্ষে PhD এবং MPhil প্রোগ্রামের ভর্তি সংক্রান্ত বিজ্ঞপ্তি",
+    "url": "https://jnu.ac.bd/assets/notice/eb68073b84b689a5eb326e6be01cf5b3.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-09T11:25:58.858Z"
+  },
+  {
+    "id": "9fe6174e08342024",
+    "source": "bu",
+    "code": "BU",
+    "name": "বরিশাল বিশ্ববিদ্যালয় (ববি)",
+    "title": "বরিশাল বিশ্ববিদ্যালয়ের বিজ্ঞান অনুষদের ভূতত্ত্ব ও খনিবিদ্যা বিভাগের শিক্ষার্থীদের ২০২৪-২৫ শিক্ষাবর্ষে এমএস শ্রেণিতে ভর্তি নোটিশ",
+    "url": "https://www.bu.ac.bd/notice/20261108-1794212648-6af18328084d7",
+    "pdf": false,
+    "detectedAt": "2026-11-09T11:25:58.858Z"
+  },
+  {
+    "id": "70f9744663bb1fbd",
+    "source": "bu",
+    "code": "BU",
+    "name": "বরিশাল বিশ্ববিদ্যালয় (ববি)",
+    "title": "বরিশাল বিশ্ববিদ্যালয়ের বিজ্ঞান অনুষদের ভূতত্ত্ব ও খনিবিদ্যা বিভাগের শিক্ষার্থীদের ২০২৪-২৫ শিক্ষাবর্ষে এমএস শ্রেণিতে ভর্তি নোটিশ",
+    "url": "https://www.bu.ac.bd/notice/20261108-1794212650-6af1832a18971",
+    "pdf": false,
+    "detectedAt": "2026-11-09T11:25:58.858Z"
+  },
+  {
     "id": "61b61d7ac69a560d",
     "source": "ruet",
     "code": "RUET",
