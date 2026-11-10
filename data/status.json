@@ -2,8 +2,8 @@
   "sources": {
     "gst-admission": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -11,8 +11,8 @@
     },
     "du": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 13,
       "latest": [
@@ -61,8 +61,8 @@
     },
     "buet": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -70,8 +70,8 @@
     },
     "ru": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -120,8 +120,8 @@
     },
     "iu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -150,8 +150,8 @@
     },
     "sust": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 21,
       "latest": [
@@ -200,8 +200,8 @@
     },
     "bau": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -240,10 +240,10 @@
     },
     "nu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
-      "linkCount": 639,
+      "linkCount": 640,
       "latest": [
         {
           "title": "Admission Service",
@@ -276,22 +276,22 @@
           "pdf": false
         },
         {
-          "title": "২০২৪ সালের বিএসসি (অনার্স) ইন AMT, KMT ও FDT প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার চূড়ান্ত ফলাফল প্রকাশ সংক্রান্ত বিজ্ঞপ্তি।",
-          "url": "https://www.nu.ac.bd/uploads/notices/notice_17279_pub_date_05112026.pdf",
+          "title": "২০২৬ সালের অনার্স ১ম বর্ষ ইনকোর্স পরীক্ষার তারিখ সংক্রান্ত বিজ্ঞপ্তি।",
+          "url": "https://www.nu.ac.bd/uploads/notices/notice_6223_pub_date_10112026.pdf",
           "pdf": true
         },
         {
-          "title": "২০২৪ সালের বিবিএ (প্রফেশনাল) প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার উত্তরপত্র পুনর্মূল্যায়ন সংক্রান্ত বিজ্ঞপ্তি।",
-          "url": "https://www.nu.ac.bd/uploads/notices/notice_17277_pub_date_05112026.pdf",
+          "title": "২০২৪ সালের বিএসসি (অনার্স) ইন AMT, KMT ও FDT প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার চূড়ান্ত ফলাফল প্রকাশ সংক্রান্ত বিজ্ঞপ্তি।",
+          "url": "https://www.nu.ac.bd/uploads/notices/notice_17279_pub_date_05112026.pdf",
           "pdf": true
         }
       ],
-      "lastNewAt": "2026-11-05T19:59:18.651Z"
+      "lastNewAt": "2026-11-10T13:27:23.537Z"
     },
     "bou": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -311,6 +311,16 @@
           "pdf": false
         },
         {
+          "title": "List of selected applicants for Viva-Voce of BFSN Program (7th Batch), Session 2026 2026-11-10",
+          "url": "https://www.bou.ac.bd/upload/notice/admission/1881444887029568.pdf",
+          "pdf": true
+        },
+        {
+          "title": "List of primarily selected applicants for Viva-Voce of MBA Program, 241 Semester 2026-11-10",
+          "url": "https://www.bou.ac.bd/upload/notice/admission/1881463393636120.pdf",
+          "pdf": true
+        },
+        {
           "title": "Extended Admission Time of CALP Program, 261 Term (January - June, 2026) 2026-11-09",
           "url": "https://www.bou.ac.bd/upload/notice/admission/1881373551080934.pdf",
           "pdf": true
@@ -324,24 +334,14 @@
           "title": "Extended Admission Time of B.Sc. in CSE Program: Session 2025 -2026 2026-11-03",
           "url": "https://www.bou.ac.bd/upload/notice/admission/1880828666771560.pdf",
           "pdf": true
-        },
-        {
-          "title": "Admission circular and instruction of MA and MSS Program (Last Part) : Session 2025 -2026 2026-10-29",
-          "url": "https://www.bou.ac.bd/upload/notice/admission/1879002133224395.pdf",
-          "pdf": true
-        },
-        {
-          "title": "Selected Applicant List for Admission of SSC (Niche-2) Program 2027 Batch (Session: 2027-2028) 2026-10-15",
-          "url": "https://www.bou.ac.bd/upload/notice/admission/1879108953684254.pdf",
-          "pdf": true
         }
       ],
-      "lastNewAt": "2026-11-09T11:25:58.858Z"
+      "lastNewAt": "2026-11-10T13:27:23.537Z"
     },
     "ku": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -349,8 +349,8 @@
     },
     "bsmmu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -358,8 +358,8 @@
     },
     "cu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -408,8 +408,8 @@
     },
     "mbstu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -417,8 +417,8 @@
     },
     "hstu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 12,
       "latest": [
@@ -467,8 +467,8 @@
     },
     "pstu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -507,8 +507,8 @@
     },
     "ju": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -557,8 +557,8 @@
     },
     "sau-dhaka": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -572,24 +572,19 @@
     },
     "kuet": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
-      "linkCount": 9,
+      "linkCount": 8,
       "latest": [
         {
-          "title": "Admission Test 2025-26",
+          "title": "Admission Test 2026-27",
           "url": "https://admission.kuet.ac.bd/",
           "pdf": false
         },
         {
           "title": "Entry Requirements",
           "url": "https://www.kuet.ac.bd/pgadmission",
-          "pdf": false
-        },
-        {
-          "title": "10-Nov-2026 Admission Announcement for the 1st Year B.Sc. Engineering, BURP and B.Arch. Programs",
-          "url": "https://drive.google.com/file/d/1yGkdkZ6ymWx8ixOISOzClSG6kq75Peq2/view?usp=sharing",
           "pdf": false
         },
         {
@@ -616,19 +611,24 @@
           "title": "Nov 04 Admission Notice for Postgraduate Programs – January Semester 2027 04 Nov, 2026",
           "url": "https://drive.google.com/file/d/1vDBIKPmFVMLH85MrmR-dCDLJyk0yjfCM/view?usp=sharing",
           "pdf": false
+        },
+        {
+          "title": "Undergraduate",
+          "url": "https://www.kuet.ac.bd/program/ugdegree",
+          "pdf": false
         }
       ],
-      "lastNewAt": "2026-11-10T04:37:29.731Z"
+      "lastNewAt": "2026-11-10T13:27:23.537Z"
     },
     "agri-admission": {
       "ok": false,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
       "error": "HTTP 503"
     },
     "bsmrau": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -677,8 +677,8 @@
     },
     "ruet": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -727,8 +727,8 @@
     },
     "jnu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -757,8 +757,8 @@
     },
     "duet": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -807,8 +807,8 @@
     },
     "jkkniu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -857,13 +857,13 @@
     },
     "ckruet-admission": {
       "ok": false,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
       "error": "getaddrinfo EAI_AGAIN admissionckruet.ac.bd"
     },
     "cvasu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -902,8 +902,8 @@
     },
     "sau-sylhet": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -932,8 +932,8 @@
     },
     "just": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -952,10 +952,10 @@
     },
     "cuet": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
-      "linkCount": 5,
+      "linkCount": 4,
       "latest": [
         {
           "title": "Undergraduate Program",
@@ -965,11 +965,6 @@
         {
           "title": "Admission",
           "url": "https://cuet.ac.bd/admission",
-          "pdf": false
-        },
-        {
-          "title": "CUET Announces Date for 2026-27 Undergraduate Admission Test.",
-          "url": "https://cuet.ac.bd/news/208",
           "pdf": false
         },
         {
@@ -987,8 +982,8 @@
     },
     "cou": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 54,
       "latest": [
@@ -1037,8 +1032,8 @@
     },
     "pust": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 14,
       "latest": [
@@ -1087,8 +1082,8 @@
     },
     "bup": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 28,
       "latest": [
@@ -1137,8 +1132,8 @@
     },
     "nstu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1152,8 +1147,8 @@
     },
     "rmstu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1161,8 +1156,8 @@
     },
     "brur": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -1196,8 +1191,8 @@
     },
     "bu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 7,
       "latest": [
@@ -1241,8 +1236,8 @@
     },
     "bsmrmu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -1291,8 +1286,8 @@
     },
     "dgme-admission": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1321,8 +1316,8 @@
     },
     "cmu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1336,8 +1331,8 @@
     },
     "rub": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 51,
       "latest": [
@@ -1386,8 +1381,8 @@
     },
     "bdu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1416,8 +1411,8 @@
     },
     "kau": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 19,
       "latest": [
@@ -1466,8 +1461,8 @@
     },
     "bsfmstu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1486,8 +1481,8 @@
     },
     "bsmraau": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1495,8 +1490,8 @@
     },
     "shu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1504,13 +1499,13 @@
     },
     "bsmrstup": {
       "ok": false,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
       "error": "getaddrinfo ENOTFOUND www.bsmrstup.ac.bd"
     },
     "rmu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -1559,8 +1554,8 @@
     },
     "hau": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 16,
       "latest": [
@@ -1609,8 +1604,8 @@
     },
     "smu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1624,8 +1619,8 @@
     },
     "butex": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -1659,8 +1654,8 @@
     },
     "iau": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -1694,13 +1689,13 @@
     },
     "bsmru": {
       "ok": false,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
       "error": "getaddrinfo EAI_AGAIN bsmru.ac.bd"
     },
     "gstu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 15,
       "latest": [
@@ -1749,8 +1744,8 @@
     },
     "cstu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1769,8 +1764,8 @@
     },
     "sstu": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1778,8 +1773,8 @@
     },
     "kuriau": {
       "ok": true,
-      "lastChecked": "2026-11-10T04:37:29.731Z",
-      "lastSuccess": "2026-11-10T04:37:29.731Z",
+      "lastChecked": "2026-11-10T13:27:23.537Z",
+      "lastSuccess": "2026-11-10T13:27:23.537Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1792,5 +1787,5 @@
       "lastNewAt": null
     }
   },
-  "lastRun": "2026-11-10T04:37:29.731Z"
+  "lastRun": "2026-11-10T13:27:23.537Z"
 }

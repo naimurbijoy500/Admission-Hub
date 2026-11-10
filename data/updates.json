@@ -1,5 +1,45 @@
 [
   {
+    "id": "ac32fc8f47312663",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৬ সালের অনার্স ১ম বর্ষ ইনকোর্স পরীক্ষার তারিখ সংক্রান্ত বিজ্ঞপ্তি।",
+    "url": "https://www.nu.ac.bd/uploads/notices/notice_6223_pub_date_10112026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-10T13:27:23.537Z"
+  },
+  {
+    "id": "cbeb9f6110a54bfe",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "List of selected applicants for Viva-Voce of BFSN Program (7th Batch), Session 2026 2026-11-10",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881444887029568.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-10T13:27:23.537Z"
+  },
+  {
+    "id": "506bfdbe6cfb0ec3",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "List of primarily selected applicants for Viva-Voce of MBA Program, 241 Semester 2026-11-10",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881463393636120.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-10T13:27:23.537Z"
+  },
+  {
+    "id": "44d0ea0c1b859ebc",
+    "source": "kuet",
+    "code": "KUET",
+    "name": "খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (কুয়েট)",
+    "title": "Admission Test 2026-27",
+    "url": "https://admission.kuet.ac.bd/",
+    "pdf": false,
+    "detectedAt": "2026-11-10T13:27:23.537Z"
+  },
+  {
     "id": "22cce2cc1ad6c77f",
     "source": "kuet",
     "code": "KUET",
