@@ -2,8 +2,8 @@
   "sources": {
     "gst-admission": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -11,8 +11,8 @@
     },
     "du": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 25,
       "latest": [
@@ -61,8 +61,8 @@
     },
     "buet": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -70,8 +70,8 @@
     },
     "ru": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -120,8 +120,8 @@
     },
     "iu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -150,8 +150,8 @@
     },
     "sust": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 21,
       "latest": [
@@ -200,8 +200,8 @@
     },
     "bau": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -240,8 +240,8 @@
     },
     "nu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 640,
       "latest": [
@@ -290,8 +290,8 @@
     },
     "bou": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -340,8 +340,8 @@
     },
     "ku": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -349,8 +349,8 @@
     },
     "bsmmu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -358,8 +358,8 @@
     },
     "cu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -408,8 +408,8 @@
     },
     "mbstu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -417,8 +417,8 @@
     },
     "hstu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 12,
       "latest": [
@@ -467,8 +467,8 @@
     },
     "pstu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -507,8 +507,8 @@
     },
     "ju": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -557,8 +557,8 @@
     },
     "sau-dhaka": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -577,8 +577,8 @@
     },
     "kuet": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -627,13 +627,13 @@
     },
     "agri-admission": {
       "ok": false,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
       "error": "HTTP 503"
     },
     "bsmrau": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -682,8 +682,8 @@
     },
     "ruet": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -732,8 +732,8 @@
     },
     "jnu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -767,8 +767,8 @@
     },
     "duet": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 9,
       "latest": [
@@ -817,8 +817,8 @@
     },
     "jkkniu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -867,13 +867,13 @@
     },
     "ckruet-admission": {
       "ok": false,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
       "error": "getaddrinfo EAI_AGAIN admissionckruet.ac.bd"
     },
     "cvasu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 6,
       "latest": [
@@ -912,8 +912,8 @@
     },
     "sau-sylhet": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -942,8 +942,8 @@
     },
     "just": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -962,8 +962,8 @@
     },
     "cuet": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -992,8 +992,8 @@
     },
     "cou": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 55,
       "latest": [
@@ -1042,8 +1042,8 @@
     },
     "pust": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 14,
       "latest": [
@@ -1092,8 +1092,8 @@
     },
     "bup": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 28,
       "latest": [
@@ -1142,8 +1142,8 @@
     },
     "nstu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1157,8 +1157,8 @@
     },
     "rmstu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1166,8 +1166,8 @@
     },
     "brur": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -1201,8 +1201,8 @@
     },
     "bu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 8,
       "latest": [
@@ -1251,8 +1251,8 @@
     },
     "bsmrmu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 11,
       "latest": [
@@ -1301,8 +1301,8 @@
     },
     "dgme-admission": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1331,8 +1331,8 @@
     },
     "cmu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1346,8 +1346,8 @@
     },
     "rub": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 51,
       "latest": [
@@ -1396,8 +1396,8 @@
     },
     "bdu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1426,8 +1426,8 @@
     },
     "kau": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 19,
       "latest": [
@@ -1476,8 +1476,8 @@
     },
     "bsfmstu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1496,8 +1496,8 @@
     },
     "bsmraau": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1505,8 +1505,8 @@
     },
     "shu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1514,13 +1514,13 @@
     },
     "bsmrstup": {
       "ok": false,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
       "error": "getaddrinfo ENOTFOUND www.bsmrstup.ac.bd"
     },
     "rmu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 7,
       "latest": [
@@ -1564,8 +1564,8 @@
     },
     "hau": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 16,
       "latest": [
@@ -1614,8 +1614,8 @@
     },
     "smu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1629,8 +1629,8 @@
     },
     "butex": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 4,
       "latest": [
@@ -1659,8 +1659,8 @@
     },
     "iau": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 5,
       "latest": [
@@ -1694,13 +1694,13 @@
     },
     "bsmru": {
       "ok": false,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
       "error": "getaddrinfo EAI_AGAIN bsmru.ac.bd"
     },
     "gstu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 15,
       "latest": [
@@ -1749,8 +1749,8 @@
     },
     "cstu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 2,
       "latest": [
@@ -1769,8 +1769,8 @@
     },
     "sstu": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 0,
       "latest": [],
@@ -1778,8 +1778,8 @@
     },
     "kuriau": {
       "ok": true,
-      "lastChecked": "2026-11-11T16:08:36.212Z",
-      "lastSuccess": "2026-11-11T16:08:36.212Z",
+      "lastChecked": "2026-11-11T22:40:42.980Z",
+      "lastSuccess": "2026-11-11T22:40:42.980Z",
       "error": null,
       "linkCount": 1,
       "latest": [
@@ -1792,5 +1792,5 @@
       "lastNewAt": null
     }
   },
-  "lastRun": "2026-11-11T16:08:36.212Z"
+  "lastRun": "2026-11-11T22:40:42.980Z"
 }
