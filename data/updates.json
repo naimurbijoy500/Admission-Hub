@@ -1,5 +1,55 @@
 [
   {
+    "id": "6cdc1538cdd8d25f",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "app_registration সমমান নিবন্ধন",
+    "url": "https://admission.eis.du.ac.bd/bn/48406eb7d790f040103aa4a0b0a3a7e801352ecbfa6af51231f257124e1446d8",
+    "pdf": false,
+    "detectedAt": "2026-11-11T16:08:36.212Z"
+  },
+  {
+    "id": "1c61f4368727cf82",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "person সমমান লগইন",
+    "url": "https://admission.eis.du.ac.bd/bn/372beb769e269152b8f976bf6d23491b333cfcd4f5ea2d35f174d8c33eb38f7d5fbd3201f584aca0ea687eb8a978a9c782c82dee12db758b8113a4ac7e10a2e4",
+    "pdf": false,
+    "detectedAt": "2026-11-11T16:08:36.212Z"
+  },
+  {
+    "id": "b941f1c387221d81",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Course Fee Details of BMEd Program (Batch: 2027) 2026-11-11",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881554327502090.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-11T16:08:36.212Z"
+  },
+  {
+    "id": "63633e5ade5f5b28",
+    "source": "jnu",
+    "code": "JnU",
+    "name": "জগন্নাথ বিশ্ববিদ্যালয় (জবি)",
+    "title": "২০২৬-২০২৭ শিক্ষাবর্ষ স্নাতক (সম্মান) ও বিবিএ ১ম বর্ষ ভর্তি বিজ্ঞপ্তি",
+    "url": "https://jnu.ac.bd/assets/notice/9ea6d52bc7a947d600093ba06052e3cc.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-11T16:08:36.212Z"
+  },
+  {
+    "id": "7f9d2aaa5ff83ed3",
+    "source": "cou",
+    "code": "CoU",
+    "name": "কুমিল্লা বিশ্ববিদ্যালয় (কুবি)",
+    "title": "কুমিল্লা বিশ্ববিদ্যালয়ের স্নাতক (সম্মান) প্রথম বর্ষ (২০২৬-২৭ শিক্ষাবর্ষ) ভর্তি পরীক্ষার আবেদন শুরু ১০ ডিসেম্বর",
+    "url": "https://cou.ac.bd/press-release/684",
+    "pdf": false,
+    "detectedAt": "2026-11-11T16:08:36.212Z"
+  },
+  {
     "id": "28560385bee918f2",
     "source": "du",
     "code": "DU",
