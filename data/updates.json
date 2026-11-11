@@ -1,5 +1,185 @@
 [
   {
+    "id": "28560385bee918f2",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "11 Nov ২০২৬-২০২৭ শিক্ষাবর্ষে আন্ডারগ্র্যাজুয়েট প্রোগ্রামে ভর্তি বিজ্ঞপ্তি 11 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29148",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "09acf65d54f49839",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "বাংলা",
+    "url": "https://admission.eis.du.ac.bd/bn/408b7c8ad06e4d9954fa2d948a01f508",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "934fbaf7203bff28",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "English",
+    "url": "https://admission.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "da14b66257d49aa8",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "assignment সাধারণ",
+    "url": "https://admission.eis.du.ac.bd/bn/gf6s7h89rthg463786e4q6a3b679w6jrn46a",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "03fcc9bc7b5a8218",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "assignment বিজ্ঞান ইউনিট",
+    "url": "https://admission.eis.du.ac.bd/bn/b45de047fde97gsg488cadae3cfe8e88dc01",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "4315008c462cba52",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "assignment কলা, আইন ও সামাজিক বিজ্ঞান ইউনিট",
+    "url": "https://admission.eis.du.ac.bd/bn/b45de047fde9788c53fradae3cfe8e88dc02",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "30b5cef5105a3556",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "assignment ব্যবসায় শিক্ষা ইউনিট",
+    "url": "https://admission.eis.du.ac.bd/bn/b45de047fde9788cad5h6esae3cfe8e88dc03",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "d72ef79ad8fe65d1",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "assignment চারুকলা ইউনিট",
+    "url": "https://admission.eis.du.ac.bd/bn/b45de047fde97fsgfg8cadaghge3cfe8e88dc05",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "54b890ca9db81f12",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "assignment আই বি এ",
+    "url": "https://admission.eis.du.ac.bd/bn/b45de047fde973543hj88ae3cfe8e88dc06",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "84764967ba52cf7a",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "assignment খেলোয়াড়",
+    "url": "https://admission.eis.du.ac.bd/bn/6df4gn6ds4g9a7eg9as4d16b1d3j4d89f7j98q74as316sd",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "41ed92e00fff210d",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "https://admission.eis.du.ac.bd",
+    "url": "https://admission.eis.du.ac.bd/",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "76103ef21c6c689f",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "লগইন open_in_new",
+    "url": "https://admission.eis.du.ac.bd/bn/b45de047fde9788cadae3cfe8e88dcc2",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "c55bd2908ac95e96",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/MISS%20Admission%20Circular%20-2026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "4ccfbed5fa370b1a",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/MICT%20Admission%20Circular%20-2026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "23f6449b9cee28fe",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Admission circular and instruction of BEd Program (Batch: 2027) 2026-11-11",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1880828443927211.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "b4fa24c05ff3392e",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "List of primarily selected applicants for Viva-Voce of MBA Program, 241 Semester 2026-11-10",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881544293924310.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "3bcbaa222d11b884",
+    "source": "sau-dhaka",
+    "code": "SAU",
+    "name": "শেরেবাংলা কৃষি বিশ্ববিদ্যালয় (শেকৃবি)",
+    "title": "শেকৃবির কৃষি অনুষদের Level-1 Semester-I(January-June/2025 )এর অকৃতকার্য ছাত্র-ছাত্রী পুনঃ ভর্তি এবং অসুস্থ্যতাজনিত কারণে ছাত্র-ছাত্রীদের Level-1 Semester-I/2026 এর চলমান শিক্ষাবর্ষে পুনঃ ভর্তি বিজ্ঞপ্তি",
+    "url": "https://www.sau.edu.bd/home/notice-detail/1091",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
+    "id": "4bd283aa402d2868",
+    "source": "bu",
+    "code": "BU",
+    "name": "বরিশাল বিশ্ববিদ্যালয় (ববি)",
+    "title": "আগামী ১৬ নভেম্বর ২০২৬ তারিখ রোজ সোমবার ২০২৫-২৬ শিক্ষাবর্ষের ১ম বর্ষ স্নাতক (সম্মান) শ্রেণির নবীন শিক্ষার্থীদের অরিয়েন্টেশন প্রোগ্রাম সংক্রান্ত নোটিশ",
+    "url": "https://www.bu.ac.bd/notice/20261111-1794379842-6af41042e2c14",
+    "pdf": false,
+    "detectedAt": "2026-11-11T07:44:32.610Z"
+  },
+  {
     "id": "ac32fc8f47312663",
     "source": "nu",
     "code": "NU",
