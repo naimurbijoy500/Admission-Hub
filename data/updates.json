@@ -1,5 +1,15 @@
 [
   {
+    "id": "cca5b86112dfbddd",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "Admission Notices 1",
+    "url": "https://admission.ru.ac.bd/student/notices",
+    "pdf": false,
+    "detectedAt": "2026-11-12T20:47:18.858Z"
+  },
+  {
     "id": "0e30256b6836611e",
     "source": "du",
     "code": "DU",
