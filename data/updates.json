@@ -1,5 +1,65 @@
 [
   {
+    "id": "0e30256b6836611e",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "12 Nov Professional Masters in International Relations (PMIR), 16th Batch ভর্তি বিজ্ঞপ্তি 12 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29161",
+    "pdf": false,
+    "detectedAt": "2026-11-12T12:39:43.205Z"
+  },
+  {
+    "id": "0c744d41298ae551",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "সান্ধ্য মাস্টার্স (EMSS) প্রোগ্রামে ভর্তি বিজ্ঞপ্তি, সামাজিক বিজ্ঞান অনুষদ",
+    "url": "https://www.ru.ac.bd/blog/notice/%e0%a6%b8%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%a7%e0%a7%8d%e0%a6%af-%e0%a6%ae%e0%a6%be%e0%a6%b8%e0%a7%8d%e0%a6%9f%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%b8-emss-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97-6/",
+    "pdf": false,
+    "detectedAt": "2026-11-12T12:39:43.205Z"
+  },
+  {
+    "id": "cfaaddd0fbbdbeef",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Finally selected applicant list for admission of BMEd Program (Batch - 2027) 2026-11-12",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881644535079239.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-12T12:39:43.205Z"
+  },
+  {
+    "id": "985b8724746e1af9",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "List of primarily selected applicants for Viva-Voce of MBA Program, 241 Semester 2026-11-10",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881628700134144.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-12T12:39:43.205Z"
+  },
+  {
+    "id": "47edc74b9195ff50",
+    "source": "bsmrau",
+    "code": "BSMRAU",
+    "name": "গাজীপুর কৃষি বিশ্ববিদ্যালয় (বিএসএমআরএইউ)",
+    "title": "MS PhD Admission Result Autumn 2026 Term",
+    "url": "https://gau.edu.bd/wp-content/uploads/2015/08/MS_PhD-admission-result-notice_Aut-2026-Term_compressed.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-12T12:39:43.205Z"
+  },
+  {
+    "id": "28570a2c7428cefe",
+    "source": "jnu",
+    "code": "JnU",
+    "name": "জগন্নাথ বিশ্ববিদ্যালয় (জবি)",
+    "title": "Admission Notice for LLM (Professional) Program, Faculty of Law",
+    "url": "https://jnu.ac.bd/assets/notice/44935ad0a87d7e4b2ecd5edce50c9a6b.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-12T12:39:43.205Z"
+  },
+  {
     "id": "6cdc1538cdd8d25f",
     "source": "du",
     "code": "DU",
