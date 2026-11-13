@@ -1,5 +1,35 @@
 [
   {
+    "id": "a35bf24560acaba8",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "ঢাবি বিজনেস স্টাডিজ অনুষদের এক্সিকিউটিভ এমবিএ ১০ম ব্যাচের ভর্তি পরীক্ষা অনুষ্ঠিত",
+    "url": "https://www.du.ac.bd/du_post_details/news/29182",
+    "pdf": false,
+    "detectedAt": "2026-11-13T17:42:30.823Z"
+  },
+  {
+    "id": "64ad6606708c80b2",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Admission Instruction of BMEd Program (Batch - 2027) 2026-11-13",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881736885842477.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-13T17:42:30.823Z"
+  },
+  {
+    "id": "c05966be9829fde1",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Extended Admission Time of BA & BSS Program (03 years, 2027 Batch) 2026-11-13",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881738639123130.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-13T17:42:30.823Z"
+  },
+  {
     "id": "cca5b86112dfbddd",
     "source": "ru",
     "code": "RU",
