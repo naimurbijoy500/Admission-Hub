@@ -1,5 +1,25 @@
 [
   {
+    "id": "58439e631669afe8",
+    "source": "kuriau",
+    "code": "KuriAU",
+    "name": "কুড়িগ্রাম কৃষি বিশ্ববিদ্যালয়",
+    "title": "Admission",
+    "url": "https://kuriau.edu.bd/",
+    "pdf": false,
+    "detectedAt": "2026-11-14T19:08:50.884Z"
+  },
+  {
+    "id": "169da3f10ee352c4",
+    "source": "kuriau",
+    "code": "KuriAU",
+    "name": "কুড়িগ্রাম কৃষি বিশ্ববিদ্যালয়",
+    "title": "Online Admission Instructions",
+    "url": "https://kuriau.edu.bd/instructions/",
+    "pdf": false,
+    "detectedAt": "2026-11-14T19:08:50.884Z"
+  },
+  {
     "id": "a1c8f9d798ba1ab4",
     "source": "ru",
     "code": "RU",
