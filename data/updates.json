@@ -1,5 +1,45 @@
 [
   {
+    "id": "df8cdc86e2707702",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "15 Nov ইলেকট্রিক্যাল এন্ড ইলেকট্রনিক ইঞ্জিনিয়ারিং বিভাগের Professional Masters Admission 2026-2027 (4th Batch) এর ভর্তি বিজ্ঞপ্তি 15 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29205",
+    "pdf": false,
+    "detectedAt": "2026-11-15T10:47:15.440Z"
+  },
+  {
+    "id": "9a5976286d92f638",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "15 Nov Admission Announcement for Professional Master of Disaster management (PMDM) 15 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29204",
+    "pdf": false,
+    "detectedAt": "2026-11-15T10:47:15.440Z"
+  },
+  {
+    "id": "ceb55e6996a877cf",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "ইনস্টিটিউট অব ইংলিশ এন্ড আদার ল্যাংগুয়েজেজ-এ ২০২৬-২০২৭ শিক্ষাবর্ষে সান্ধ্যকালীন MA in Applied Linguistics (1 year & 2 year) এবং ৬ মাস মেয়াদি ভাষা সার্টিফিকেট কোর্সে ভর্তি চলছে",
+    "url": "https://www.ru.ac.bd/blog/notice/%e0%a6%87%e0%a6%a8%e0%a6%b8%e0%a7%8d%e0%a6%9f%e0%a6%bf%e0%a6%9f%e0%a6%bf%e0%a6%89%e0%a6%9f-%e0%a6%85%e0%a6%ac-%e0%a6%87%e0%a6%82%e0%a6%b2%e0%a6%bf%e0%a6%b6-%e0%a6%8f%e0%a6%a8%e0%a7%8d%e0%a6%a1-4/",
+    "pdf": false,
+    "detectedAt": "2026-11-15T10:47:15.440Z"
+  },
+  {
+    "id": "2b85c122b00ebdbd",
+    "source": "jnu",
+    "code": "JnU",
+    "name": "জগন্নাথ বিশ্ববিদ্যালয় (জবি)",
+    "title": "Admission Circular and Application Form of Masters in Public Administration and Governance (MPAG), Department of Public Administration, Spring-2027",
+    "url": "https://jnu.ac.bd/assets/notice/2d368a46e67f1f3eae578bd5edbf1c2b.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-15T10:47:15.440Z"
+  },
+  {
     "id": "58439e631669afe8",
     "source": "kuriau",
     "code": "KuriAU",
