@@ -1,5 +1,65 @@
 [
   {
+    "id": "a7db5fce3aaaaefa",
+    "source": "ju",
+    "code": "JU",
+    "name": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়",
+    "title": "২০২৬–২০২৭ শিক্ষাবর্ষে প্রথম বর্ষ স্নাতক (সম্মান) শ্রেণিতে ভর্তি বিজ্ঞপ্তি",
+    "url": "https://www.juniv.edu/discussion/18670",
+    "pdf": false,
+    "detectedAt": "2026-11-16T21:00:15.125Z"
+  },
+  {
+    "id": "f3f2b947c2358fce",
+    "source": "cuet",
+    "code": "CUET",
+    "name": "চট্টগ্রাম প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (চুয়েট)",
+    "title": "Undergraduate Program",
+    "url": "https://www.cuet.ac.bd/academic-information/undergraduate-studies",
+    "pdf": false,
+    "detectedAt": "2026-11-16T21:00:15.125Z"
+  },
+  {
+    "id": "cc82f23d18b1d987",
+    "source": "cuet",
+    "code": "CUET",
+    "name": "চট্টগ্রাম প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (চুয়েট)",
+    "title": "Admission",
+    "url": "https://www.cuet.ac.bd/admission",
+    "pdf": false,
+    "detectedAt": "2026-11-16T21:00:15.125Z"
+  },
+  {
+    "id": "909bc6a684b7b73b",
+    "source": "cuet",
+    "code": "CUET",
+    "name": "চট্টগ্রাম প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (চুয়েট)",
+    "title": "Undergraduate",
+    "url": "https://www.cuet.ac.bd/student/undergraduate-student",
+    "pdf": false,
+    "detectedAt": "2026-11-16T21:00:15.125Z"
+  },
+  {
+    "id": "8ea233b3d4f9ff1f",
+    "source": "cuet",
+    "code": "CUET",
+    "name": "চট্টগ্রাম প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (চুয়েট)",
+    "title": "Admission of Foreign Students",
+    "url": "https://www.cuet.ac.bd/fsc",
+    "pdf": false,
+    "detectedAt": "2026-11-16T21:00:15.125Z"
+  },
+  {
+    "id": "30a9d846b4f21239",
+    "source": "cuet",
+    "code": "CUET",
+    "name": "চট্টগ্রাম প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (চুয়েট)",
+    "title": "CUET Announces Date for 2026-27 Undergraduate Admission Test.",
+    "url": "https://www.cuet.ac.bd/news/208",
+    "pdf": false,
+    "detectedAt": "2026-11-16T21:00:15.125Z"
+  },
+  {
     "id": "5665410896ee63d7",
     "source": "bou",
     "code": "BOU",
