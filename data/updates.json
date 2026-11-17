@@ -1,5 +1,95 @@
 [
   {
+    "id": "405ea4248c1d0a20",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Masters Program (M Sc. /M. Engg. / (Water & Environment) and /M sc. /M in WEM)",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2553/Masters-Program-M-Sc-M-Engg-Water-Environment-and-M-sc-M-in-WEM",
+    "pdf": false,
+    "detectedAt": "2026-11-17T22:18:46.098Z"
+  },
+  {
+    "id": "80f61927feeaa044",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Engg./M Engg. in ICT",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2552/Eligibility-Result-for-M-Sc-EnggM-Engg-in-ICT",
+    "pdf": false,
+    "detectedAt": "2026-11-17T22:18:46.098Z"
+  },
+  {
+    "id": "388102a46cf968f4",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Engg./M Engg. in EE or PGD in IEE",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2551/Eligibility-Result-for-M-Sc-EnggM-Engg-in-EE-or-PGD-in-IEE",
+    "pdf": false,
+    "detectedAt": "2026-11-17T22:18:46.098Z"
+  },
+  {
+    "id": "64d1dd9367007d79",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for Master's Program in HSS",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2550/Eligibility-Result-for-Masters-Program-in-HSS",
+    "pdf": false,
+    "detectedAt": "2026-11-17T22:18:46.098Z"
+  },
+  {
+    "id": "1e180dd487b17f7a",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Program in Math",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2549/Eligibility-Result-for-M-Sc-Program-in-Math",
+    "pdf": false,
+    "detectedAt": "2026-11-17T22:18:46.098Z"
+  },
+  {
+    "id": "f002cb0c047a8a3c",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Program in Chemistry",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2548/Eligibility-Result-for-M-Sc-Program-in-Chemistry",
+    "pdf": false,
+    "detectedAt": "2026-11-17T22:18:46.098Z"
+  },
+  {
+    "id": "c824ce5d16c2a38c",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Engg. / M Engg. in FE",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2547/Eligibility-Result-for-M-Sc-Engg-M-Engg-in-FE",
+    "pdf": false,
+    "detectedAt": "2026-11-17T22:18:46.098Z"
+  },
+  {
+    "id": "34e23c46968b68a7",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Engg. / M Engg. in IPE",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2546/Eligibility-Result-for-M-Sc-Engg-M-Engg-in-IPE",
+    "pdf": false,
+    "detectedAt": "2026-11-17T22:18:46.098Z"
+  },
+  {
+    "id": "cbcdb7e1e1b4593e",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Engg. / M Engg. and Ph. D in TE",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2545/Eligibility-Result-for-M-Sc-Engg-M-Engg-and-Ph-D-in-TE",
+    "pdf": false,
+    "detectedAt": "2026-11-17T22:18:46.098Z"
+  },
+  {
     "id": "afe17f5f20e65f57",
     "source": "nu",
     "code": "NU",
