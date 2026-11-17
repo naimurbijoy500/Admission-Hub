@@ -1,5 +1,115 @@
 [
   {
+    "id": "afe17f5f20e65f57",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৪ সালের বি.এসসি (অনার্স) ইন কম্পিউটার সায়েন্স এন্ড ইঞ্জিনিয়ারিং (CSE) ১ম বর্ষ ২য় সেমিস্টার পরীক্ষার চূড়ান্ত ফলাফল প্রকাশ সংক্রান্ত বিজ্ঞপ্তি।",
+    "url": "https://www.nu.ac.bd/uploads/notices/notice_17316_pub_date_17112026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "86fdcc92e7c113fd",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৪ সালের বি.এসসি (অনার্স) ইন কম্পিউটার সায়েন্স এন্ড ইঞ্জিনিয়ারিং (CSE) প্রথম বর্ষ ২য় সেমিস্টার পরীক্ষার উত্তরপত্র পুনঃমূল্যায়নের জন্য আবেদন সংক্রান্ত বিজ্ঞপ্তি।",
+    "url": "https://www.nu.ac.bd/uploads/notices/notice_17317_pub_date_17112026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "5e55e53ac27f6244",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Exam Schedule of MPhil & PhD Programs (Session: 2023-2024),1st Year, SST, BOU 2026-11-17",
+    "url": "https://www.bou.ac.bd/upload/notice/examinaiton/1882099116870480.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "712cea2198e4ec03",
+    "source": "kuet",
+    "code": "KUET",
+    "name": "খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (কুয়েট)",
+    "title": "16-Nov-2026 Notice for PG Admission January_2027 (Corrceted)",
+    "url": "https://drive.google.com/file/d/1fTlEzU1cmg4gy8dZ2akkf8qhAtMab6BA/view?usp=sharing",
+    "pdf": false,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "4b812a5bf78e38c7",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Admission Notices 4",
+    "url": "https://www.duet.ac.bd/notice/admission-notices",
+    "pdf": false,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "2bafc8c580055f71",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Engg. / M Engg. and Ph. D in CSE",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2544/Eligibility-Result-for-M-Sc-Engg-M-Engg-and-Ph-D-in-CSE",
+    "pdf": false,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "23ff602a02526ceb",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Engg. / M Engg. and Ph. D in ME",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2543/Eligibility-Result-for-M-Sc-Engg-M-Engg-and-Ph-D-in-ME",
+    "pdf": false,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "901314203f2129d5",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Engg. / M Engg. and Ph. D in EEE",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2542/Eligibility-Result-for-M-Sc-Engg-M-Engg-and-Ph-D-in-EEE",
+    "pdf": false,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "c6390dc69f4e5871",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for M Sc. Engg. / M Engg. in CE",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2541/Eligibility-Result-for-M-Sc-Engg-M-Engg-in-CE",
+    "pdf": false,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "3e40fd5281ce5d9c",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Admission Notices",
+    "url": "https://www.duet.ac.bd/notice/admission-notices#",
+    "pdf": false,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
+    "id": "a52091888ebc94b2",
+    "source": "jnu",
+    "code": "JnU",
+    "name": "জগন্নাথ বিশ্ববিদ্যালয় (জবি)",
+    "title": "ভর্তি বিজ্ঞপ্তিঃ Masters in Music (Professional), সংগীত বিভাগ, জগন্নাথ বিশ্ববিদ্যালয়",
+    "url": "https://jnu.ac.bd/assets/notice/58c488fd76de17dcbf2b0a1ce0aa7de5.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-17T13:18:47.667Z"
+  },
+  {
     "id": "a7db5fce3aaaaefa",
     "source": "ju",
     "code": "JU",
