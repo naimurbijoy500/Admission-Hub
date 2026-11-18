@@ -1,5 +1,35 @@
 [
   {
+    "id": "d995a5a0169b820e",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Finally Selected Applicant List for Admission of MBA Program -241 Semester 2026-11-18",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1882185142528173.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-18T21:25:28.166Z"
+  },
+  {
+    "id": "046afd4e51a65524",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Admission circular and instruction of DCSA Program (261 Term), 2025-2026 2026-11-18",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881462790862390.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-18T21:25:28.166Z"
+  },
+  {
+    "id": "c83ba5cb8662783e",
+    "source": "cou",
+    "code": "CoU",
+    "name": "কুমিল্লা বিশ্ববিদ্যালয় (কুবি)",
+    "title": "18/Nov/2026 ADMISSION ANNOUNCEMENT Master's in English (Weekend) Program",
+    "url": "https://www.cou.ac.bd/news-events-notices/685",
+    "pdf": false,
+    "detectedAt": "2026-11-18T21:25:28.166Z"
+  },
+  {
     "id": "570a4a7c8856413b",
     "source": "bup",
     "code": "BUP",
