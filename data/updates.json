@@ -1,5 +1,65 @@
 [
   {
+    "id": "5e22f9207e170cc3",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "19 Nov সমুদ্রবিজ্ঞান বিভাগের এক বছর মেয়াদী মাস্টার অব ওশানোগ্রাফী প্রোগ্রামে (২০২৫-২০২৬ সেকশন) শূন্য আসনে শিক্ষার্থী ভর্তি 19 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29246",
+    "pdf": false,
+    "detectedAt": "2026-11-19T12:58:55.624Z"
+  },
+  {
+    "id": "ccc0cb4448e3557d",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/Aprroved%20Candidate%20List-MBA(Prof).pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-19T12:58:55.624Z"
+  },
+  {
+    "id": "3a4e675460620a03",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Selected Applicant list for Viva-Voce of PGDMU program, Session 2026, 9th Batch 2026-11-19",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1882277783652668.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-19T12:58:55.624Z"
+  },
+  {
+    "id": "71272f5fa271a52d",
+    "source": "butex",
+    "code": "BUTEX",
+    "name": "বাংলাদেশ টেক্সটাইল বিশ্ববিদ্যালয় (বুটেক্স)",
+    "title": "BSc in Textile Engineering Undergraduate Admission L1-T1 2026-27 Circular",
+    "url": "https://www.butex.edu.bd/bsc-in-textile-engineering-undergraduate-admission-l1-t1-2026-27-circular/",
+    "pdf": false,
+    "detectedAt": "2026-11-19T12:58:55.624Z"
+  },
+  {
+    "id": "6ae0e8dc896b68ef",
+    "source": "butex",
+    "code": "BUTEX",
+    "name": "বাংলাদেশ টেক্সটাইল বিশ্ববিদ্যালয় (বুটেক্স)",
+    "title": "Re-Admission Notice of B.Sc. in Textile Engineering L4-T2 Session: 2024-25",
+    "url": "https://www.butex.edu.bd/re-admission-notice-of-b-sc-in-textile-engineering-l4-t2-session-2024-25/",
+    "pdf": false,
+    "detectedAt": "2026-11-19T12:58:55.624Z"
+  },
+  {
+    "id": "1cd54716072dc864",
+    "source": "rmu",
+    "code": "RMU",
+    "name": "রাজশাহী মেডিকেল বিশ্ববিদ্যালয়",
+    "title": "Result of B.Sc. in Nursing (Basic) 1st Year Examination, December-2025 (Old Curriculum)",
+    "url": "https://rmu.edu.bd/notices/result-of-b-sc-in-nursing-basic-1st-year-examination-december-2025-old-curriculum/",
+    "pdf": false,
+    "detectedAt": "2026-11-19T12:58:55.624Z"
+  },
+  {
     "id": "d995a5a0169b820e",
     "source": "bou",
     "code": "BOU",
