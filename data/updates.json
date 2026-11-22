@@ -1,5 +1,55 @@
 [
   {
+    "id": "84ffaa5dedaaca79",
+    "source": "ju",
+    "code": "JU",
+    "name": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়",
+    "title": "Admission",
+    "url": "https://juadmission.org/",
+    "pdf": false,
+    "detectedAt": "2026-11-22T11:15:46.166Z"
+  },
+  {
+    "id": "5248464906d33f01",
+    "source": "ju",
+    "code": "JU",
+    "name": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়",
+    "title": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ে স্নাতক (সম্মান) শ্রেণিতে প্রথম বর্ষের ভর্তি পরীক্ষার অনলাইন রেজিস্ট্রেশন শুরু",
+    "url": "https://www.juniv.edu/discussion/18676",
+    "pdf": false,
+    "detectedAt": "2026-11-22T11:15:46.166Z"
+  },
+  {
+    "id": "5e2ba15e7521c5c5",
+    "source": "bup",
+    "code": "BUP",
+    "name": "বাংলাদেশ ইউনিভার্সিটি অব প্রফেশনালস",
+    "title": "Download",
+    "url": "https://admission.bup.edu.bd/Upload/Notices/LLM%2029%20Batch%20Final%20Results.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-22T11:15:46.166Z"
+  },
+  {
+    "id": "b71a6f3e48c354ad",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৫ সালের অনার্স ১ম বর্ষ ব্যবহারিক পরীক্ষার নম্বর এন্ট্রির সময় বৃদ্ধি সংক্রান্ত বিজ্ঞপ্তি।",
+    "url": "https://www.nu.ac.bd/uploads/notices/notice_6225_pub_date_22112026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-22T11:15:46.166Z"
+  },
+  {
+    "id": "034af711f89e3841",
+    "source": "gstu",
+    "code": "GSTU",
+    "name": "গোপালগঞ্জ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+    "title": "উদ্ভিদবিজ্ঞান বিভাগে এম এস কোর্সে ভর্তি বিজ্ঞপ্তি",
+    "url": "https://gstu.edu.bd/dev/sidebar_items/uploaded_files/notices/Masters%20Admission%202024-2025%20Website2.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-22T11:15:46.166Z"
+  },
+  {
     "id": "4ee3af469c26815d",
     "source": "du",
     "code": "DU",
