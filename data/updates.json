@@ -1,5 +1,35 @@
 [
   {
+    "id": "b8c05d2eb9c70ff7",
+    "source": "ju",
+    "code": "JU",
+    "name": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়",
+    "title": "Bachelor (Honours) Admission",
+    "url": "http://admission.juniv.edu/",
+    "pdf": false,
+    "detectedAt": "2026-11-22T18:32:08.949Z"
+  },
+  {
+    "id": "1532be38a53e3902",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Masters Program (MA in ELT/ M.Sc. in Economics/ MBA)",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2562/Masters-Program-MA-in-ELT-MSc-in-Economics-MBA",
+    "pdf": false,
+    "detectedAt": "2026-11-22T18:32:08.949Z"
+  },
+  {
+    "id": "2b6028f7ac491c1f",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Eligibility Result for Masters Program or M.Phil or Ph.D Progam in Mathematics",
+    "url": "https://www.duet.ac.bd/notice/admission-notices/2561/Eligibility-Result-for-Masters-Program-or-MPhil-or-PhD-Progam-in-Mathematics",
+    "pdf": false,
+    "detectedAt": "2026-11-22T18:32:08.949Z"
+  },
+  {
     "id": "84ffaa5dedaaca79",
     "source": "ju",
     "code": "JU",
