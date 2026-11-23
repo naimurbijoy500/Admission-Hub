@@ -1,5 +1,35 @@
 [
   {
+    "id": "8d5857a783763559",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "ঢাবি আন্ডারগ্র্যাজুয়েট প্রোগ্রামে ভর্তি আবেদনের সময়সীমা বৃদ্ধি",
+    "url": "https://www.du.ac.bd/du_post_details/news/29279",
+    "pdf": false,
+    "detectedAt": "2026-11-23T20:10:32.357Z"
+  },
+  {
+    "id": "e16b3208c5e46beb",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Finally Selected Applicant List for Admission of BFSN Program (Session: 2025 - 2026), 7th Batch 2026-11-23",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1882637527774790.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-23T20:10:32.357Z"
+  },
+  {
+    "id": "fdcd2d2f01a4d832",
+    "source": "duet",
+    "code": "DUET",
+    "name": "ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট)",
+    "title": "Undergraduate Curriculum Design on Outcome-Based Education for Electrical and Electronic Engineering",
+    "url": "https://www.duet.ac.bd/notice/others/2565/Undergraduate-Curriculum-Design-on-Outcome-Based-Education-for-Electrical-and-Electronic-Engineering",
+    "pdf": false,
+    "detectedAt": "2026-11-23T20:10:32.357Z"
+  },
+  {
     "id": "cede9ea66046c3d9",
     "source": "ru",
     "code": "RU",
