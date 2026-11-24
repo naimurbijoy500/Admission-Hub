@@ -1,5 +1,85 @@
 [
   {
+    "id": "556f358c68ca01f8",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "24 Nov Professional Masters in Information and Cyber Security (PMICS) প্রোগ্রামর জানুয়ারী-২০২৭ সেমিস্টারে (৩য় ব্যাচ) ভর্তি বিজ্ঞপ্তি 24 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29288",
+    "pdf": false,
+    "detectedAt": "2026-11-24T15:50:29.778Z"
+  },
+  {
+    "id": "911b87ffedfe4c98",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "24 Nov Professional Masters in Artifical Intelligence and Data Engineering (PMAIDE) প্রোগ্রামর জানুয়ারী-২০২৭ সেমিস্টারে (৩য় ব্যাচ) ভর্তি বিজ্ঞপ্তি 24 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29287",
+    "pdf": false,
+    "detectedAt": "2026-11-24T15:50:29.778Z"
+  },
+  {
+    "id": "db5781caa9424a8d",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "University of Rajshahi Undergraduate Admission 2026-2027",
+    "url": "https://admission.ru.ac.bd/",
+    "pdf": false,
+    "detectedAt": "2026-11-24T15:50:29.778Z"
+  },
+  {
+    "id": "6040c0419295f1c3",
+    "source": "ru",
+    "code": "RU",
+    "name": "রাজশাহী বিশ্ববিদ্যালয়",
+    "title": "Admission Notices 1 new notices",
+    "url": "https://admission.ru.ac.bd/student/notices",
+    "pdf": false,
+    "detectedAt": "2026-11-24T15:50:29.778Z"
+  },
+  {
+    "id": "9bf6c49788b9a080",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৫ সালের অনার্স ১ম বর্ষ পরীক্ষার প্রধান পরীক্ষক, পরীক্ষক ও নিরীক্ষকগণের বিল বিবরণী অনলাইনে এন্ট্রি সংক্রান্ত বিজ্ঞপ্তি।",
+    "url": "https://www.nu.ac.bd/uploads/notices/notice_6226_pub_date_24112026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-24T15:50:29.778Z"
+  },
+  {
+    "id": "bb6de8b8a9a36321",
+    "source": "nu",
+    "code": "NU",
+    "name": "জাতীয় বিশ্ববিদ্যালয়",
+    "title": "২০২৫ সালের অনার্স ১ম বর্ষ ব্যবহারিক পরীক্ষার অন্তঃপরীক্ষক ও বহিঃপরীক্ষকগণের বিল অনলাইনে এন্ট্রি প্রদান সংক্রান্ত জরুরি বিজ্ঞপ্তি।",
+    "url": "https://www.nu.ac.bd/uploads/notices/notice_6227_pub_date_24112026.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-24T15:50:29.778Z"
+  },
+  {
+    "id": "034dc43a525b2cfe",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Admission circular of Certificate in Preliminary Chinese Language (CPCL) Program (January - June 2027) 2026-11-24",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1881640188704198.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-24T15:50:29.778Z"
+  },
+  {
+    "id": "6899a3a310adcacd",
+    "source": "hau",
+    "code": "HAU",
+    "name": "হবিগঞ্জ কৃষি বিশ্ববিদ্যালয়",
+    "title": "Bachelor (Honours) Admission",
+    "url": "https://www.hau.ac.bd/bachelor-admission",
+    "pdf": false,
+    "detectedAt": "2026-11-24T15:50:29.778Z"
+  },
+  {
     "id": "8d5857a783763559",
     "source": "du",
     "code": "DU",
