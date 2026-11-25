@@ -1,5 +1,85 @@
 [
   {
+    "id": "ddb747c33e15d983",
+    "source": "du",
+    "code": "DU",
+    "name": "ঢাকা বিশ্ববিদ্যালয়",
+    "title": "24 Nov Professional Masters in Information and Cyber Security (PMICS) প্রোগ্রামর জানুয়ারী-২০২৭ সেমিস্টারে (৮ম ব্যাচ) ভর্তি বিজ্ঞপ্তি 24 Nov, 2026",
+    "url": "https://www.du.ac.bd/du_post_details/notice/29288",
+    "pdf": false,
+    "detectedAt": "2026-11-25T09:50:15.945Z"
+  },
+  {
+    "id": "f29ab20111d4919e",
+    "source": "dgme-admission",
+    "code": "DGME",
+    "name": "সরকারি ও বেসরকারি মেডিকেল কলেজ (DGME)",
+    "title": "MBBS & BDS Admission",
+    "url": "https://dgme.teletalk.com.bd/mbbs/",
+    "pdf": false,
+    "detectedAt": "2026-11-25T09:50:15.945Z"
+  },
+  {
+    "id": "cb6e8d88a908173d",
+    "source": "dgme-admission",
+    "code": "DGME",
+    "name": "সরকারি ও বেসরকারি মেডিকেল কলেজ (DGME)",
+    "title": "BUMS/BAMS/BHMS Admission",
+    "url": "https://dgme.teletalk.com.bd/bums/",
+    "pdf": false,
+    "detectedAt": "2026-11-25T09:50:15.945Z"
+  },
+  {
+    "id": "bcee9cbc82143a46",
+    "source": "dgme-admission",
+    "code": "DGME",
+    "name": "সরকারি ও বেসরকারি মেডিকেল কলেজ (DGME)",
+    "title": "IHT/MATS Admission",
+    "url": "https://dgme.teletalk.com.bd/iht_mats",
+    "pdf": false,
+    "detectedAt": "2026-11-25T09:50:15.945Z"
+  },
+  {
+    "id": "f8f8f5b2308ce571",
+    "source": "bou",
+    "code": "BOU",
+    "name": "বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়",
+    "title": "Finally Selected Applicant List for Admission of BFSN Program (Session: 2025 - 2026), 7th Batch 2026-11-23",
+    "url": "https://www.bou.ac.bd/upload/notice/admission/1882821690440425.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-25T09:50:15.945Z"
+  },
+  {
+    "id": "1095ed3e3feb59f8",
+    "source": "jnu",
+    "code": "JnU",
+    "name": "জগন্নাথ বিশ্ববিদ্যালয় (জবি)",
+    "title": "Admission Circular and Application Form for the Master of Pharmacy (Professional) Program, Spring 2027",
+    "url": "https://jnu.ac.bd/assets/notice/ce093b46b5d7cc6abf47b653313ce01d.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-25T09:50:15.945Z"
+  },
+  {
+    "id": "f7e9780c7822e498",
+    "source": "butex",
+    "code": "BUTEX",
+    "name": "বাংলাদেশ টেক্সটাইল বিশ্ববিদ্যালয় (বুটেক্স)",
+    "title": "Re-Admission Notice of MBA in Textiles Program 10th Batch 2nd Semester",
+    "url": "https://www.butex.edu.bd/re-admission-notice-of-mba-in-textiles-program-10th-batch-2nd-semester/",
+    "pdf": false,
+    "detectedAt": "2026-11-25T09:50:15.945Z"
+  },
+  {
+    "id": "13820c7e646caf52",
+    "source": "bdu",
+    "code": "BDU",
+    "name": "গাজীপুর ডিজিটাল ইউনিভার্সিটি (বিডিইউ)",
+    "title": "স্নাতকোত্তর প্রোগ্রামের ২০২৫-২৬ সেশনে ভর্তি বিজ্ঞপ্তি",
+    "url": "https://uftb.ac.bd/uploads/topics/17955791289748.pdf",
+    "pdf": true,
+    "detectedAt": "2026-11-25T09:50:15.945Z"
+  },
+  {
     "id": "556f358c68ca01f8",
     "source": "du",
     "code": "DU",
